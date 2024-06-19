@@ -29,6 +29,7 @@ if [ -f cat.txt ]; then
     while IFS= read -r str; do
         echo "downloading file: $str"
         wget https://katyayani-creations.in/$str -o /dev/null && mv $str $str.html 
+        clean $str
     done < cat.txt
 fi
 
@@ -43,6 +44,6 @@ if [ -f prod.txt ]; then
 fi
 changeURL
 
-rm -rf *-e cat.txt prod.txt
+rm -rf *.html-e *.txt-e cat.txt prod.txt
 git add .
 git commit -am "update" && git push origin main
