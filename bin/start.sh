@@ -6,6 +6,13 @@ function changeURL() {
             sed -i -e 's/G-6VBNE8F9XL/G-TMFL4Z8DEZ/g' $str.html
         done < cat.txt 
     fi
+
+    if [ -f prod.txt ]; then
+        while IFS= read -r str; do
+            sed -i -e 's/https:\/\/katyayani-creations.in/https:\/\/katyayani-creations.github.io/g' $str/index.html
+            sed -i -e 's/G-6VBNE8F9XL/G-TMFL4Z8DEZ/g' $str/index.html
+        done < prod.txt 
+    fi
     sed -i -e 's/https:\/\/katyayani-creations.in/https:\/\/katyayani-creations.github.io/g' index.html
     sed -i -e 's/G-6VBNE8F9XL/G-TMFL4Z8DEZ/g' index.html
 }
@@ -37,7 +44,8 @@ if [ -f prod.txt ]; then
     while IFS= read -r str; do
         arrIN=(${str//\// })
         # echo ${arrIN[0]} 
-        eval "mkdir -p ${arrIN[0]}/${arrIN[1]}"
+        mkdir -p $str
+        # eval "mkdir -p ${arrIN[0]}/${arrIN[1]}"
         echo "downloading file: $str"
         wget https://katyayani-creations.in/$str -o /dev/null -O $str/index.html
         clean $str/index
@@ -46,6 +54,6 @@ fi
 
 changeURL
 
-# rm -rf *.html-e *.txt-e cat.txt prod.txt
-# git add .
-# git commit -am "update" && git push origin main
+rm -rf *.html-e *.txt-e cat.txt prod.txt
+git add .
+git commit -am "update" && git push origin main
