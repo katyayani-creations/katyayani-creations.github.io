@@ -1,5 +1,5 @@
 categoryArr=(
-    "home-and-decor"
+    "home-and-docor"
     "contact" 
     "terms-and-conditions" 
     "toys"
@@ -19,11 +19,11 @@ function changeURL() {
     done    
 }
 
-# wget https://katyayani-creations.in/index.php && mv index.php index.html
+wget https://katyayani-creations.in/index.php && mv index.php index.html
 
-# for str in ${categoryArr[@]}; do
-#     wget https://katyayani-creations.in/$str && mv $str $str.html
-# done 
+for str in ${categoryArr[@]}; do
+    wget https://katyayani-creations.in/$str && mv $str $str.html
+done 
 
 changeURL
 
