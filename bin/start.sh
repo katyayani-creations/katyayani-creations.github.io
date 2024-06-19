@@ -1,6 +1,9 @@
 function download() {
     wget https://katyayani-creations.in/$1.php && mv $1.php $1.html
     sed -i 's/https:\/\/katyayani-creations.in\/contact/https:\/\/katyayani-creations.github.io\/contact/g' $1.html
+    sed -i 's/G-6VBNE8F9XL/G-TMFL4Z8DEZ/g' $1.html
+
+    
 }
 
 download "index"
