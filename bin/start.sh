@@ -1,31 +1,25 @@
-categoryArr=(
-    "home-and-docor"
-    "contact" 
-    "terms-and-conditions" 
-    "toys"
-    "stationery"
-    "gift-packs"
-    "return-gifts"
-    "board-games"
-    "products"
-)
+#!/bin/bash
+
+# wget https://katyayani-creations.in/cat.php  && mv cat.php cat.txt
+sed -i -e 's/##/\n/g' cat.txt
 
 function changeURL() {
-    for str in ${categoryArr[@]}; do
-        for str1 in ${categoryArr[@]}; do
+    while IFS= read -r str; do
+        while IFS= read -r str1; do
             sed -i -e 's/https:\/\/katyayani-creations.in\/'$str'/https:\/\/katyayani-creations.github.io\/'$str'/g' $str1.html
             sed -i -e 's/G-6VBNE8F9XL/G-TMFL4Z8DEZ/g' $str1.html
-        done
+        done < "$1"
         sed -i -e 's/https:\/\/katyayani-creations.in\/'$str'/https:\/\/katyayani-creations.github.io\/'$str'/g' index.html
         sed -i -e 's/G-6VBNE8F9XL/G-TMFL4Z8DEZ/g' index.html
-    done    
+    done < "$1"    
 }
 
-# wget https://katyayani-creations.in/index.php && mv index.php index.html
+wget https://katyayani-creations.in/index.php && mv index.php index.html
 
-# for str in ${categoryArr[@]}; do
-#     wget https://katyayani-creations.in/$str && mv $str $str.html
-# done 
+while IFS= read -r str; do
+    echo "Text read from file: $str"
+    wget https://katyayani-creations.in/$str && mv $str $str.html
+done < "$1"
 
 changeURL
 
