@@ -24,7 +24,6 @@ clocks
 lamps
 photo-frames
 vases
-gift-envelopes
 glues
 pens
 wind-chimes
