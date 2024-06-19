@@ -15,6 +15,7 @@ function clean() {
     sed -i -e "s/^[ \t]*//g" $1.html
     sed -i -e "/^$/d" $1.html
     sed -i -e "s/^[ \t]*//g" $1.html
+    sed -i -e "s/<!---* *<\(.*\)> *-->/<\1>/" $1.html
 }
 
 # wget https://katyayani-creations.in/prod.php -o /dev/null  && mv prod.php prod.txt
