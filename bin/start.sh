@@ -8,6 +8,7 @@ function download() {
 download "index" "index"
 download "contact" "index"
 download "terms" "terms-and-condition"
+download "filter.php?id=11&type=CATEGORY" "toys"
 
 git add .
 git commit -am "update" && git push origin main
