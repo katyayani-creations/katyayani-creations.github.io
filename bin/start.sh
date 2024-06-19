@@ -27,11 +27,10 @@ while IFS= read -r str; do
     eval "mkdir -p ${arrIN[0]}"
     echo "downloading file: $str"
     wget https://katyayani-creations.in/$str -o /dev/null -O $str && mv $str $str.html 
-    break
 done < prod.txt
 
-# changeURL
+changeURL
 
-# rm -rf *-e cat.txt prod.txt
-# git add .
-# git commit -am "update" && git push origin main
+rm -rf *-e cat.txt prod.txt
+git add .
+git commit -am "update" && git push origin main
