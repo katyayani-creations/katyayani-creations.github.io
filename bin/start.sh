@@ -11,7 +11,10 @@ function changeURL() {
 }
 
 function clean() {
-    minify -o $1.html $1.html
+    # minify -o index.html index.html
+    sed -i -e "s/^[ \t]*//g" $1.html
+    sed -i -e "/^$/d" $1.html
+    sed -i -e "s/^[ \t]*//g" $1.html
 }
 
 # wget https://katyayani-creations.in/prod.php -o /dev/null  && mv prod.php prod.txt
