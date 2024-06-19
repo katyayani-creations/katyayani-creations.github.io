@@ -19,11 +19,11 @@ function clean() {
 # wget https://katyayani-creations.in/prod.php -o /dev/null  && mv prod.php prod.txt
 # sed -i -e 's/##/\n/g' prod.txt
 
-wget https://katyayani-creations.in/cat.php -o /dev/null  && mv cat.php cat.txt
-sed -i -e 's/##/\n/g' cat.txt
+# wget https://katyayani-creations.in/cat.php -o /dev/null  && mv cat.php cat.txt
+# sed -i -e 's/##/\n/g' cat.txt
 
-wget https://katyayani-creations.in/index.php -o /dev/null && mv index.php index.html
-clean "index"
+# wget https://katyayani-creations.in/index.php -o /dev/null && mv index.php index.html
+# clean "index"
 
 if [ -f cat.txt ]; then
     while IFS= read -r str; do
@@ -37,13 +37,15 @@ if [ -f prod.txt ]; then
     while IFS= read -r str; do
         arrIN=(${str//\// })
         # echo ${arrIN[0]} 
-        eval "mkdir -p ${arrIN[0]}"
+        eval "mkdir -p ${arrIN[0]}/${arrIN[1]}"
         echo "downloading file: $str"
-        wget https://katyayani-creations.in/$str -o /dev/null -O $str && mv $str $str.html 
+        wget https://katyayani-creations.in/$str -o /dev/null -O $str/index.html
+        clean $str/index
     done < prod.txt
 fi
+
 changeURL
 
-rm -rf *.html-e *.txt-e cat.txt prod.txt
-git add .
-git commit -am "update" && git push origin main
+# rm -rf *.html-e *.txt-e cat.txt prod.txt
+# git add .
+# git commit -am "update" && git push origin main
