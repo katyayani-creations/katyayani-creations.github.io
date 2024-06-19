@@ -9,4 +9,5 @@ download "index" "index"
 download "contact" "index"
 download "terms" "terms-and-condition"
 
+git add .
 git commit -am "update" && git push origin main
