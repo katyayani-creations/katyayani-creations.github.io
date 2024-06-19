@@ -1,6 +1,6 @@
 #!/bin/bash
 
-wget https://katyayani-creations.in/cat.php  && mv cat.php cat.txt
+wget https://katyayani-creations.in/cat.php -o /dev/null  && mv cat.php cat.txt
 sed -i -e 's/##/\n/g' cat.txt
 
 function changeURL() {
@@ -12,15 +12,15 @@ function changeURL() {
     sed -i -e 's/G-6VBNE8F9XL/G-TMFL4Z8DEZ/g' index.html
 }
 
-wget https://katyayani-creations.in/index.php && mv index.php index.html
+wget https://katyayani-creations.in/index.php -o /dev/null && mv index.php index.html
 
 while IFS= read -r str; do
     echo "downloading file: $str"
-    wget https://katyayani-creations.in/$str && mv $str $str.html
+    wget https://katyayani-creations.in/$str -o /dev/null && mv $str $str.html 
 done < cat.txt
 
 changeURL
 
+rm -rf *-e cat.txt prod.txt
 git add .
 git commit -am "update" && git push origin main
-rm -rf *-e
