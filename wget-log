@@ -1,15 +1,0 @@
---2024-06-19 19:06:24--  https://katyayani-creations.in/filter.php?id=11
-Resolving katyayani-creations.in (katyayani-creations.in)... 3.7.80.168
-Connecting to katyayani-creations.in (katyayani-creations.in)|3.7.80.168|:443... connected.
-HTTP request sent, awaiting response... 302 Found
-Location: /index.php [following]
---2024-06-19 19:06:26--  https://katyayani-creations.in/index.php
-Reusing existing connection to katyayani-creations.in:443.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified [text/html]
-Saving to: ‘filter.php?id=11’
-
-filter.php?id=11                        [<=>                                                                ]       0  --.-KB/s               filter.php?id=11                        [ <=>                                                               ] 193.13K   957KB/s               filter.php?id=11                        [  <=>                                                              ] 202.88K   998KB/s    in 0.2s    
-
-2024-06-19 19:06:28 (998 KB/s) - ‘filter.php?id=11’ saved [207748]
-
