@@ -23,8 +23,9 @@ function clean() {
     sed -i -e "s/^[ \t]*//g" $1.html
 }
 
-# wget https://katyayani-creations.in/prod.php -o /dev/null  && mv prod.php prod.txt
-# sed -i -e 's/##/\n/g' prod.txt
+wget https://katyayani-creations.in/prod.php -o /dev/null  && mv prod.php prod.txt
+sed -i -e 's/##/\n/g' prod.txt
+
 
 # wget https://katyayani-creations.in/cat.php -o /dev/null  && mv cat.php cat.txt
 # sed -i -e 's/##/\n/g' cat.txt
@@ -43,9 +44,7 @@ fi
 if [ -f prod.txt ]; then
     while IFS= read -r str; do
         arrIN=(${str//\// })
-        # echo ${arrIN[0]} 
         mkdir -p $str
-        # eval "mkdir -p ${arrIN[0]}/${arrIN[1]}"
         echo "downloading file: $str"
         wget https://katyayani-creations.in/$str -o /dev/null -O $str/index.html
         clean $str/index
