@@ -1,7 +1,7 @@
 #!/bin/bash
 source ./bin/common.sh
 
-downloadCategoryList
+# downloadCategoryList
 # downloadProductList
 
 downloadIndexPage
