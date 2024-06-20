@@ -1,12 +1,10 @@
 #!/bin/bash
 source ./bin/common.sh
 
-# downloadCategoryList
+downloadCategoryList
 # downloadProductList
 
 downloadIndexPage
-
-# exit
 
 if [ -f cat.txt ]; then
     while IFS= read -r str; do
