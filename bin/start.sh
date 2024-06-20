@@ -2,7 +2,7 @@
 source ./bin/common.sh
 
 downloadCategoryList
-# downloadProductList
+downloadProductList
 
 downloadIndexPage
 
