@@ -38,3 +38,8 @@ function downloadIndexPage() {
     wget https://katyayani-creations.in/index.php -o /dev/null && mv index.php index.html
     clean "index"
 }
+
+function downloadProducts() {
+    wget https://katyayani-creations.in/products.php -o /dev/null && mv products.php products.html
+    clean "products"
+}
