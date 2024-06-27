@@ -1,21 +1,25 @@
 #!/bin/bash
 
+function sedfile() {
+    sed -i -e 's/katyayani-creations.in/katyayani-creations.github.io/g' $1
+    sed -i -e 's/G-6VBNE8F9XL/G-TMFL4Z8DEZ/g' $1
+    sed -i -e 's/\t/    /g' $1
+    sed -i -e 's/  */ /g' $1 
+}
 function changeURL() {
     if [ -f cat.txt ]; then
         while IFS= read -r str; do
-            sed -i -e 's/katyayani-creations.in/katyayani-creations.github.io/g' $str.html
-            sed -i -e 's/G-6VBNE8F9XL/G-TMFL4Z8DEZ/g' $str.html
+            sedfile $str.html
         done < cat.txt 
     fi
 
     if [ -f prod.txt ]; then
         while IFS= read -r str; do
-            sed -i -e 's/katyayani-creations.in/katyayani-creations.github.io/g' $str/index.html
-            sed -i -e 's/G-6VBNE8F9XL/G-TMFL4Z8DEZ/g' $str/index.html
+            sedfile $str/index.html
         done < prod.txt 
     fi
-    sed -i -e 's/katyayani-creations.in/katyayani-creations.github.io/g' index.html
-    sed -i -e 's/G-6VBNE8F9XL/G-TMFL4Z8DEZ/g' index.html
+    sedfile index.html
+    sedfile products.html
 }
 
 function clean() {
