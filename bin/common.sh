@@ -3,6 +3,7 @@
 function sedfile() {
     sed -i -e 's/katyayani-creations.in/katyayani-creations.github.io/g' $1
     sed -i -e 's/G-6VBNE8F9XL/G-TMFL4Z8DEZ/g' $1
+    echo "$(cat $1 | tr '\n' ' ' | sed -e 's/> \?/>\n/g')" >  $1
     sed -i -e 's/\t/    /g' $1
     sed -i -e 's/  */ /g' $1 
 }
