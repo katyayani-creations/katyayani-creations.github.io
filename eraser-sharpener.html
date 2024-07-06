@@ -63,7 +63,7 @@ Katyayani Creations | Noida | Home Decor & Toys Shop | Stationary | Gift Items S
 </script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 <script>
-localStorage.setItem("kc-like", '[]'); function redirectToProduct(id, name, sku, prod_url) { if (typeof id == "undefined") { window.location.href = "/products.php?term=" + $("#products").val(); return; } sku = sku.toLowerCase(); const host = 'katyayani-creations.github.io'; const url = 'https://katyayani-creations.github.io/'; if (host === "localhost") { window.location.href = url + sku; } else if (prod_url && prod_url.length >
+localStorage.setItem("kc-like", '[]'); function redirectToProduct(id, name, sku, prod_url) { if (typeof id == "undefined") { window.location.href = "/products.html?term=" + $("#products").val(); return; } sku = sku.toLowerCase(); const host = 'katyayani-creations.github.io'; const url = 'https://katyayani-creations.github.io/'; if (host === "localhost") { window.location.href = url + sku; } else if (prod_url && prod_url.length >
 0) { window.location.href = url + prod_url.toLowerCase() + "/" + sku + "?p=" + sku; } else { window.location.href = url + name.split(" ").join("-").toLowerCase() + "/" + sku + "?p=" + sku; } } </script>
 <script>
 function compare( a, b ) { if ( a.label < b.label ){ return -1; } if ( a.label >
