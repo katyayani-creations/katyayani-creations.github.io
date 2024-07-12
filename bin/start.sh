@@ -5,7 +5,6 @@ downloadIndexPage
 downloadProducts
 
 changeURL
-rm -rf *.html-e *.txt-e cat.txt prod.txt
 source ./bin/commit.sh
 downloadCategoryList
 if [ -f cat.txt ]; then
@@ -15,7 +14,6 @@ if [ -f cat.txt ]; then
 fi
 
 changeURL
-rm -rf *.html-e *.txt-e cat.txt prod.txt
 source ./bin/commit.sh
 downloadProductList
 if [ -f prod.txt ]; then
@@ -25,5 +23,5 @@ if [ -f prod.txt ]; then
 fi
 
 changeURL
-rm -rf *.html-e *.txt-e cat.txt prod.txt
 source ./bin/commit.sh
+
