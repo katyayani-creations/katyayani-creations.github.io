@@ -2,12 +2,6 @@
 <html lang="en">
 <head>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-TMFL4Z8DEZ"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag() {dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-TMFL4Z8DEZ');
-</script>
 <meta charset="UTF-8" />
 <meta name="robots" content="INDEX,FOLLOW" />
 <meta property="og:site_name" content="Katyayani Creations" />
@@ -49,10 +43,14 @@ gtag('config', 'G-TMFL4Z8DEZ');
 <script src="https://d1s4zcjwkikclq.cloudfront.net/js/mixitup.min.js"></script>
 <script src="https://d1s4zcjwkikclq.cloudfront.net/js/owl.carousel.min.js"></script>
 <script src="https://katyayani-creations.github.io/js/main.js?ver=21"></script>
-<script src="https://katyayani-creations.github.io/productarray.js" type="text/javascript"></script>
+<script src="https://katyayani-creations.github.io/productarray.js?ver=09-08-2024" type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 <script>
+window.dataLayer = window.dataLayer || [];
+function gtag() {dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-TMFL4Z8DEZ');
 localStorage.setItem("kc-like", '[]');
 function redirectToProduct(id, name, sku, prod_url) {
 if (typeof id == "undefined") {window.location.href = "/products.html?term=" + $("#products").val();return;}
@@ -63,64 +61,48 @@ window.location.href = url + prod_url.toLowerCase() + "/" + sku + "?p=" + sku;
 } else {window.location.href = url + name.split(" ").join("-").toLowerCase() + "/" + sku + "?p=" + sku;}
 }
 </script>
+<style>
+.social_icon_link {color:blue;}
+.blink_text{color:#ff77b7 !important;}
+.menu-custom li{margin-right: 15px !important;}
+.menu-custom li:active{text-decoration:underline;}
+.side_menu li a.active{font-weight:bold;}
+ul.side_sub_menu li {margin-left:20px;}
+.blink{display:none;}
+#products{width:100% !important;}
+</style>
 </head>
 <body>
 <div id="preloder"><div class="loader"></div></div>
 <div class="humberger__menu__overlay"></div>
 <div class="humberger__menu__wrapper">
-<div class="humberger__menu__logo">
-<a href="https://katyayani-creations.github.io/"><img src="https://katyayani-creations.github.io/img/logo.jpeg"
-alt="Katyayani Creations | Noida | Home Decor & Toys Shop | Stationary | Gift Items Website Logo"></a>
-</div>
-<div class="humberger__menu__cart">
-<ul>
+<div class="humberger__menu__logo"><a href="https://katyayani-creations.github.io/"><img src="https://katyayani-creations.github.io/img/logo.jpeg" alt="Katyayani Creations | Noida | Home Decor & Toys Shop | Stationary | Gift Items Website Logo"></a></div>
+<div class="humberger__menu__cart"><ul>
 <li><a href="https://katyayani-creations.github.io/wishlist"><i class="fa fa-heart"></i><span class="like_icon">0</span></a></li>
 <li><a href="https://katyayani-creations.github.io/cart"><i class="fa fa-shopping-bag"></i><span class="cart_icon">0</span></a></li>
-</ul> </div>
+</ul></div>
 <div class="humberger__menu__widget">
-<div class="header__top__right__auth">
-<a href="/account/profile"><i class="fa fa-user"></i> Login</a>
+<div class="header__top__right__auth"><a href="/account/profile"><i class="fa fa-user"></i> Login</a></div>
 </div>
-</div>
-<nav class="humberger__menu__nav mobile-menu">
-<ul>
-<li class=""><a
-href="https://katyayani-creations.github.io/">Home</a></li>
-<li class=""><a
-href="https://katyayani-creations.github.io/home-and-docor">Home & Decor</a></li>
-<li class=""><a
-href="https://katyayani-creations.github.io/toys">Toys</a></li>
-<li class=""><a
-href="https://katyayani-creations.github.io/stationery">Stationary</a></li>
-<li class=""><a
-href="https://katyayani-creations.github.io/products">Products</a></li>
-<li class=""><a
-href="https://katyayani-creations.github.io/contact">Contact</a></li>
-</ul> </nav>
+<nav class="humberger__menu__nav mobile-menu"><ul>
+<li ><a href="https://katyayani-creations.github.io/">Home</a></li>
+<li ><a href="https://katyayani-creations.github.io/home-and-docor">Home & Decor</a></li>
+<li ><a href="https://katyayani-creations.github.io/toys">Toys</a></li>
+<li ><a href="https://katyayani-creations.github.io/stationery">Stationary</a></li>
+<li ><a href="https://katyayani-creations.github.io/products">Products</a></li>
+<li ><a href="https://katyayani-creations.github.io/contact">Contact</a></li>
+</ul></nav>
 <div id="mobile-menu-wrap"></div>
 <div class="header__top__right__social">
-<a target="_blank" style="color:blue" href="https://www.facebook.com/people/Katyayani-Creations/61553261334215/">
-<i class="fa fa-facebook"></i>
-</a>
-<a target="_blank" style="color:blue" href="https://t.me/katyayani_creations">
-<i class="fa fa-telegram"></i>
-</a>
-<a target="_blank" style="color:blue" href="https://twitter.com/katyayani2022">
-<i class="fa fa-twitter"></i>
-</a>
-<a target="_blank" style="color:blue;" href="https://www.instagram.com/katyayani_creations/">
-<i class="fa fa-instagram"></i>
-</a>
-<a target="_blank" style="color:blue" href="https://chat.whatsapp.com/DTZWmSOvDCIEwmowAZbxhX">
-<i class="fa fa-whatsapp"></i>
-</a>
-<a target="_blank" style="color:blue" href="https://g.page/r/CW9WzTwpK7Y5EAI">
-<i class="fa fa-google"></i>
-</a>
+<a target="_blank" class="social_icon_link" href="https://www.facebook.com/people/Katyayani-Creations/61553261334215/"><i class="fa fa-facebook"></i></a>
+<a target="_blank" class="social_icon_link" href="https://t.me/katyayani_creations"><i class="fa fa-telegram"></i></a>
+<a target="_blank" class="social_icon_link" href="https://twitter.com/katyayani2022"><i class="fa fa-twitter"></i></a>
+<a target="_blank" class="social_icon_link" href="https://www.instagram.com/katyayani_creations/"><i class="fa fa-instagram"></i></a>
+<a target="_blank" class="social_icon_link" href="https://chat.whatsapp.com/DTZWmSOvDCIEwmowAZbxhX"><i class="fa fa-whatsapp"></i></a>
+<a target="_blank" class="social_icon_link" href="https://g.page/r/CW9WzTwpK7Y5EAI"><i class="fa fa-google"></i></a>
 </div> <div class="humberger__menu__contact">
 <ul>
-<li><i class="fa fa-envelope"></i>
-katyayani.creations.2022@gmail.com </li>
+<li><i class="fa fa-envelope"></i>katyayani.creations.2022@gmail.com</li>
 <li>Playful Finds, Stylish Designs, and Stationery Wonders – Your One-Stop Shop for Joyful Living!</li>
 </ul>
 </div>
@@ -130,36 +112,21 @@ katyayani.creations.2022@gmail.com </li>
 <div class="row">
 <div class="col-lg-6 col-md-6">
 <div class="header__top__left">
-<ul>
-<li>Playful Finds, Stylish Designs, and Stationery Wonders – Your One-Stop Shop for Joyful Living!</li>
-</ul>
+<ul><li>Playful Finds, Stylish Designs, and Stationery Wonders – Your One-Stop Shop for Joyful Living!</li></ul>
 </div>
 </div>
 <div class="col-lg-6 col-md-6">
 <div class="header__top__right">
 <div class="header__top__right__social">
-<a target="_blank" style="color:blue" href="https://www.facebook.com/people/Katyayani-Creations/61553261334215/">
-<i class="fa fa-facebook"></i>
-</a>
-<a target="_blank" style="color:blue" href="https://t.me/katyayani_creations">
-<i class="fa fa-telegram"></i>
-</a>
-<a target="_blank" style="color:blue" href="https://twitter.com/katyayani2022">
-<i class="fa fa-twitter"></i>
-</a>
-<a target="_blank" style="color:blue;" href="https://www.instagram.com/katyayani_creations/">
-<i class="fa fa-instagram"></i>
-</a>
-<a target="_blank" style="color:blue" href="https://chat.whatsapp.com/DTZWmSOvDCIEwmowAZbxhX">
-<i class="fa fa-whatsapp"></i>
-</a>
-<a target="_blank" style="color:blue" href="https://g.page/r/CW9WzTwpK7Y5EAI">
-<i class="fa fa-google"></i>
-</a>
+<a target="_blank" class="social_icon_link" href="https://www.facebook.com/people/Katyayani-Creations/61553261334215/"><i class="fa fa-facebook"></i></a>
+<a target="_blank" class="social_icon_link" href="https://t.me/katyayani_creations"><i class="fa fa-telegram"></i></a>
+<a target="_blank" class="social_icon_link" href="https://twitter.com/katyayani2022"><i class="fa fa-twitter"></i></a>
+<a target="_blank" class="social_icon_link" href="https://www.instagram.com/katyayani_creations/"><i class="fa fa-instagram"></i></a>
+<a target="_blank" class="social_icon_link" href="https://chat.whatsapp.com/DTZWmSOvDCIEwmowAZbxhX"><i class="fa fa-whatsapp"></i></a>
+<a target="_blank" class="social_icon_link" href="https://g.page/r/CW9WzTwpK7Y5EAI"><i class="fa fa-google"></i></a>
 </div> <div class="header__top__right__auth">
 <a href="https://katyayani-creations.github.io/account/profile">
-<i class="fa fa-user"></i> Login
-</a>
+<i class="fa fa-user"></i> Login </a>
 </div>
 </div>
 </div>
@@ -171,52 +138,31 @@ katyayani.creations.2022@gmail.com </li>
 <div class="col-lg-3">
 <div class="header__logo">
 <a href="https://katyayani-creations.github.io/">
-<img src="https://katyayani-creations.github.io/img/logo.jpeg"
-alt="Katyayani Creations | Noida | Home Decor & Toys Shop | Stationary | Gift Items Website Logo"
-style="width: 54%;border:solid 1px #ff05e4">
+<img src="https://katyayani-creations.github.io/img/logo.jpeg" alt="Katyayani Creations | Noida | Home Decor & Toys Shop | Stationary | Gift Items Website Logo" style="width: 54%;border:solid 1px #ff05e4;">
 </a>
 </div>
 </div>
 <div class="col-lg-6">
 <nav class="header__menu">
 <ul>
-<li class=""><a
-href="https://katyayani-creations.github.io/">Home</a></li>
-<li class=""><a
-href="https://katyayani-creations.github.io/home-and-docor">Home & Decor</a></li>
-<li class=""><a
-href="https://katyayani-creations.github.io/toys">Toys</a></li>
-<li class=""><a
-href="https://katyayani-creations.github.io/stationery">Stationary</a></li>
-<li class=""><a
-href="https://katyayani-creations.github.io/products">Products</a></li>
-<li class=""><a
-href="https://katyayani-creations.github.io/contact">Contact</a></li>
-</ul> <p class="blink" style="display:none;">
-<a href="https://chat.whatsapp.com/DTZWmSOvDCIEwmowAZbxhX" target="_blank" title="Click to Join our Whatsapp Group.">
-Join our Whatsapp Group
-</a>
-</p>
-<ul align="center" id="menu-custom">
-<li class=""
-style="margin-right: 15px !important; ">
-<a href="https://katyayani-creations.github.io/return-gifts">
-Return Gift Items </a>
-</li><li class=""
-style="margin-right: 15px !important; ">
-<a href="https://katyayani-creations.github.io/board-games">
-Board Games </a>
-</li><li class=""
-style="margin-right: 15px !important; ">
-<a href="https://katyayani-creations.github.io/gift-packs">
-Gift Packs </a>
+<li ><a href="https://katyayani-creations.github.io/">Home</a></li>
+<li ><a href="https://katyayani-creations.github.io/home-and-docor">Home & Decor</a></li>
+<li ><a href="https://katyayani-creations.github.io/toys">Toys</a></li>
+<li ><a href="https://katyayani-creations.github.io/stationery">Stationary</a></li>
+<li ><a href="https://katyayani-creations.github.io/products">Products</a></li>
+<li ><a href="https://katyayani-creations.github.io/contact">Contact</a></li>
+</ul> <ul align="center" id="menu-custom">
+<li >
+<a href="https://katyayani-creations.github.io/return-gifts">Return Gift Items</a>
+</li> <li class="active">
+<a href="https://katyayani-creations.github.io/board-games">Board Games</a>
+</li> <li >
+<a href="https://katyayani-creations.github.io/gift-packs">Gift Packs</a>
 </li></ul>
 <br />
 <p class="blink">
-<a href="https://katyayani-creations.github.io/lamination/kcpr1570?p=kcpr1570" target="_blank" title="Lamination & Printouts Available"
-style="color:#ff77b7 !important">
-Lamination & Printouts Available </a>
-</p> </nav>
+<a href="https://katyayani-creations.github.io/lamination/kcpr1570?p=kcpr1570" target="_blank" title="Lamination & Printouts Available" class="blink_text">Lamination & Printouts Available</a></p>
+</nav>
 </div>
 <div class="col-lg-3">
 <div class="header__cart">
@@ -290,235 +236,117 @@ Lamination & Printouts Available </a>
 <div class="sidebar">
 <div class="sidebar__item">
 <h4>Particulars</h4>
-<ul>
+<ul class="side_menu">
 <li>
-<a href="home-and-docor" id="menu-1"
-style="">
-Home & Decor </a>
-<ul style="display:none;;"
-id="submenu-1">
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io//clocks"
-style="">
-Clocks </a>
-</li>
+<a id="menu-1" href="home-and-docor" class="">Home & Decor</a>
+<ul class="side_sub_menu" style="display:none;" id="submenu-1">
+<li><a href="https://katyayani-creations.github.io/clocks" style="">Clocks</a></li>
 <script>
 </script>
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io//lamps"
-style="">
-Lamps </a>
-</li>
+<li><a href="https://katyayani-creations.github.io/lamps" style="">Lamps</a></li>
 <script>
 </script>
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io//photo-frames"
-style="">
-Photo Frames </a>
-</li>
+<li><a href="https://katyayani-creations.github.io/photo-frames" style="">Photo Frames</a></li>
 <script>
 </script>
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io//vases"
-style="">
-Vases </a>
-</li>
+<li><a href="https://katyayani-creations.github.io/vases" style="">Vases</a></li>
 <script>
 </script>
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io//valentine-day"
-style="">
-Valentine Day Special </a>
-</li>
+<li><a href="https://katyayani-creations.github.io/valentine-day" style="">Valentine Day Special</a></li>
 <script>
 </script>
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io//wind-chimes"
-style="">
-Wind Chimes </a>
-</li>
+<li><a href="https://katyayani-creations.github.io/wind-chimes" style="">Wind Chimes</a></li>
 <script>
 </script>
 </ul>
 </li>
 <li>
-<a href="christmas-decorations" id="menu-29"
-style="">
-Christmas Decorations </a>
+<a id="menu-29" href="christmas-decorations" class="">Christmas Decorations</a>
 </li>
 <li>
-<a href="return-gifts" id="menu-10"
-style="">
-Return Gifts </a>
-<ul style="display:none;;"
-id="submenu-10">
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io//kanjak-gifts"
-style="">
-Kanjak Gifts </a>
-</li>
+<a id="menu-10" href="return-gifts" class="">Return Gifts</a>
+<ul class="side_sub_menu" style="display:none;" id="submenu-10">
+<li><a href="https://katyayani-creations.github.io/kanjak-gifts" style="">Kanjak Gifts</a></li>
 <script>
 </script>
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io//gift-packs"
-style="">
-Gift Packs </a>
-</li>
+<li><a href="https://katyayani-creations.github.io/gift-packs" style="">Gift Packs</a></li>
 <script>
 </script>
 </ul>
 </li>
 <li>
-<a href="birthday" id="menu-2"
-style="">
-Birthday </a>
+<a id="menu-2" href="birthday" class="">Birthday</a>
 </li>
 <li>
-<a href="diwali-items" id="menu-3"
-style="">
-Diwali Items </a>
+<a id="menu-3" href="diwali-items" class="">Diwali Items</a>
 </li>
 <li>
-<a href="toys" id="menu-4"
-style="">
-Toys </a>
-<ul style="display:none;;"
-id="submenu-4">
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io/avengers"
-style="">
-Avengers </a>
-</li>
+<a id="menu-4" href="toys" class="">Toys</a>
+<ul class="side_sub_menu" style="display:none;" id="submenu-4">
+<li><a href="https://katyayani-creations.github.io/avengers" style="">Avengers</a></li>
 <script>
 </script>
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io/bikes-and-cars"
-style="">
-Bikes & Cars </a>
-</li>
+<li><a href="https://katyayani-creations.github.io/bikes-and-cars" style="">Bikes & Cars</a></li>
 <script>
 </script>
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io/board-games"
-style="">
-Board Games </a>
-</li>
+<li><a href="https://katyayani-creations.github.io/board-games" style=" font-weight:bold;">Board Games</a></li>
+<script>
+document.getElementById("submenu-4").style.display = "block";
+document.getElementById("menu-4").style.fontWeight = "bold";
+</script>
+<li><a href="https://katyayani-creations.github.io/clay-and-slime" style="">Clay & Slimes</a></li>
 <script>
 </script>
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io/clay-and-slime"
-style="">
-Clay & Slimes </a>
-</li>
+<li><a href="https://katyayani-creations.github.io/creative-kits" style="">Creative Kits</a></li>
 <script>
 </script>
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io/creative-kits"
-style="">
-Creative Kits </a>
-</li>
+<li><a href="https://katyayani-creations.github.io/dolls-and-houses" style="">Dolls & Doll Houses</a></li>
 <script>
 </script>
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io/dolls-and-houses"
-style="">
-Dolls & Doll Houses </a>
-</li>
+<li><a href="https://katyayani-creations.github.io/educational-kits" style="">Educational Kits</a></li>
 <script>
 </script>
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io/educational-kits"
-style="">
-Educational Kits </a>
-</li>
+<li><a href="https://katyayani-creations.github.io/guns" style="">Guns</a></li>
 <script>
 </script>
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io/guns"
-style="">
-Guns </a>
-</li>
-<script>
-</script>
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io//new-born"
-style="">
-New Born </a>
-</li>
+<li><a href="https://katyayani-creations.github.io//new-born" style="">New Born</a></li>
 <script>
 </script>
 </ul>
 </li>
 <li>
-<a href="stationery" id="menu-5"
-style="">
-Stationery </a>
-<ul style="display:none;;"
-id="submenu-5">
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io//boxes"
-style="">
-Boxes </a>
-</li>
+<a id="menu-5" href="stationery" class="">Stationery</a>
+<ul class="side_sub_menu" style="display:none;" id="submenu-5">
+<li><a href="https://katyayani-creations.github.io/boxes" style="">Boxes</a></li>
 <script>
 </script>
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io//colors"
-style="">
-Colors </a>
-</li>
+<li><a href="https://katyayani-creations.github.io/colors" style="">Colors</a></li>
 <script>
 </script>
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io//doms-items"
-style="">
-Doms </a>
-</li>
+<li><a href="https://katyayani-creations.github.io/doms-items" style="">Doms</a></li>
 <script>
 </script>
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io//eraser-sharpener"
-style="">
-Eraser/Sharpener </a>
-</li>
+<li><a href="https://katyayani-creations.github.io/eraser-sharpener" style="">Eraser/Sharpener</a></li>
 <script>
 </script>
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io//glues"
-style="">
-Glues </a>
-</li>
+<li><a href="https://katyayani-creations.github.io/glues" style="">Glues</a></li>
 <script>
 </script>
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io//pens"
-style="">
-Pens </a>
-</li>
+<li><a href="https://katyayani-creations.github.io/pens" style="">Pens</a></li>
 <script>
 </script>
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io//craft-items"
-style="">
-Craft Items </a>
-</li>
+<li><a href="https://katyayani-creations.github.io//craft-items" style="">Craft Items</a></li>
 <script>
 </script>
 </ul>
 </li>
 <li>
-<a href="gift-packs" id="menu-24"
-style="">
-Gift Packs </a>
+<a id="menu-24" href="gift-packs" class="">Gift Packs</a>
 </li>
 <li>
-<a href="unicorn" id="menu-44"
-style="">
-Unicorn </a>
+<a id="menu-44" href="unicorn" class="">Unicorn</a>
 </li>
-<li>
-<hr />
-</li>
+<li><hr /></li>
 </ul>
 </div> </div>
 </div>
@@ -529,27 +357,22 @@ data-price="792.00" data-cats="11,37,36,20"
 data-brands="0" data-quantity="2">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1659/"
-data-images="1681549308.jpg,1681549317.jpg,1681549333.jpg,1681549343.jpg"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1659/" data-images="1681549308.jpg,1681549317.jpg,1681549333.jpg,1681549343.jpg"
 onclick="return redirectToProduct('659', 'miracle-bricks-interlocking-learning-blocks', 'KCPR1659');">
 <ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_659"
-onclick="setLike(event, '659')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
+<li><a href="#" class=" prod_like_icon_659"
+onclick="setLike(event, '659')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
 <a class="link_to_product" href="https://katyayani-creations.github.io/miracle-bricks-interlocking-learning-blocks/kcpr1659?p=kcpr1659">
-Miracle Bricks Interlocking Learning Blocks </a>
+Miracle Bricks Interlocking Learning Blocks</a>
 </div>
 <div class="card_price">
-₹792.00 (2)
-<span style="color:#ff7043 !important">&nbsp;(20% OFF)</span>
-</div>
+₹792.00(2)
+<span style="color:#ff7043 !important">&nbsp;(20%
+OFF)</span> </div>
 <div class="strike_price">₹<s>990.00</s></div>
 </div>
 </div>
@@ -558,28 +381,22 @@ data-price="639.00" data-cats="37,20"
 data-brands="1" data-quantity="2">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1300/"
-data-images="1665935661.jpeg,"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1300/" data-images="1665935661.jpeg,"
 onclick="return redirectToProduct('300', 'ekta-5-in-1-party-pack', 'KCPR1300');">
 <ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_300"
-onclick="setLike(event, '300')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
+<li><a href="#" class=" prod_like_icon_300"
+onclick="setLike(event, '300')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
 <a class="link_to_product" href="https://katyayani-creations.github.io/ekta-5-in-1-party-pack/kcpr1300?p=kcpr1300">
-<span
-style="font-weight:bold;">Ekta</span>&nbsp;Ekta 5 in 1 Party Pack </a>
+<span style="font-weight:bold;">Ekta</span>&nbsp;Ekta 5 in 1 Party Pack</a>
 </div>
 <div class="card_price">
-₹639.00 (2)
-<span style="color:#ff7043 !important">&nbsp;(21% OFF)</span>
-</div>
+₹639.00(2)
+<span style="color:#ff7043 !important">&nbsp;(21%
+OFF)</span> </div>
 <div class="strike_price">₹<s>799.00</s></div>
 </div>
 </div>
@@ -588,28 +405,22 @@ data-price="548.00" data-cats="11,36,20"
 data-brands="1" data-quantity="1">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1133/"
-data-images="1664288103.jpg,1681590141.jpg,1681590153.jpg,1681590166.jpg"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1133/" data-images="1664288103.jpg,1681590141.jpg,1681590153.jpg,1681590166.jpg"
 onclick="return redirectToProduct('133', 'chemistry-lab-do-it-yourself-kit', 'KCPR1133');">
 <ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_133"
-onclick="setLike(event, '133')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
+<li><a href="#" class=" prod_like_icon_133"
+onclick="setLike(event, '133')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
 <a class="link_to_product" href="https://katyayani-creations.github.io/chemistry-lab-do-it-yourself-kit/kcpr1133?p=kcpr1133">
-<span
-style="font-weight:bold;">Ekta</span>&nbsp;Chemistry Lab Do It Yourself Kit </a>
+<span style="font-weight:bold;">Ekta</span>&nbsp;Chemistry Lab Do It Yourself Kit</a>
 </div>
 <div class="card_price">
-₹548.00 (1)
-<span style="color:#ff7043 !important">&nbsp;(20% OFF)</span>
-</div>
+₹548.00(1)
+<span style="color:#ff7043 !important">&nbsp;(20%
+OFF)</span> </div>
 <div class="strike_price">₹<s>685.00</s></div>
 </div>
 </div>
@@ -618,28 +429,22 @@ data-price="522.00" data-cats="11,20"
 data-brands="1" data-quantity="2">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1143/"
-data-images="1662920058.jpg,"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1143/" data-images="1662920058.jpg,"
 onclick="return redirectToProduct('143', 'mega-builder', 'KCPR1143');">
 <ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_143"
-onclick="setLike(event, '143')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
+<li><a href="#" class=" prod_like_icon_143"
+onclick="setLike(event, '143')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
 <a class="link_to_product" href="https://katyayani-creations.github.io/mega-builder/kcpr1143?p=kcpr1143">
-<span
-style="font-weight:bold;">Ekta</span>&nbsp;Mega Builder </a>
+<span style="font-weight:bold;">Ekta</span>&nbsp;Mega Builder</a>
 </div>
 <div class="card_price">
-₹522.00 (2)
-<span style="color:#ff7043 !important">&nbsp;(10% OFF)</span>
-</div>
+₹522.00(2)
+<span style="color:#ff7043 !important">&nbsp;(10%
+OFF)</span> </div>
 <div class="strike_price">₹<s>580.00</s></div>
 </div>
 </div>
@@ -648,28 +453,22 @@ data-price="520.00" data-cats="11,20"
 data-brands="2" data-quantity="1">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1526/"
-data-images="1673285159.jpg,1673285169.jpg,1673285176.jpg,1673285185.jpg"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1526/" data-images="1673285159.jpg,1673285169.jpg,1673285176.jpg,1673285185.jpg"
 onclick="return redirectToProduct('526', 'wooden-telescope-making-kit-spider-man-theme', 'KCPR1526');">
 <ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_526"
-onclick="setLike(event, '526')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
+<li><a href="#" class=" prod_like_icon_526"
+onclick="setLike(event, '526')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
 <a class="link_to_product" href="https://katyayani-creations.github.io/wooden-telescope-making-kit-spider-man-theme/kcpr1526?p=kcpr1526">
-<span
-style="font-weight:bold;">Ratna</span>&nbsp;Wooden Telescope Making Kit Spider Man Theme </a>
+<span style="font-weight:bold;">Ratna</span>&nbsp;Wooden Telescope Making Kit Spider Man Theme</a>
 </div>
 <div class="card_price">
-₹520.00 (1)
-<span style="color:#ff7043 !important">&nbsp;(20% OFF)</span>
-</div>
+₹520.00(1)
+<span style="color:#ff7043 !important">&nbsp;(20%
+OFF)</span> </div>
 <div class="strike_price">₹<s>650.00</s></div>
 </div>
 </div>
@@ -678,27 +477,22 @@ data-price="481.50" data-cats="20"
 data-brands="0" data-quantity="2">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1142/"
-data-images="1663258708.jpg,1663258722.jpg,1663258733.jpg,1663258748.jpg"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1142/" data-images="1663258708.jpg,1663258722.jpg,1663258733.jpg,1663258748.jpg"
 onclick="return redirectToProduct('142', 'greeting-cards-decoration-material-kit', 'KCPR1142');">
 <ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_142"
-onclick="setLike(event, '142')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
+<li><a href="#" class=" prod_like_icon_142"
+onclick="setLike(event, '142')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
 <a class="link_to_product" href="https://katyayani-creations.github.io/greeting-cards-decoration-material-kit/kcpr1142?p=kcpr1142">
-Greeting Cards Decoration Material Kit </a>
+Greeting Cards Decoration Material Kit</a>
 </div>
 <div class="card_price">
-₹481.50 (2)
-<span style="color:#ff7043 !important">&nbsp;(10% OFF)</span>
-</div>
+₹481.50(2)
+<span style="color:#ff7043 !important">&nbsp;(10%
+OFF)</span> </div>
 <div class="strike_price">₹<s>535.00</s></div>
 </div>
 </div>
@@ -707,28 +501,22 @@ data-price="456.00" data-cats="11,36,20"
 data-brands="1" data-quantity="1">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1299/"
-data-images="1675708381.jpg,1675708392.jpg"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1299/" data-images="1675708381.jpg,1675708392.jpg"
 onclick="return redirectToProduct('299', 'the-young-scientist', 'KCPR1299');">
 <ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_299"
-onclick="setLike(event, '299')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
+<li><a href="#" class=" prod_like_icon_299"
+onclick="setLike(event, '299')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
 <a class="link_to_product" href="https://katyayani-creations.github.io/the-young-scientist/kcpr1299?p=kcpr1299">
-<span
-style="font-weight:bold;">Ekta</span>&nbsp;The Young Scientist </a>
+<span style="font-weight:bold;">Ekta</span>&nbsp;The Young Scientist</a>
 </div>
 <div class="card_price">
-₹456.00 (1)
-<span style="color:#ff7043 !important">&nbsp;(20% OFF)</span>
-</div>
+₹456.00(1)
+<span style="color:#ff7043 !important">&nbsp;(20%
+OFF)</span> </div>
 <div class="strike_price">₹<s>570.00</s></div>
 </div>
 </div>
@@ -737,28 +525,22 @@ data-price="450.00" data-cats="11,36,20"
 data-brands="2" data-quantity="1">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1642/"
-data-images="1681541969.jpg,1681541983.jpg,1681541993.jpg,1681542006.jpg,1681542018.jpg"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1642/" data-images="1681541969.jpg,1681541983.jpg,1681541993.jpg,1681542006.jpg,1681542018.jpg"
 onclick="return redirectToProduct('642', 'india-world-map-jigsaw-in', 'KCPR1642');">
 <ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_642"
-onclick="setLike(event, '642')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
+<li><a href="#" class=" prod_like_icon_642"
+onclick="setLike(event, '642')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
 <a class="link_to_product" href="https://katyayani-creations.github.io/india-world-map-jigsaw-in/kcpr1642?p=kcpr1642">
-<span
-style="font-weight:bold;">Ratna</span>&nbsp;India & World Map Jigsaw 4 in 1 </a>
+<span style="font-weight:bold;">Ratna</span>&nbsp;India & World Map Jigsaw 4 in 1</a>
 </div>
 <div class="card_price">
-₹450.00 (1)
-<span style="color:#ff7043 !important">&nbsp;(10% OFF)</span>
-</div>
+₹450.00(1)
+<span style="color:#ff7043 !important">&nbsp;(10%
+OFF)</span> </div>
 <div class="strike_price">₹<s>500.00</s></div>
 </div>
 </div>
@@ -767,28 +549,22 @@ data-price="429.00" data-cats="11,20,50"
 data-brands="2" data-quantity="1">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1533/"
-data-images="1673289033.jpg,"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1533/" data-images="1673289033.jpg,"
 onclick="return redirectToProduct('533', 'stamp-art-unicorn-theme', 'KCPR1533');">
 <ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_533"
-onclick="setLike(event, '533')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
+<li><a href="#" class=" prod_like_icon_533"
+onclick="setLike(event, '533')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
 <a class="link_to_product" href="https://katyayani-creations.github.io/stamp-art-unicorn-theme/kcpr1533?p=kcpr1533">
-<span
-style="font-weight:bold;">Ratna</span>&nbsp;Stamp Art Unicorn Theme </a>
+<span style="font-weight:bold;">Ratna</span>&nbsp;Stamp Art Unicorn Theme</a>
 </div>
 <div class="card_price">
-₹429.00 (1)
-<span style="color:#ff7043 !important">&nbsp;(11% OFF)</span>
-</div>
+₹429.00(1)
+<span style="color:#ff7043 !important">&nbsp;(11%
+OFF)</span> </div>
 <div class="strike_price">₹<s>480.00</s></div>
 </div>
 </div>
@@ -797,28 +573,22 @@ data-price="400.00" data-cats="11,37,20"
 data-brands="1" data-quantity="2">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1138/"
-data-images="1662965515.jpeg,"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1138/" data-images="1662965515.jpeg,"
 onclick="return redirectToProduct('138', 'fashion-loom-bands', 'KCPR1138');">
 <ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_138"
-onclick="setLike(event, '138')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
+<li><a href="#" class=" prod_like_icon_138"
+onclick="setLike(event, '138')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
 <a class="link_to_product" href="https://katyayani-creations.github.io/fashion-loom-bands/kcpr1138?p=kcpr1138">
-<span
-style="font-weight:bold;">Ekta</span>&nbsp;Fashion Loom Bands </a>
+<span style="font-weight:bold;">Ekta</span>&nbsp;Fashion Loom Bands</a>
 </div>
 <div class="card_price">
-₹400.00 (2)
-<span style="color:#ff7043 !important">&nbsp;(16% OFF)</span>
-</div>
+₹400.00(2)
+<span style="color:#ff7043 !important">&nbsp;(16%
+OFF)</span> </div>
 <div class="strike_price">₹<s>475.00</s></div>
 </div>
 </div>
@@ -827,28 +597,22 @@ data-price="399.00" data-cats="37,20"
 data-brands="1" data-quantity="1">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1208/"
-data-images="1663257833.jpeg,1663257859.jpeg,1663257869.jpeg,1663257877.jpeg"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1208/" data-images="1663257833.jpeg,1663257859.jpeg,1663257869.jpeg,1663257877.jpeg"
 onclick="return redirectToProduct('208', 'candy-craft', 'KCPR1208');">
 <ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_208"
-onclick="setLike(event, '208')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
+<li><a href="#" class=" prod_like_icon_208"
+onclick="setLike(event, '208')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
 <a class="link_to_product" href="https://katyayani-creations.github.io/candy-craft/kcpr1208?p=kcpr1208">
-<span
-style="font-weight:bold;">Ekta</span>&nbsp;Candy Craft </a>
+<span style="font-weight:bold;">Ekta</span>&nbsp;Candy Craft</a>
 </div>
 <div class="card_price">
-₹399.00 (1)
-<span style="color:#ff7043 !important">&nbsp;(20% OFF)</span>
-</div>
+₹399.00(1)
+<span style="color:#ff7043 !important">&nbsp;(20%
+OFF)</span> </div>
 <div class="strike_price">₹<s>495.00</s></div>
 </div>
 </div>
@@ -857,28 +621,22 @@ data-price="389.00" data-cats="37,20"
 data-brands="1" data-quantity="1">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1169/"
-data-images="1662970106.jpg,1662970117.jpg"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1169/" data-images="1662970106.jpg,1662970117.jpg"
 onclick="return redirectToProduct('169', '3-in-1-party-pack-multi-colour', 'KCPR1169');">
 <ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_169"
-onclick="setLike(event, '169')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
+<li><a href="#" class=" prod_like_icon_169"
+onclick="setLike(event, '169')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
 <a class="link_to_product" href="https://katyayani-creations.github.io/3-in-1-party-pack-multi-colour/kcpr1169?p=kcpr1169">
-<span
-style="font-weight:bold;">Ekta</span>&nbsp;3 in 1 Party Pack - Multi Colour </a>
+<span style="font-weight:bold;">Ekta</span>&nbsp;3 in 1 Party Pack - Multi Colour</a>
 </div>
 <div class="card_price">
-₹389.00 (1)
-<span style="color:#ff7043 !important">&nbsp;(19% OFF)</span>
-</div>
+₹389.00(1)
+<span style="color:#ff7043 !important">&nbsp;(19%
+OFF)</span> </div>
 <div class="strike_price">₹<s>475.00</s></div>
 </div>
 </div>
@@ -887,28 +645,22 @@ data-price="360.00" data-cats="11,36,20"
 data-brands="2" data-quantity="1">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1532/"
-data-images="1673288816.jpg,"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1532/" data-images="1673288816.jpg,"
 onclick="return redirectToProduct('532', 'preschool-teacher-3-in-1', 'KCPR1532');">
 <ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_532"
-onclick="setLike(event, '532')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
+<li><a href="#" class=" prod_like_icon_532"
+onclick="setLike(event, '532')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
 <a class="link_to_product" href="https://katyayani-creations.github.io/preschool-teacher-3-in-1/kcpr1532?p=kcpr1532">
-<span
-style="font-weight:bold;">Ratna</span>&nbsp;Preschool Teacher 3 in 1 </a>
+<span style="font-weight:bold;">Ratna</span>&nbsp;Preschool Teacher 3 in 1</a>
 </div>
 <div class="card_price">
-₹360.00 (1)
-<span style="color:#ff7043 !important">&nbsp;(10% OFF)</span>
-</div>
+₹360.00(1)
+<span style="color:#ff7043 !important">&nbsp;(10%
+OFF)</span> </div>
 <div class="strike_price">₹<s>400.00</s></div>
 </div>
 </div>
@@ -917,27 +669,22 @@ data-price="359.00" data-cats="20"
 data-brands="0" data-quantity="1">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1167/"
-data-images="1662969494.webp,1662969510.webp"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1167/" data-images="1662969494.webp,1662969510.webp"
 onclick="return redirectToProduct('167', 'india-map-jigsaw-puzzle', 'KCPR1167');">
 <ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_167"
-onclick="setLike(event, '167')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
+<li><a href="#" class=" prod_like_icon_167"
+onclick="setLike(event, '167')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
 <a class="link_to_product" href="https://katyayani-creations.github.io/india-map-jigsaw-puzzle/kcpr1167?p=kcpr1167">
-India Map Jigsaw Puzzle </a>
+India Map Jigsaw Puzzle</a>
 </div>
 <div class="card_price">
-₹359.00 (1)
-<span style="color:#ff7043 !important">&nbsp;(20% OFF)</span>
-</div>
+₹359.00(1)
+<span style="color:#ff7043 !important">&nbsp;(20%
+OFF)</span> </div>
 <div class="strike_price">₹<s>446.00</s></div>
 </div>
 </div>
@@ -946,28 +693,22 @@ data-price="352.00" data-cats="20"
 data-brands="1" data-quantity="1">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1141/"
-data-images="1663258823.jpg,1663258834.jpg,1663258845.jpg"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1141/" data-images="1663258823.jpg,1663258834.jpg,1663258845.jpg"
 onclick="return redirectToProduct('141', 'housie-deluxe-family-board-game', 'KCPR1141');">
 <ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_141"
-onclick="setLike(event, '141')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
+<li><a href="#" class=" prod_like_icon_141"
+onclick="setLike(event, '141')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
 <a class="link_to_product" href="https://katyayani-creations.github.io/housie-deluxe-family-board-game/kcpr1141?p=kcpr1141">
-<span
-style="font-weight:bold;">Ekta</span>&nbsp;Housie Deluxe Family Board Game </a>
+<span style="font-weight:bold;">Ekta</span>&nbsp;Housie Deluxe Family Board Game</a>
 </div>
 <div class="card_price">
-₹352.00 (1)
-<span style="color:#ff7043 !important">&nbsp;(20% OFF)</span>
-</div>
+₹352.00(1)
+<span style="color:#ff7043 !important">&nbsp;(20%
+OFF)</span> </div>
 <div class="strike_price">₹<s>440.00</s></div>
 </div>
 </div>
@@ -976,28 +717,47 @@ data-price="329.00" data-cats="20"
 data-brands="0" data-quantity="1">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1144/"
-data-images="1662920434.webp,1662920449.webp,1662920458.webp,1662920442.webp"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1144/" data-images="1662920434.webp,1662920449.webp,1662920458.webp,1662920442.webp"
 onclick="return redirectToProduct('144', 'jumping-monkey-jr', 'KCPR1144');">
 <ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_144"
-onclick="setLike(event, '144')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
+<li><a href="#" class=" prod_like_icon_144"
+onclick="setLike(event, '144')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
 <a class="link_to_product" href="https://katyayani-creations.github.io/jumping-monkey-jr/kcpr1144?p=kcpr1144">
-Jumping Monkey Jr. </a>
+Jumping Monkey Jr.</a>
 </div>
 <div class="card_price">
-₹329.00 (1)
-<span style="color:#ff7043 !important">&nbsp;(20% OFF)</span>
-</div>
+₹329.00(1)
+<span style="color:#ff7043 !important">&nbsp;(20%
+OFF)</span> </div>
 <div class="strike_price">₹<s>410.00</s></div>
+</div>
+</div>
+</div><div class="col-lg-4 col-md-4 col-sm-6 mix toys educational_kits board_games featured_product"
+data-price="319.00" data-cats="11,36,20"
+data-brands="0" data-quantity="1">
+<div class="featured__item">
+<div data-imageindex="0" class="featured__item__pic set-bg-new"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1462/" data-images="1673252903.webp,"
+onclick="return redirectToProduct('462', '4in1-world-tour', 'KCPR1462');">
+<ul class="featured__item__pic__hover">
+<li><a href="#" class=" prod_like_icon_462"
+onclick="setLike(event, '462')"><i class="fa fa-heart"></i></a></li>
+</ul>
+</div>
+<div class="featured__item__text">
+<div class="strike_price">
+<a class="link_to_product" href="https://katyayani-creations.github.io/4in1-world-tour/kcpr1462?p=kcpr1462">
+4in1 World Tour</a>
+</div>
+<div class="card_price">
+₹319.00(1)
+<span style="color:#ff7043 !important">&nbsp;(21%
+OFF)</span> </div>
+<div class="strike_price">₹<s>399.00</s></div>
 </div>
 </div>
 </div><div class="col-lg-4 col-md-4 col-sm-6 mix toys educational_kits board_games featured_product"
@@ -1005,28 +765,22 @@ data-price="319.00" data-cats="11,36,20"
 data-brands="1" data-quantity="1">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1134/"
-data-images="1681590803.jpg,1681590814.jpg,1681590823.jpg,1681590833.jpg,1681590849.jpg"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1134/" data-images="1681590803.jpg,1681590814.jpg,1681590823.jpg,1681590833.jpg,1681590849.jpg"
 onclick="return redirectToProduct('134', 'nature-science', 'KCPR1134');">
 <ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_134"
-onclick="setLike(event, '134')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
+<li><a href="#" class=" prod_like_icon_134"
+onclick="setLike(event, '134')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
 <a class="link_to_product" href="https://katyayani-creations.github.io/nature-science/kcpr1134?p=kcpr1134">
-<span
-style="font-weight:bold;">Ekta</span>&nbsp;Nature Science </a>
+<span style="font-weight:bold;">Ekta</span>&nbsp;Nature Science</a>
 </div>
 <div class="card_price">
-₹319.00 (1)
-<span style="color:#ff7043 !important">&nbsp;(21% OFF)</span>
-</div>
+₹319.00(1)
+<span style="color:#ff7043 !important">&nbsp;(21%
+OFF)</span> </div>
 <div class="strike_price">₹<s>399.00</s></div>
 </div>
 </div>
@@ -1035,57 +789,22 @@ data-price="319.00" data-cats="37,20"
 data-brands="1" data-quantity="1">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1271/"
-data-images="1665911900.jpg,1665911915.jpg,1665911922.jpg"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1271/" data-images="1665911900.jpg,1665911915.jpg,1665911922.jpg"
 onclick="return redirectToProduct('271', 'warli-art-toys-multi-color', 'KCPR1271');">
 <ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_271"
-onclick="setLike(event, '271')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
+<li><a href="#" class=" prod_like_icon_271"
+onclick="setLike(event, '271')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
 <a class="link_to_product" href="https://katyayani-creations.github.io/warli-art-toys-multi-color/kcpr1271?p=kcpr1271">
-<span
-style="font-weight:bold;">Ekta</span>&nbsp;Warli Art Toys- Multi color </a>
+<span style="font-weight:bold;">Ekta</span>&nbsp;Warli Art Toys- Multi color</a>
 </div>
 <div class="card_price">
-₹319.00 (1)
-<span style="color:#ff7043 !important">&nbsp;(21% OFF)</span>
-</div>
-<div class="strike_price">₹<s>399.00</s></div>
-</div>
-</div>
-</div><div class="col-lg-4 col-md-4 col-sm-6 mix toys educational_kits board_games featured_product"
-data-price="319.00" data-cats="11,36,20"
-data-brands="0" data-quantity="1">
-<div class="featured__item">
-<div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1462/"
-data-images="1673252903.webp,"
-onclick="return redirectToProduct('462', '4in1-world-tour', 'KCPR1462');">
-<ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_462"
-onclick="setLike(event, '462')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
-</ul>
-</div>
-<div class="featured__item__text">
-<div class="strike_price">
-<a class="link_to_product" href="https://katyayani-creations.github.io/4in1-world-tour/kcpr1462?p=kcpr1462">
-4in1 World Tour </a>
-</div>
-<div class="card_price">
-₹319.00 (1)
-<span style="color:#ff7043 !important">&nbsp;(21% OFF)</span>
-</div>
+₹319.00(1)
+<span style="color:#ff7043 !important">&nbsp;(21%
+OFF)</span> </div>
 <div class="strike_price">₹<s>399.00</s></div>
 </div>
 </div>
@@ -1094,28 +813,22 @@ data-price="315.00" data-cats="11,20"
 data-brands="1" data-quantity="2">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1296/"
-data-images="1673444406.jpeg,1673444419.jpeg"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1296/" data-images="1673444406.jpeg,1673444419.jpeg"
 onclick="return redirectToProduct('296', 'ekta-moneyply', 'KCPR1296');">
 <ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_296"
-onclick="setLike(event, '296')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
+<li><a href="#" class=" prod_like_icon_296"
+onclick="setLike(event, '296')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
 <a class="link_to_product" href="https://katyayani-creations.github.io/ekta-moneyply/kcpr1296?p=kcpr1296">
-<span
-style="font-weight:bold;">Ekta</span>&nbsp;Moneyply </a>
+<span style="font-weight:bold;">Ekta</span>&nbsp;Moneyply</a>
 </div>
 <div class="card_price">
-₹315.00 (2)
-<span style="color:#ff7043 !important">&nbsp;(10% OFF)</span>
-</div>
+₹315.00(2)
+<span style="color:#ff7043 !important">&nbsp;(10%
+OFF)</span> </div>
 <div class="strike_price">₹<s>350.00</s></div>
 </div>
 </div>
@@ -1124,27 +837,22 @@ data-price="309.00" data-cats="37,20"
 data-brands="0" data-quantity="1">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1170/"
-data-images="1663258349.jpeg,"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1170/" data-images="1663258349.jpeg,"
 onclick="return redirectToProduct('170', 'apple-fun-2-in-1-creative-quilling', 'KCPR1170');">
 <ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_170"
-onclick="setLike(event, '170')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
+<li><a href="#" class=" prod_like_icon_170"
+onclick="setLike(event, '170')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
 <a class="link_to_product" href="https://katyayani-creations.github.io/apple-fun-2-in-1-creative-quilling/kcpr1170?p=kcpr1170">
-Apple Fun 2 IN 1 CREATIVE QUILLING </a>
+Apple Fun 2 IN 1 CREATIVE QUILLING</a>
 </div>
 <div class="card_price">
-₹309.00 (1)
-<span style="color:#ff7043 !important">&nbsp;(19% OFF)</span>
-</div>
+₹309.00(1)
+<span style="color:#ff7043 !important">&nbsp;(19%
+OFF)</span> </div>
 <div class="strike_price">₹<s>379.00</s></div>
 </div>
 </div>
@@ -1153,28 +861,22 @@ data-price="280.00" data-cats="11,20"
 data-brands="1" data-quantity="1">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1760/"
-data-images="1695991020.jpg,1695991037.jpg,1695991047.jpg,1695991057.jpg"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1760/" data-images="1695991020.jpg,1695991037.jpg,1695991047.jpg,1695991057.jpg"
 onclick="return redirectToProduct('760', 'jwellery-designs', 'KCPR1760');">
 <ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_760"
-onclick="setLike(event, '760')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
+<li><a href="#" class=" prod_like_icon_760"
+onclick="setLike(event, '760')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
 <a class="link_to_product" href="https://katyayani-creations.github.io/jwellery-designs/kcpr1760?p=kcpr1760">
-<span
-style="font-weight:bold;">Ekta</span>&nbsp;Jwellery Designs </a>
+<span style="font-weight:bold;">Ekta</span>&nbsp;Jwellery Designs</a>
 </div>
 <div class="card_price">
-₹280.00 (1)
-<span style="color:#ff7043 !important">&nbsp;(20% OFF)</span>
-</div>
+₹280.00(1)
+<span style="color:#ff7043 !important">&nbsp;(20%
+OFF)</span> </div>
 <div class="strike_price">₹<s>350.00</s></div>
 </div>
 </div>
@@ -1183,28 +885,22 @@ data-price="260.00" data-cats="11,20"
 data-brands="1" data-quantity="3">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1511/"
-data-images="1673256557.jpeg,1673256564.jpeg,1673256587.jpeg"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1511/" data-images="1673256557.jpeg,1673256564.jpeg,1673256587.jpeg"
 onclick="return redirectToProduct('511', 'ultimate-sparkling-nails-art', 'KCPR1511');">
 <ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_511"
-onclick="setLike(event, '511')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
+<li><a href="#" class=" prod_like_icon_511"
+onclick="setLike(event, '511')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
 <a class="link_to_product" href="https://katyayani-creations.github.io/ultimate-sparkling-nails-art/kcpr1511?p=kcpr1511">
-<span
-style="font-weight:bold;">Ekta</span>&nbsp;Ultimate Sparkling Nails Art </a>
+<span style="font-weight:bold;">Ekta</span>&nbsp;Ultimate Sparkling Nails Art</a>
 </div>
 <div class="card_price">
-₹260.00 (3)
-<span style="color:#ff7043 !important">&nbsp;(20% OFF)</span>
-</div>
+₹260.00(3)
+<span style="color:#ff7043 !important">&nbsp;(20%
+OFF)</span> </div>
 <div class="strike_price">₹<s>325.00</s></div>
 </div>
 </div>
@@ -1213,28 +909,22 @@ data-price="245.00" data-cats="20"
 data-brands="6" data-quantity="1">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1171/"
-data-images="1663064817.jpg,"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1171/" data-images="1663064817.jpg,"
 onclick="return redirectToProduct('171', 'chess-board-set-black-white-board-game', 'KCPR1171');">
 <ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_171"
-onclick="setLike(event, '171')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
+<li><a href="#" class=" prod_like_icon_171"
+onclick="setLike(event, '171')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
 <a class="link_to_product" href="https://katyayani-creations.github.io/chess-board-set-black-white-board-game/kcpr1171?p=kcpr1171">
-<span
-style="font-weight:bold;">Funskool</span>&nbsp;Chess Board Set, Black & White Board Game </a>
+<span style="font-weight:bold;">Funskool</span>&nbsp;Chess Board Set, Black & White Board Game</a>
 </div>
 <div class="card_price">
-₹245.00 (1)
-<span style="color:#ff7043 !important">&nbsp;(21% OFF)</span>
-</div>
+₹245.00(1)
+<span style="color:#ff7043 !important">&nbsp;(21%
+OFF)</span> </div>
 <div class="strike_price">₹<s>307.00</s></div>
 </div>
 </div>
@@ -1243,28 +933,22 @@ data-price="236.00" data-cats="11,20"
 data-brands="1" data-quantity="1">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1733/"
-data-images="1693733397.jpg,"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1733/" data-images="1693733397.jpg,"
 onclick="return redirectToProduct('733', 'chess-board', 'KCPR1733');">
 <ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_733"
-onclick="setLike(event, '733')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
+<li><a href="#" class=" prod_like_icon_733"
+onclick="setLike(event, '733')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
 <a class="link_to_product" href="https://katyayani-creations.github.io/chess-board/kcpr1733?p=kcpr1733">
-<span
-style="font-weight:bold;">Ekta</span>&nbsp;Chess Board </a>
+<span style="font-weight:bold;">Ekta</span>&nbsp;Chess Board</a>
 </div>
 <div class="card_price">
-₹236.00 (1)
-<span style="color:#ff7043 !important">&nbsp;(20% OFF)</span>
-</div>
+₹236.00(1)
+<span style="color:#ff7043 !important">&nbsp;(20%
+OFF)</span> </div>
 <div class="strike_price">₹<s>295.00</s></div>
 </div>
 </div>
@@ -1273,28 +957,22 @@ data-price="166.00" data-cats="11,20"
 data-brands="30" data-quantity="1">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1515/"
-data-images="1673257476.jpeg,1673257488.jpg"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1515/" data-images="1673257476.jpeg,1673257488.jpg"
 onclick="return redirectToProduct('515', 'plastic-ludosnakes-ladders', 'KCPR1515');">
 <ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_515"
-onclick="setLike(event, '515')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
+<li><a href="#" class=" prod_like_icon_515"
+onclick="setLike(event, '515')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
 <a class="link_to_product" href="https://katyayani-creations.github.io/plastic-ludosnakes-ladders/kcpr1515?p=kcpr1515">
-<span
-style="font-weight:bold;">Dolly</span>&nbsp;Plastic Ludo-Snakes & Ladders </a>
+<span style="font-weight:bold;">Dolly</span>&nbsp;Plastic Ludo-Snakes & Ladders</a>
 </div>
 <div class="card_price">
-₹166.00 (1)
-<span style="color:#ff7043 !important">&nbsp;(21% OFF)</span>
-</div>
+₹166.00(1)
+<span style="color:#ff7043 !important">&nbsp;(21%
+OFF)</span> </div>
 <div class="strike_price">₹<s>208.00</s></div>
 </div>
 </div>
@@ -1303,27 +981,22 @@ data-price="150.00" data-cats="11,20"
 data-brands="0" data-quantity="2">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1643/"
-data-images="1681542200.jpeg,1681542209.jpeg,1681542236.jpeg"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1643/" data-images="1681542200.jpeg,1681542209.jpeg,1681542236.jpeg"
 onclick="return redirectToProduct('643', 'brainvita-game', 'KCPR1643');">
 <ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_643"
-onclick="setLike(event, '643')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
+<li><a href="#" class=" prod_like_icon_643"
+onclick="setLike(event, '643')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
 <a class="link_to_product" href="https://katyayani-creations.github.io/brainvita-game/kcpr1643?p=kcpr1643">
-Brainvita Game </a>
+Brainvita Game</a>
 </div>
 <div class="card_price">
-₹150.00 (2)
-<span style="color:#ff7043 !important">&nbsp;(22% OFF)</span>
-</div>
+₹150.00(2)
+<span style="color:#ff7043 !important">&nbsp;(22%
+OFF)</span> </div>
 <div class="strike_price">₹<s>190.00</s></div>
 </div>
 </div>
@@ -1332,27 +1005,22 @@ data-price="148.00" data-cats="11,20"
 data-brands="0" data-quantity="1">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1508/"
-data-images="1673255309.png,1673255320.png"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1508/" data-images="1673255309.png,1673255320.png"
 onclick="return redirectToProduct('508', 'tambola-junior-number-game-housie-family-game', 'KCPR1508');">
 <ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_508"
-onclick="setLike(event, '508')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
+<li><a href="#" class=" prod_like_icon_508"
+onclick="setLike(event, '508')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
 <a class="link_to_product" href="https://katyayani-creations.github.io/tambola-junior-number-game-housie-family-game/kcpr1508?p=kcpr1508">
-Tambola Junior, Number Game, Housie Family Game </a>
+Tambola Junior, Number Game, Housie Family Game</a>
 </div>
 <div class="card_price">
-₹148.00 (1)
-<span style="color:#ff7043 !important">&nbsp;(20% OFF)</span>
-</div>
+₹148.00(1)
+<span style="color:#ff7043 !important">&nbsp;(20%
+OFF)</span> </div>
 <div class="strike_price">₹<s>185.00</s></div>
 </div>
 </div>
@@ -1361,27 +1029,22 @@ data-price="140.00" data-cats="11,20"
 data-brands="0" data-quantity="1">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1480/"
-data-images="1672555980.jpg,1672555994.jpg,1672556003.jpg,1672556011.jpg"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1480/" data-images="1672555980.jpg,1672555994.jpg,1672556003.jpg,1672556011.jpg"
 onclick="return redirectToProduct('480', 'ludo-snakes-ladder-chess', 'KCPR1480');">
 <ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_480"
-onclick="setLike(event, '480')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
+<li><a href="#" class=" prod_like_icon_480"
+onclick="setLike(event, '480')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
 <a class="link_to_product" href="https://katyayani-creations.github.io/ludo-snakes-ladder-chess/kcpr1480?p=kcpr1480">
-Ludo Snakes & Ladder & Chess </a>
+Ludo Snakes & Ladder & Chess</a>
 </div>
 <div class="card_price">
-₹140.00 (1)
-<span style="color:#ff7043 !important">&nbsp;(20% OFF)</span>
-</div>
+₹140.00(1)
+<span style="color:#ff7043 !important">&nbsp;(20%
+OFF)</span> </div>
 <div class="strike_price">₹<s>175.00</s></div>
 </div>
 </div>
@@ -1396,8 +1059,7 @@ Ludo Snakes & Ladder & Chess </a>
  <div class="col-lg-3 col-md-6 col-sm-6">
  <div class="footer__about">
  <div class="footer__about__logo">
- <a href="https://katyayani-creations.github.io/"><img src="https://katyayani-creations.github.io/img/logo.jpeg"
- alt="Katyayani Creations | Noida | Home Decor & Toys Shop | Stationary | Gift Items Logo"></a>
+ <a href="https://katyayani-creations.github.io/"><img src="https://katyayani-creations.github.io/img/logo.jpeg" alt="Katyayani Creations | Noida | Home Decor & Toys Shop | Stationary | Gift Items Logo"></a>
  </div>
  <ul>
  <li>6/134, Palm Olympia, GH-02, 2013009</li>
@@ -1431,28 +1093,14 @@ Ludo Snakes & Ladder & Chess </a>
  <div class="footer__widget">
  <h6>Join Our Newsletter Now</h6>
  <p>Get Whatsup updates about our latest shop and special offers.</p>
- <a class="site-btn"
- href="https://api.whatsapp.com/send/?phone=9044160393&text=subscribe"
- target="_blank">Subscribe</a>
+ <a class="site-btn" href="https://api.whatsapp.com/send/?phone=9044160393&text=subscribe" target="_blank">Subscribe</a>
  <div class="footer__widget__social">
- <a target="_blank" style="color:blue" href="https://www.facebook.com/people/Katyayani-Creations/61553261334215/">
- <i class="fa fa-facebook"></i>
- </a>
- <a target="_blank" style="color:blue" href="https://twitter.com/katyayani2022">
- <i class="fa fa-twitter"></i>
- </a>
- <a style="color:blue" href="https://chat.whatsapp.com/DTZWmSOvDCIEwmowAZbxhX">
- <i class="fa fa-whatsapp"></i>
- </a>
- <a target="_blank" style="color:blue" href="https://www.instagram.com/katyayani_creations/">
- <i class="fa fa-instagram"></i>
- </a>
- <a target="_blank" style="color:blue" href="https://g.page/r/CW9WzTwpK7Y5EAI">
- <i class="fa fa-google"></i>
- </a>
- <a target="_blank" style="color:blue" href="https://t.me/katyayani_creations">
- <i class="fa fa-telegram"></i>
- </a>
+ <a target="_blank" class="social_icon_link" href="https://www.facebook.com/people/Katyayani-Creations/61553261334215/"><i class="fa fa-facebook"></i></a>
+ <a target="_blank" class="social_icon_link" href="https://twitter.com/katyayani2022"><i class="fa fa-twitter"></i></a>
+ <a target="_blank" class="social_icon_link" href="https://chat.whatsapp.com/DTZWmSOvDCIEwmowAZbxhX"><i class="fa fa-whatsapp"></i></a>
+ <a target="_blank" class="social_icon_link" href="https://www.instagram.com/katyayani_creations/"><i class="fa fa-instagram"></i></a>
+ <a target="_blank" class="social_icon_link" href="https://g.page/r/CW9WzTwpK7Y5EAI"><i class="fa fa-google"></i></a>
+ <a target="_blank" class="social_icon_link" href="https://t.me/katyayani_creations"><i class="fa fa-telegram"></i></a>
  </div>
  </div>
  </div>

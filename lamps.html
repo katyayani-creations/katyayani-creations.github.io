@@ -2,12 +2,6 @@
 <html lang="en">
 <head>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-TMFL4Z8DEZ"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag() {dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-TMFL4Z8DEZ');
-</script>
 <meta charset="UTF-8" />
 <meta name="robots" content="INDEX,FOLLOW" />
 <meta property="og:site_name" content="Katyayani Creations" />
@@ -51,10 +45,14 @@ gtag('config', 'G-TMFL4Z8DEZ');
 <script src="https://d1s4zcjwkikclq.cloudfront.net/js/mixitup.min.js"></script>
 <script src="https://d1s4zcjwkikclq.cloudfront.net/js/owl.carousel.min.js"></script>
 <script src="https://katyayani-creations.github.io/js/main.js?ver=21"></script>
-<script src="https://katyayani-creations.github.io/productarray.js" type="text/javascript"></script>
+<script src="https://katyayani-creations.github.io/productarray.js?ver=09-08-2024" type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 <script>
+window.dataLayer = window.dataLayer || [];
+function gtag() {dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-TMFL4Z8DEZ');
 localStorage.setItem("kc-like", '[]');
 function redirectToProduct(id, name, sku, prod_url) {
 if (typeof id == "undefined") {window.location.href = "/products.html?term=" + $("#products").val();return;}
@@ -65,64 +63,48 @@ window.location.href = url + prod_url.toLowerCase() + "/" + sku + "?p=" + sku;
 } else {window.location.href = url + name.split(" ").join("-").toLowerCase() + "/" + sku + "?p=" + sku;}
 }
 </script>
+<style>
+.social_icon_link {color:blue;}
+.blink_text{color:#ff77b7 !important;}
+.menu-custom li{margin-right: 15px !important;}
+.menu-custom li:active{text-decoration:underline;}
+.side_menu li a.active{font-weight:bold;}
+ul.side_sub_menu li {margin-left:20px;}
+.blink{display:none;}
+#products{width:100% !important;}
+</style>
 </head>
 <body>
 <div id="preloder"><div class="loader"></div></div>
 <div class="humberger__menu__overlay"></div>
 <div class="humberger__menu__wrapper">
-<div class="humberger__menu__logo">
-<a href="https://katyayani-creations.github.io/"><img src="https://katyayani-creations.github.io/img/logo.jpeg"
-alt="Katyayani Creations | Noida | Home Decor & Toys Shop | Stationary | Gift Items Website Logo"></a>
-</div>
-<div class="humberger__menu__cart">
-<ul>
+<div class="humberger__menu__logo"><a href="https://katyayani-creations.github.io/"><img src="https://katyayani-creations.github.io/img/logo.jpeg" alt="Katyayani Creations | Noida | Home Decor & Toys Shop | Stationary | Gift Items Website Logo"></a></div>
+<div class="humberger__menu__cart"><ul>
 <li><a href="https://katyayani-creations.github.io/wishlist"><i class="fa fa-heart"></i><span class="like_icon">0</span></a></li>
 <li><a href="https://katyayani-creations.github.io/cart"><i class="fa fa-shopping-bag"></i><span class="cart_icon">0</span></a></li>
-</ul> </div>
+</ul></div>
 <div class="humberger__menu__widget">
-<div class="header__top__right__auth">
-<a href="/account/profile"><i class="fa fa-user"></i> Login</a>
+<div class="header__top__right__auth"><a href="/account/profile"><i class="fa fa-user"></i> Login</a></div>
 </div>
-</div>
-<nav class="humberger__menu__nav mobile-menu">
-<ul>
-<li class=""><a
-href="https://katyayani-creations.github.io/">Home</a></li>
-<li class=""><a
-href="https://katyayani-creations.github.io/home-and-docor">Home & Decor</a></li>
-<li class=""><a
-href="https://katyayani-creations.github.io/toys">Toys</a></li>
-<li class=""><a
-href="https://katyayani-creations.github.io/stationery">Stationary</a></li>
-<li class=""><a
-href="https://katyayani-creations.github.io/products">Products</a></li>
-<li class=""><a
-href="https://katyayani-creations.github.io/contact">Contact</a></li>
-</ul> </nav>
+<nav class="humberger__menu__nav mobile-menu"><ul>
+<li ><a href="https://katyayani-creations.github.io/">Home</a></li>
+<li ><a href="https://katyayani-creations.github.io/home-and-docor">Home & Decor</a></li>
+<li ><a href="https://katyayani-creations.github.io/toys">Toys</a></li>
+<li ><a href="https://katyayani-creations.github.io/stationery">Stationary</a></li>
+<li ><a href="https://katyayani-creations.github.io/products">Products</a></li>
+<li ><a href="https://katyayani-creations.github.io/contact">Contact</a></li>
+</ul></nav>
 <div id="mobile-menu-wrap"></div>
 <div class="header__top__right__social">
-<a target="_blank" style="color:blue" href="https://www.facebook.com/people/Katyayani-Creations/61553261334215/">
-<i class="fa fa-facebook"></i>
-</a>
-<a target="_blank" style="color:blue" href="https://t.me/katyayani_creations">
-<i class="fa fa-telegram"></i>
-</a>
-<a target="_blank" style="color:blue" href="https://twitter.com/katyayani2022">
-<i class="fa fa-twitter"></i>
-</a>
-<a target="_blank" style="color:blue;" href="https://www.instagram.com/katyayani_creations/">
-<i class="fa fa-instagram"></i>
-</a>
-<a target="_blank" style="color:blue" href="https://chat.whatsapp.com/DTZWmSOvDCIEwmowAZbxhX">
-<i class="fa fa-whatsapp"></i>
-</a>
-<a target="_blank" style="color:blue" href="https://g.page/r/CW9WzTwpK7Y5EAI">
-<i class="fa fa-google"></i>
-</a>
+<a target="_blank" class="social_icon_link" href="https://www.facebook.com/people/Katyayani-Creations/61553261334215/"><i class="fa fa-facebook"></i></a>
+<a target="_blank" class="social_icon_link" href="https://t.me/katyayani_creations"><i class="fa fa-telegram"></i></a>
+<a target="_blank" class="social_icon_link" href="https://twitter.com/katyayani2022"><i class="fa fa-twitter"></i></a>
+<a target="_blank" class="social_icon_link" href="https://www.instagram.com/katyayani_creations/"><i class="fa fa-instagram"></i></a>
+<a target="_blank" class="social_icon_link" href="https://chat.whatsapp.com/DTZWmSOvDCIEwmowAZbxhX"><i class="fa fa-whatsapp"></i></a>
+<a target="_blank" class="social_icon_link" href="https://g.page/r/CW9WzTwpK7Y5EAI"><i class="fa fa-google"></i></a>
 </div> <div class="humberger__menu__contact">
 <ul>
-<li><i class="fa fa-envelope"></i>
-katyayani.creations.2022@gmail.com </li>
+<li><i class="fa fa-envelope"></i>katyayani.creations.2022@gmail.com</li>
 <li>Playful Finds, Stylish Designs, and Stationery Wonders – Your One-Stop Shop for Joyful Living!</li>
 </ul>
 </div>
@@ -132,36 +114,21 @@ katyayani.creations.2022@gmail.com </li>
 <div class="row">
 <div class="col-lg-6 col-md-6">
 <div class="header__top__left">
-<ul>
-<li>Playful Finds, Stylish Designs, and Stationery Wonders – Your One-Stop Shop for Joyful Living!</li>
-</ul>
+<ul><li>Playful Finds, Stylish Designs, and Stationery Wonders – Your One-Stop Shop for Joyful Living!</li></ul>
 </div>
 </div>
 <div class="col-lg-6 col-md-6">
 <div class="header__top__right">
 <div class="header__top__right__social">
-<a target="_blank" style="color:blue" href="https://www.facebook.com/people/Katyayani-Creations/61553261334215/">
-<i class="fa fa-facebook"></i>
-</a>
-<a target="_blank" style="color:blue" href="https://t.me/katyayani_creations">
-<i class="fa fa-telegram"></i>
-</a>
-<a target="_blank" style="color:blue" href="https://twitter.com/katyayani2022">
-<i class="fa fa-twitter"></i>
-</a>
-<a target="_blank" style="color:blue;" href="https://www.instagram.com/katyayani_creations/">
-<i class="fa fa-instagram"></i>
-</a>
-<a target="_blank" style="color:blue" href="https://chat.whatsapp.com/DTZWmSOvDCIEwmowAZbxhX">
-<i class="fa fa-whatsapp"></i>
-</a>
-<a target="_blank" style="color:blue" href="https://g.page/r/CW9WzTwpK7Y5EAI">
-<i class="fa fa-google"></i>
-</a>
+<a target="_blank" class="social_icon_link" href="https://www.facebook.com/people/Katyayani-Creations/61553261334215/"><i class="fa fa-facebook"></i></a>
+<a target="_blank" class="social_icon_link" href="https://t.me/katyayani_creations"><i class="fa fa-telegram"></i></a>
+<a target="_blank" class="social_icon_link" href="https://twitter.com/katyayani2022"><i class="fa fa-twitter"></i></a>
+<a target="_blank" class="social_icon_link" href="https://www.instagram.com/katyayani_creations/"><i class="fa fa-instagram"></i></a>
+<a target="_blank" class="social_icon_link" href="https://chat.whatsapp.com/DTZWmSOvDCIEwmowAZbxhX"><i class="fa fa-whatsapp"></i></a>
+<a target="_blank" class="social_icon_link" href="https://g.page/r/CW9WzTwpK7Y5EAI"><i class="fa fa-google"></i></a>
 </div> <div class="header__top__right__auth">
 <a href="https://katyayani-creations.github.io/account/profile">
-<i class="fa fa-user"></i> Login
-</a>
+<i class="fa fa-user"></i> Login </a>
 </div>
 </div>
 </div>
@@ -173,52 +140,31 @@ katyayani.creations.2022@gmail.com </li>
 <div class="col-lg-3">
 <div class="header__logo">
 <a href="https://katyayani-creations.github.io/">
-<img src="https://katyayani-creations.github.io/img/logo.jpeg"
-alt="Katyayani Creations | Noida | Home Decor & Toys Shop | Stationary | Gift Items Website Logo"
-style="width: 54%;border:solid 1px #ff05e4">
+<img src="https://katyayani-creations.github.io/img/logo.jpeg" alt="Katyayani Creations | Noida | Home Decor & Toys Shop | Stationary | Gift Items Website Logo" style="width: 54%;border:solid 1px #ff05e4;">
 </a>
 </div>
 </div>
 <div class="col-lg-6">
 <nav class="header__menu">
 <ul>
-<li class=""><a
-href="https://katyayani-creations.github.io/">Home</a></li>
-<li class=""><a
-href="https://katyayani-creations.github.io/home-and-docor">Home & Decor</a></li>
-<li class=""><a
-href="https://katyayani-creations.github.io/toys">Toys</a></li>
-<li class=""><a
-href="https://katyayani-creations.github.io/stationery">Stationary</a></li>
-<li class=""><a
-href="https://katyayani-creations.github.io/products">Products</a></li>
-<li class=""><a
-href="https://katyayani-creations.github.io/contact">Contact</a></li>
-</ul> <p class="blink" style="display:none;">
-<a href="https://chat.whatsapp.com/DTZWmSOvDCIEwmowAZbxhX" target="_blank" title="Click to Join our Whatsapp Group.">
-Join our Whatsapp Group
-</a>
-</p>
-<ul align="center" id="menu-custom">
-<li class=""
-style="margin-right: 15px !important; ">
-<a href="https://katyayani-creations.github.io/return-gifts">
-Return Gift Items </a>
-</li><li class=""
-style="margin-right: 15px !important; ">
-<a href="https://katyayani-creations.github.io/board-games">
-Board Games </a>
-</li><li class=""
-style="margin-right: 15px !important; ">
-<a href="https://katyayani-creations.github.io/gift-packs">
-Gift Packs </a>
+<li ><a href="https://katyayani-creations.github.io/">Home</a></li>
+<li ><a href="https://katyayani-creations.github.io/home-and-docor">Home & Decor</a></li>
+<li ><a href="https://katyayani-creations.github.io/toys">Toys</a></li>
+<li ><a href="https://katyayani-creations.github.io/stationery">Stationary</a></li>
+<li ><a href="https://katyayani-creations.github.io/products">Products</a></li>
+<li ><a href="https://katyayani-creations.github.io/contact">Contact</a></li>
+</ul> <ul align="center" id="menu-custom">
+<li >
+<a href="https://katyayani-creations.github.io/return-gifts">Return Gift Items</a>
+</li> <li >
+<a href="https://katyayani-creations.github.io/board-games">Board Games</a>
+</li> <li >
+<a href="https://katyayani-creations.github.io/gift-packs">Gift Packs</a>
 </li></ul>
 <br />
 <p class="blink">
-<a href="https://katyayani-creations.github.io/lamination/kcpr1570?p=kcpr1570" target="_blank" title="Lamination & Printouts Available"
-style="color:#ff77b7 !important">
-Lamination & Printouts Available </a>
-</p> </nav>
+<a href="https://katyayani-creations.github.io/lamination/kcpr1570?p=kcpr1570" target="_blank" title="Lamination & Printouts Available" class="blink_text">Lamination & Printouts Available</a></p>
+</nav>
 </div>
 <div class="col-lg-3">
 <div class="header__cart">
@@ -304,237 +250,117 @@ Lamination & Printouts Available </a>
 <div class="sidebar">
 <div class="sidebar__item">
 <h4>Particulars</h4>
-<ul>
+<ul class="side_menu">
 <li>
-<a href="home-and-docor" id="menu-1"
-style="">
-Home & Decor </a>
-<ul style="display:none;;"
-id="submenu-1">
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io//clocks"
-style="">
-Clocks </a>
-</li>
+<a id="menu-1" href="home-and-docor" class="">Home & Decor</a>
+<ul class="side_sub_menu" style="display:none;" id="submenu-1">
+<li><a href="https://katyayani-creations.github.io/clocks" style="">Clocks</a></li>
 <script>
 </script>
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io//lamps"
-style=" font-weight:bold;">
-Lamps </a>
-</li>
+<li><a href="https://katyayani-creations.github.io/lamps" style=" font-weight:bold;">Lamps</a></li>
 <script>
 document.getElementById("submenu-1").style.display = "block";
 document.getElementById("menu-1").style.fontWeight = "bold";
 </script>
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io//photo-frames"
-style="">
-Photo Frames </a>
-</li>
+<li><a href="https://katyayani-creations.github.io/photo-frames" style="">Photo Frames</a></li>
 <script>
 </script>
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io//vases"
-style="">
-Vases </a>
-</li>
+<li><a href="https://katyayani-creations.github.io/vases" style="">Vases</a></li>
 <script>
 </script>
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io//valentine-day"
-style="">
-Valentine Day Special </a>
-</li>
+<li><a href="https://katyayani-creations.github.io/valentine-day" style="">Valentine Day Special</a></li>
 <script>
 </script>
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io//wind-chimes"
-style="">
-Wind Chimes </a>
-</li>
+<li><a href="https://katyayani-creations.github.io/wind-chimes" style="">Wind Chimes</a></li>
 <script>
 </script>
 </ul>
 </li>
 <li>
-<a href="christmas-decorations" id="menu-29"
-style="">
-Christmas Decorations </a>
+<a id="menu-29" href="christmas-decorations" class="">Christmas Decorations</a>
 </li>
 <li>
-<a href="return-gifts" id="menu-10"
-style="">
-Return Gifts </a>
-<ul style="display:none;;"
-id="submenu-10">
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io//kanjak-gifts"
-style="">
-Kanjak Gifts </a>
-</li>
+<a id="menu-10" href="return-gifts" class="">Return Gifts</a>
+<ul class="side_sub_menu" style="display:none;" id="submenu-10">
+<li><a href="https://katyayani-creations.github.io/kanjak-gifts" style="">Kanjak Gifts</a></li>
 <script>
 </script>
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io//gift-packs"
-style="">
-Gift Packs </a>
-</li>
+<li><a href="https://katyayani-creations.github.io/gift-packs" style="">Gift Packs</a></li>
 <script>
 </script>
 </ul>
 </li>
 <li>
-<a href="birthday" id="menu-2"
-style="">
-Birthday </a>
+<a id="menu-2" href="birthday" class="">Birthday</a>
 </li>
 <li>
-<a href="diwali-items" id="menu-3"
-style="">
-Diwali Items </a>
+<a id="menu-3" href="diwali-items" class="">Diwali Items</a>
 </li>
 <li>
-<a href="toys" id="menu-4"
-style="">
-Toys </a>
-<ul style="display:none;;"
-id="submenu-4">
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io/avengers"
-style="">
-Avengers </a>
-</li>
+<a id="menu-4" href="toys" class="">Toys</a>
+<ul class="side_sub_menu" style="display:none;" id="submenu-4">
+<li><a href="https://katyayani-creations.github.io/avengers" style="">Avengers</a></li>
 <script>
 </script>
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io/bikes-and-cars"
-style="">
-Bikes & Cars </a>
-</li>
+<li><a href="https://katyayani-creations.github.io/bikes-and-cars" style="">Bikes & Cars</a></li>
 <script>
 </script>
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io/board-games"
-style="">
-Board Games </a>
-</li>
+<li><a href="https://katyayani-creations.github.io/board-games" style="">Board Games</a></li>
 <script>
 </script>
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io/clay-and-slime"
-style="">
-Clay & Slimes </a>
-</li>
+<li><a href="https://katyayani-creations.github.io/clay-and-slime" style="">Clay & Slimes</a></li>
 <script>
 </script>
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io/creative-kits"
-style="">
-Creative Kits </a>
-</li>
+<li><a href="https://katyayani-creations.github.io/creative-kits" style="">Creative Kits</a></li>
 <script>
 </script>
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io/dolls-and-houses"
-style="">
-Dolls & Doll Houses </a>
-</li>
+<li><a href="https://katyayani-creations.github.io/dolls-and-houses" style="">Dolls & Doll Houses</a></li>
 <script>
 </script>
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io/educational-kits"
-style="">
-Educational Kits </a>
-</li>
+<li><a href="https://katyayani-creations.github.io/educational-kits" style="">Educational Kits</a></li>
 <script>
 </script>
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io/guns"
-style="">
-Guns </a>
-</li>
+<li><a href="https://katyayani-creations.github.io/guns" style="">Guns</a></li>
 <script>
 </script>
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io//new-born"
-style="">
-New Born </a>
-</li>
+<li><a href="https://katyayani-creations.github.io//new-born" style="">New Born</a></li>
 <script>
 </script>
 </ul>
 </li>
 <li>
-<a href="stationery" id="menu-5"
-style="">
-Stationery </a>
-<ul style="display:none;;"
-id="submenu-5">
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io//boxes"
-style="">
-Boxes </a>
-</li>
+<a id="menu-5" href="stationery" class="">Stationery</a>
+<ul class="side_sub_menu" style="display:none;" id="submenu-5">
+<li><a href="https://katyayani-creations.github.io/boxes" style="">Boxes</a></li>
 <script>
 </script>
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io//colors"
-style="">
-Colors </a>
-</li>
+<li><a href="https://katyayani-creations.github.io/colors" style="">Colors</a></li>
 <script>
 </script>
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io//doms-items"
-style="">
-Doms </a>
-</li>
+<li><a href="https://katyayani-creations.github.io/doms-items" style="">Doms</a></li>
 <script>
 </script>
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io//eraser-sharpener"
-style="">
-Eraser/Sharpener </a>
-</li>
+<li><a href="https://katyayani-creations.github.io/eraser-sharpener" style="">Eraser/Sharpener</a></li>
 <script>
 </script>
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io//glues"
-style="">
-Glues </a>
-</li>
+<li><a href="https://katyayani-creations.github.io/glues" style="">Glues</a></li>
 <script>
 </script>
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io//pens"
-style="">
-Pens </a>
-</li>
+<li><a href="https://katyayani-creations.github.io/pens" style="">Pens</a></li>
 <script>
 </script>
-<li style="margin-left:20px;">
-<a href="https://katyayani-creations.github.io//craft-items"
-style="">
-Craft Items </a>
-</li>
+<li><a href="https://katyayani-creations.github.io//craft-items" style="">Craft Items</a></li>
 <script>
 </script>
 </ul>
 </li>
 <li>
-<a href="gift-packs" id="menu-24"
-style="">
-Gift Packs </a>
+<a id="menu-24" href="gift-packs" class="">Gift Packs</a>
 </li>
 <li>
-<a href="unicorn" id="menu-44"
-style="">
-Unicorn </a>
+<a id="menu-44" href="unicorn" class="">Unicorn</a>
 </li>
-<li>
-<hr />
-</li>
+<li><hr /></li>
 </ul>
 </div> </div>
 </div>
@@ -545,57 +371,23 @@ data-price="1500.00" data-cats="14,29"
 data-brands="0" data-quantity="1">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1988/"
-data-images="KCPR1988_17125774030.jpeg,"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1988/" data-images="KCPR1988_17125774030.jpeg,"
 onclick="return redirectToProduct('988', 'table-lamp', 'KCPR1988');">
 <ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_988"
-onclick="setLike(event, '988')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
+<li><a href="#" class=" prod_like_icon_988"
+onclick="setLike(event, '988')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
 <a class="link_to_product" href="https://katyayani-creations.github.io/table-lamp/kcpr1988?p=kcpr1988">
-TABLE LAMP 53096 </a>
+TABLE LAMP 53096</a>
 </div>
 <div class="card_price">
-₹1500.00 (1)
-<span style="color:#ff7043 !important">&nbsp;(25% OFF)</span>
-</div>
+₹1500.00(1)
+<span style="color:#ff7043 !important">&nbsp;(25%
+OFF)</span> </div>
 <div class="strike_price">₹<s>2000.00</s></div>
-</div>
-</div>
-</div><div class="col-lg-4 col-md-4 col-sm-6 mix home_decor lamps mothers_day_store featured_product"
-data-price="1350.00" data-cats="14,29,53"
-data-brands="0" data-quantity="1">
-<div class="featured__item">
-<div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1822/"
-data-images="16971159620.jpeg,16969270260.jpg,16969270262.jpg,16969270263.jpg,16969270261.jpg"
-onclick="return redirectToProduct('822', 'Ganesh-Ji-Water-Fountain', 'KCPR1822');">
-<ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_822"
-onclick="setLike(event, '822')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
-</ul>
-</div>
-<div class="featured__item__text">
-<div class="strike_price">
-<a class="link_to_product" href="https://katyayani-creations.github.io/Ganesh-Ji-Water-Fountain/kcpr1822?p=kcpr1822">
-Water Fountain with Lord Ganesha, Multicolor LED Lights </a>
-</div>
-<div class="card_price">
-₹1350.00 (1)
-<span style="color:#ff7043 !important">&nbsp;(10% OFF)</span>
-</div>
-<div class="strike_price">₹<s>1500.00</s></div>
 </div>
 </div>
 </div><div class="col-lg-4 col-md-4 col-sm-6 mix home_decor lamps featured_product"
@@ -603,27 +395,46 @@ data-price="1350.00" data-cats="14,29"
 data-brands="0" data-quantity="1">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1986/"
-data-images="KCPR1986_17124728772.jpg,KCPR1986_17124728770.jpg,KCPR1986_17124728771.jpg"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1986/" data-images="KCPR1986_17124728772.jpg,KCPR1986_17124728770.jpg,KCPR1986_17124728771.jpg"
 onclick="return redirectToProduct('986', 'astronaut-galaxy-light-projector-space-buddy-projector-night-light-for-bedroom-with-remote-control-and-timer', 'KCPR1986');">
 <ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_986"
-onclick="setLike(event, '986')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
+<li><a href="#" class=" prod_like_icon_986"
+onclick="setLike(event, '986')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
 <a class="link_to_product" href="https://katyayani-creations.github.io/astronaut-galaxy-light-projector-space-buddy-projector-night-light-for-bedroom-with-remote-control-and-timer/kcpr1986?p=kcpr1986">
-Astronaut Galaxy Light Projector, Space Buddy Projector Night Light for Bedroom with Remote Control and Timer </a>
+Astronaut Galaxy Light Projector, Space Buddy Projector Night Light for Bedroom with Remote Control and Timer</a>
 </div>
 <div class="card_price">
-₹1350.00 (1)
-<span style="color:#ff7043 !important">&nbsp;(10% OFF)</span>
+₹1350.00(1)
+<span style="color:#ff7043 !important">&nbsp;(10%
+OFF)</span> </div>
+<div class="strike_price">₹<s>1500.00</s></div>
 </div>
+</div>
+</div><div class="col-lg-4 col-md-4 col-sm-6 mix home_decor lamps mothers_day_store featured_product"
+data-price="1350.00" data-cats="14,29,53"
+data-brands="0" data-quantity="1">
+<div class="featured__item">
+<div data-imageindex="0" class="featured__item__pic set-bg-new"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1822/" data-images="16971159620.jpeg,16969270260.jpg,16969270262.jpg,16969270263.jpg,16969270261.jpg"
+onclick="return redirectToProduct('822', 'Ganesh-Ji-Water-Fountain', 'KCPR1822');">
+<ul class="featured__item__pic__hover">
+<li><a href="#" class=" prod_like_icon_822"
+onclick="setLike(event, '822')"><i class="fa fa-heart"></i></a></li>
+</ul>
+</div>
+<div class="featured__item__text">
+<div class="strike_price">
+<a class="link_to_product" href="https://katyayani-creations.github.io/Ganesh-Ji-Water-Fountain/kcpr1822?p=kcpr1822">
+Water Fountain with Lord Ganesha, Multicolor LED Lights</a>
+</div>
+<div class="card_price">
+₹1350.00(1)
+<span style="color:#ff7043 !important">&nbsp;(10%
+OFF)</span> </div>
 <div class="strike_price">₹<s>1500.00</s></div>
 </div>
 </div>
@@ -632,27 +443,22 @@ data-price="950.00" data-cats="14,29"
 data-brands="0" data-quantity="1">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1183/"
-data-images="1663089531.jpg,1663089627.jpg,1663089636.jpg,1663089643.jpg,1663089651.jpg,1663089659.jpg"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1183/" data-images="1663089531.jpg,1663089627.jpg,1663089636.jpg,1663089643.jpg,1663089651.jpg,1663089659.jpg"
 onclick="return redirectToProduct('183', 'aqua-bubble-tube-lamp', 'KCPR1183');">
 <ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_183"
-onclick="setLike(event, '183')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
+<li><a href="#" class=" prod_like_icon_183"
+onclick="setLike(event, '183')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
 <a class="link_to_product" href="https://katyayani-creations.github.io/aqua-bubble-tube-lamp/kcpr1183?p=kcpr1183">
-Aqua Bubble Tube Lamp </a>
+Aqua Bubble Tube Lamp</a>
 </div>
 <div class="card_price">
-₹950.00 (1)
-<span style="color:#ff7043 !important">&nbsp;(27% OFF)</span>
-</div>
+₹950.00(1)
+<span style="color:#ff7043 !important">&nbsp;(27%
+OFF)</span> </div>
 <div class="strike_price">₹<s>1300.00</s></div>
 </div>
 </div>
@@ -661,27 +467,22 @@ data-price="900.00" data-cats="14,29"
 data-brands="0" data-quantity="1">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1473/"
-data-images="1672251223.jpg,1672251232.jpg"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1473/" data-images="1672251223.jpg,1672251232.jpg"
 onclick="return redirectToProduct('473', 'diamond-night-lamp-touch-led', 'KCPR1473');">
 <ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_473"
-onclick="setLike(event, '473')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
+<li><a href="#" class=" prod_like_icon_473"
+onclick="setLike(event, '473')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
 <a class="link_to_product" href="https://katyayani-creations.github.io/diamond-night-lamp-touch-led/kcpr1473?p=kcpr1473">
-Diamond Night Lamp Touch Led </a>
+Diamond Night Lamp Touch Led</a>
 </div>
 <div class="card_price">
-₹900.00 (1)
-<span style="color:#ff7043 !important">&nbsp;(10% OFF)</span>
-</div>
+₹900.00(1)
+<span style="color:#ff7043 !important">&nbsp;(10%
+OFF)</span> </div>
 <div class="strike_price">₹<s>1000.00</s></div>
 </div>
 </div>
@@ -690,27 +491,22 @@ data-price="800.00" data-cats="14,29,46,23,53"
 data-brands="0" data-quantity="1">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR11055/"
-data-images="KCPR11055_17141560670.webp,"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR11055/" data-images="KCPR11055_17141560670.webp,"
 onclick="return redirectToProduct('1055', 'table-lamp-', 'KCPR11055');">
 <ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_1055"
-onclick="setLike(event, '1055')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
+<li><a href="#" class=" prod_like_icon_1055"
+onclick="setLike(event, '1055')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
 <a class="link_to_product" href="https://katyayani-creations.github.io/table-lamp-/kcpr11055?p=kcpr11055">
-Table Lamp 54571 </a>
+Table Lamp 54571</a>
 </div>
 <div class="card_price">
-₹800.00 (1)
-<span style="color:#ff7043 !important">&nbsp;(20% OFF)</span>
-</div>
+₹800.00(1)
+<span style="color:#ff7043 !important">&nbsp;(20%
+OFF)</span> </div>
 <div class="strike_price">₹<s>999.00</s></div>
 </div>
 </div>
@@ -719,27 +515,22 @@ data-price="800.00" data-cats="14,29"
 data-brands="0" data-quantity="1">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1089/"
-data-images="1661361635.jpeg,1661361654.jpeg,1661361683.jpeg,1661438727.jpeg"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1089/" data-images="1661361635.jpeg,1661361654.jpeg,1661361683.jpeg,1661438727.jpeg"
 onclick="return redirectToProduct('89', 'rocket-shape-tornado', 'KCPR1089');">
 <ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_89"
-onclick="setLike(event, '89')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
+<li><a href="#" class=" prod_like_icon_89"
+onclick="setLike(event, '89')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
 <a class="link_to_product" href="https://katyayani-creations.github.io/rocket-shape-tornado/kcpr1089?p=kcpr1089">
-Rocket Shape Tornado </a>
+Rocket Shape Tornado</a>
 </div>
 <div class="card_price">
-₹800.00 (1)
-<span style="color:#ff7043 !important">&nbsp;(12% OFF)</span>
-</div>
+₹800.00(1)
+<span style="color:#ff7043 !important">&nbsp;(12%
+OFF)</span> </div>
 <div class="strike_price">₹<s>899.00</s></div>
 </div>
 </div>
@@ -748,27 +539,22 @@ data-price="750.00" data-cats="14,29,21"
 data-brands="0" data-quantity="2">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1068/"
-data-images="1661357356.jpeg,"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1068/" data-images="1661357356.jpeg,"
 onclick="return redirectToProduct('68', 'lantern-candle-big-led', 'KCPR1068');">
 <ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_68"
-onclick="setLike(event, '68')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
+<li><a href="#" class=" prod_like_icon_68"
+onclick="setLike(event, '68')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
 <a class="link_to_product" href="https://katyayani-creations.github.io/lantern-candle-big-led/kcpr1068?p=kcpr1068">
-Lantern Candle Big LED (Single) </a>
+Lantern Candle Big LED (Single)</a>
 </div>
 <div class="card_price">
-₹750.00 (2)
-<span style="color:#ff7043 !important">&nbsp;(7% OFF)</span>
-</div>
+₹750.00(2)
+<span style="color:#ff7043 !important">&nbsp;(7%
+OFF)</span> </div>
 <div class="strike_price">₹<s>800.00</s></div>
 </div>
 </div>
@@ -777,27 +563,22 @@ data-price="600.00" data-cats="14,40,29"
 data-brands="0" data-quantity="4">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1185/"
-data-images="1663092534.jpeg,1663092545.jpeg,1663092559.jpeg,1663092972.jpeg,1663093419.jpeg,1663093430.jpeg"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1185/" data-images="1663092534.jpeg,1663092545.jpeg,1663092559.jpeg,1663092972.jpeg,1663093419.jpeg,1663093430.jpeg"
 onclick="return redirectToProduct('185', 'kids-style-table-led-lamp-with-clock', 'KCPR1185');">
 <ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_185"
-onclick="setLike(event, '185')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
+<li><a href="#" class=" prod_like_icon_185"
+onclick="setLike(event, '185')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
 <a class="link_to_product" href="https://katyayani-creations.github.io/kids-style-table-led-lamp-with-clock/kcpr1185?p=kcpr1185">
-Kids Style Table LED Lamp with Clock </a>
+Kids Style Table LED Lamp with Clock</a>
 </div>
 <div class="card_price">
-₹600.00 (4)
-<span style="color:#ff7043 !important">&nbsp;(10% OFF)</span>
-</div>
+₹600.00(4)
+<span style="color:#ff7043 !important">&nbsp;(10%
+OFF)</span> </div>
 <div class="strike_price">₹<s>660.00</s></div>
 </div>
 </div>
@@ -806,27 +587,22 @@ data-price="550.00" data-cats="14,29"
 data-brands="0" data-quantity="1">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1070/"
-data-images="1661496261.jpeg,1661496270.jpeg,1661496291.jpeg,1661496304.jpeg,1661496280.jpg"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1070/" data-images="1661496261.jpeg,1661496270.jpeg,1661496291.jpeg,1661496304.jpeg,1661496280.jpg"
 onclick="return redirectToProduct('70', 'table-lamp', 'KCPR1070');">
 <ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_70"
-onclick="setLike(event, '70')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
+<li><a href="#" class=" prod_like_icon_70"
+onclick="setLike(event, '70')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
 <a class="link_to_product" href="https://katyayani-creations.github.io/table-lamp/kcpr1070?p=kcpr1070">
-Table Lamp </a>
+Table Lamp</a>
 </div>
 <div class="card_price">
-₹550.00 (1)
-<span style="color:#ff7043 !important">&nbsp;(9% OFF)</span>
-</div>
+₹550.00(1)
+<span style="color:#ff7043 !important">&nbsp;(9%
+OFF)</span> </div>
 <div class="strike_price">₹<s>600.00</s></div>
 </div>
 </div>
@@ -835,56 +611,46 @@ data-price="550.00" data-cats="14,29"
 data-brands="0" data-quantity="1">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1043/"
-data-images="gimUMc8C.jpeg,"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1043/" data-images="gimUMc8C.jpeg,"
 onclick="return redirectToProduct('43', 'glass-led-lamp-mataki-9inch', 'KCPR1043');">
 <ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_43"
-onclick="setLike(event, '43')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
+<li><a href="#" class=" prod_like_icon_43"
+onclick="setLike(event, '43')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
 <a class="link_to_product" href="https://katyayani-creations.github.io/glass-led-lamp-mataki-9inch/kcpr1043?p=kcpr1043">
-Glass Led Lamp Mataki (9inch) </a>
+Glass Led Lamp Mataki (9inch)</a>
 </div>
 <div class="card_price">
-₹550.00 (1)
-<span style="color:#ff7043 !important">&nbsp;(27% OFF)</span>
-</div>
+₹550.00(1)
+<span style="color:#ff7043 !important">&nbsp;(27%
+OFF)</span> </div>
 <div class="strike_price">₹<s>750.00</s></div>
 </div>
 </div>
 </div><div class="col-lg-4 col-md-4 col-sm-6 mix home_decor lamps featured_product"
 data-price="320.00" data-cats="14,29"
-data-brands="0" data-quantity="3">
+data-brands="0" data-quantity="2">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1472/"
-data-images="1672249445.webp,1672249462.webp,1672249483.webp,1672249454.webp"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1472/" data-images="1672249445.webp,1672249462.webp,1672249483.webp,1672249454.webp"
 onclick="return redirectToProduct('472', 'lamp-rechargeable-led-touch-on-off', 'KCPR1472');">
 <ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_472"
-onclick="setLike(event, '472')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
+<li><a href="#" class=" prod_like_icon_472"
+onclick="setLike(event, '472')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
 <a class="link_to_product" href="https://katyayani-creations.github.io/lamp-rechargeable-led-touch-on-off/kcpr1472?p=kcpr1472">
-Lamp Rechargeable Led Touch On Off </a>
+Lamp Rechargeable Led Touch On Off</a>
 </div>
 <div class="card_price">
-₹320.00 (3)
-<span style="color:#ff7043 !important">&nbsp;(36% OFF)</span>
-</div>
+₹320.00(2)
+<span style="color:#ff7043 !important">&nbsp;(36%
+OFF)</span> </div>
 <div class="strike_price">₹<s>499.00</s></div>
 </div>
 </div>
@@ -893,57 +659,23 @@ data-price="300.00" data-cats="29,23"
 data-brands="0" data-quantity="1">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1688/"
-data-images="1681562868.jpg,1681562880.jpg,1681562889.jpg,1681562899.jpg"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1688/" data-images="1681562868.jpg,1681562880.jpg,1681562889.jpg,1681562899.jpg"
 onclick="return redirectToProduct('688', 'camera-design-side-table-lamp', 'KCPR1688');">
 <ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_688"
-onclick="setLike(event, '688')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
+<li><a href="#" class=" prod_like_icon_688"
+onclick="setLike(event, '688')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
 <a class="link_to_product" href="https://katyayani-creations.github.io/camera-design-side-table-lamp/kcpr1688?p=kcpr1688">
-Camera Design Side Table Lamp </a>
+Camera Design Side Table Lamp</a>
 </div>
 <div class="card_price">
-₹300.00 (1)
-<span style="color:#ff7043 !important">&nbsp;(17% OFF)</span>
-</div>
+₹300.00(1)
+<span style="color:#ff7043 !important">&nbsp;(17%
+OFF)</span> </div>
 <div class="strike_price">₹<s>360.00</s></div>
-</div>
-</div>
-</div><div class="col-lg-4 col-md-4 col-sm-6 mix home_decor lamps diwali_decoration featured_product"
-data-price="150.00" data-cats="14,29,21"
-data-brands="0" data-quantity="8">
-<div class="featured__item">
-<div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1135/"
-data-images="1663179161.jpg,1663179176.jpg"
-onclick="return redirectToProduct('135', 'vintage-round-shape-hanging-led-single', 'KCPR1135');">
-<ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_135"
-onclick="setLike(event, '135')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
-</ul>
-</div>
-<div class="featured__item__text">
-<div class="strike_price">
-<a class="link_to_product" href="https://katyayani-creations.github.io/vintage-round-shape-hanging-led-single/kcpr1135?p=kcpr1135">
-Vintage Round Shape Hanging LED (Single) </a>
-</div>
-<div class="card_price">
-₹150.00 (8)
-<span style="color:#ff7043 !important">&nbsp;(17% OFF)</span>
-</div>
-<div class="strike_price">₹<s>180.00</s></div>
 </div>
 </div>
 </div><div class="col-lg-4 col-md-4 col-sm-6 mix lamps diwali_decoration featured_product"
@@ -951,28 +683,47 @@ data-price="150.00" data-cats="29,21"
 data-brands="0" data-quantity="6">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1179/"
-data-images="1663069045.jpg,1663069064.jpg,1663069078.jpg,1663069097.jpg"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1179/" data-images="1663069045.jpg,1663069064.jpg,1663069078.jpg,1663069097.jpg"
 onclick="return redirectToProduct('179', 'table-lamp-shaped-candles-led', 'KCPR1179');">
 <ul class="featured__item__pic__hover">
-<li>
-<a href="#" class=" prod_like_icon_179"
-onclick="setLike(event, '179')">
-<i class="fa fa-heart"></i>
-</a>
-</li>
+<li><a href="#" class=" prod_like_icon_179"
+onclick="setLike(event, '179')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
 <a class="link_to_product" href="https://katyayani-creations.github.io/table-lamp-shaped-candles-led/kcpr1179?p=kcpr1179">
-Table Lamp Shaped Candles LED </a>
+Table Lamp Shaped Candles LED</a>
 </div>
 <div class="card_price">
-₹150.00 (6)
-<span style="color:#ff7043 !important">&nbsp;(15% OFF)</span>
-</div>
+₹150.00(6)
+<span style="color:#ff7043 !important">&nbsp;(15%
+OFF)</span> </div>
 <div class="strike_price">₹<s>175.00</s></div>
+</div>
+</div>
+</div><div class="col-lg-4 col-md-4 col-sm-6 mix home_decor lamps diwali_decoration featured_product"
+data-price="150.00" data-cats="14,29,21"
+data-brands="0" data-quantity="8">
+<div class="featured__item">
+<div data-imageindex="0" class="featured__item__pic set-bg-new"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1135/" data-images="1663179161.jpg,1663179176.jpg"
+onclick="return redirectToProduct('135', 'vintage-round-shape-hanging-led-single', 'KCPR1135');">
+<ul class="featured__item__pic__hover">
+<li><a href="#" class=" prod_like_icon_135"
+onclick="setLike(event, '135')"><i class="fa fa-heart"></i></a></li>
+</ul>
+</div>
+<div class="featured__item__text">
+<div class="strike_price">
+<a class="link_to_product" href="https://katyayani-creations.github.io/vintage-round-shape-hanging-led-single/kcpr1135?p=kcpr1135">
+Vintage Round Shape Hanging LED (Single)</a>
+</div>
+<div class="card_price">
+₹150.00(8)
+<span style="color:#ff7043 !important">&nbsp;(17%
+OFF)</span> </div>
+<div class="strike_price">₹<s>180.00</s></div>
 </div>
 </div>
 </div> </div>
@@ -986,8 +737,7 @@ Table Lamp Shaped Candles LED </a>
  <div class="col-lg-3 col-md-6 col-sm-6">
  <div class="footer__about">
  <div class="footer__about__logo">
- <a href="https://katyayani-creations.github.io/"><img src="https://katyayani-creations.github.io/img/logo.jpeg"
- alt="Katyayani Creations | Noida | Home Decor & Toys Shop | Stationary | Gift Items Logo"></a>
+ <a href="https://katyayani-creations.github.io/"><img src="https://katyayani-creations.github.io/img/logo.jpeg" alt="Katyayani Creations | Noida | Home Decor & Toys Shop | Stationary | Gift Items Logo"></a>
  </div>
  <ul>
  <li>6/134, Palm Olympia, GH-02, 2013009</li>
@@ -1021,28 +771,14 @@ Table Lamp Shaped Candles LED </a>
  <div class="footer__widget">
  <h6>Join Our Newsletter Now</h6>
  <p>Get Whatsup updates about our latest shop and special offers.</p>
- <a class="site-btn"
- href="https://api.whatsapp.com/send/?phone=9044160393&text=subscribe"
- target="_blank">Subscribe</a>
+ <a class="site-btn" href="https://api.whatsapp.com/send/?phone=9044160393&text=subscribe" target="_blank">Subscribe</a>
  <div class="footer__widget__social">
- <a target="_blank" style="color:blue" href="https://www.facebook.com/people/Katyayani-Creations/61553261334215/">
- <i class="fa fa-facebook"></i>
- </a>
- <a target="_blank" style="color:blue" href="https://twitter.com/katyayani2022">
- <i class="fa fa-twitter"></i>
- </a>
- <a style="color:blue" href="https://chat.whatsapp.com/DTZWmSOvDCIEwmowAZbxhX">
- <i class="fa fa-whatsapp"></i>
- </a>
- <a target="_blank" style="color:blue" href="https://www.instagram.com/katyayani_creations/">
- <i class="fa fa-instagram"></i>
- </a>
- <a target="_blank" style="color:blue" href="https://g.page/r/CW9WzTwpK7Y5EAI">
- <i class="fa fa-google"></i>
- </a>
- <a target="_blank" style="color:blue" href="https://t.me/katyayani_creations">
- <i class="fa fa-telegram"></i>
- </a>
+ <a target="_blank" class="social_icon_link" href="https://www.facebook.com/people/Katyayani-Creations/61553261334215/"><i class="fa fa-facebook"></i></a>
+ <a target="_blank" class="social_icon_link" href="https://twitter.com/katyayani2022"><i class="fa fa-twitter"></i></a>
+ <a target="_blank" class="social_icon_link" href="https://chat.whatsapp.com/DTZWmSOvDCIEwmowAZbxhX"><i class="fa fa-whatsapp"></i></a>
+ <a target="_blank" class="social_icon_link" href="https://www.instagram.com/katyayani_creations/"><i class="fa fa-instagram"></i></a>
+ <a target="_blank" class="social_icon_link" href="https://g.page/r/CW9WzTwpK7Y5EAI"><i class="fa fa-google"></i></a>
+ <a target="_blank" class="social_icon_link" href="https://t.me/katyayani_creations"><i class="fa fa-telegram"></i></a>
  </div>
  </div>
  </div>
