@@ -45,7 +45,7 @@
 <script src="https://d1s4zcjwkikclq.cloudfront.net/js/mixitup.min.js"></script>
 <script src="https://d1s4zcjwkikclq.cloudfront.net/js/owl.carousel.min.js"></script>
 <script src="https://katyayani-creations.github.io/js/main.js?ver=21"></script>
-<script src="https://katyayani-creations.github.io/productarray.js?ver=24-08-2024" type="text/javascript"></script>
+<script src="https://katyayani-creations.github.io/productarray.js?ver=25-08-2024" type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 <script>
@@ -55,7 +55,8 @@ gtag('js', new Date());
 gtag('config', 'G-TMFL4Z8DEZ');
 localStorage.setItem("kc-like", '[]');
 function redirectToProduct(id, name, sku, prod_url) {
-if (typeof id == "undefined") {window.location.href = "/products.html?term=" + $("#products").val();return;}
+if (typeof id == "undefined" && name == "") {window.location.href = "/products.html?term=" + $("#products").val();return;}
+if (typeof id == "undefined" && name != "") {window.location.href = "/products.html?type=hash&term=" + name.replace('#', '').replace("#",'');return;}
 sku = sku.toLowerCase();
 const host = 'katyayani-creations.github.io',url = 'https://katyayani-creations.github.io/';
 if (prod_url && prod_url.length > 0) {
@@ -393,30 +394,6 @@ OFF)</span> </div>
 <div class="strike_price">₹<s>260.00</s></div>
 </div>
 </div>
-</div><div class="col-lg-4 col-md-4 col-sm-6 mix toys return_gift_items kanjak_gifts featured_product"
-data-price="180.00" data-cats="11,23,47"
-data-brands="0" data-quantity="8">
-<div class="featured__item">
-<div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1954/" data-images="KCPR1954_17126610070.jpg,"
-onclick="return redirectToProduct('954', 'soft-toys-mix', 'KCPR1954');">
-<ul class="featured__item__pic__hover">
-<li><a href="#" class=" prod_like_icon_954"
-onclick="setLike(event, '954')"><i class="fa fa-heart"></i></a></li>
-</ul>
-</div>
-<div class="featured__item__text">
-<div class="strike_price">
-<a class="link_to_product" href="https://katyayani-creations.github.io/soft-toys-mix/kcpr1954?p=kcpr1954">
-Soft Toys Mix</a>
-</div>
-<div class="card_price">
-₹180.00(8)
-<span style="color:#ff7043 !important">&nbsp;(10%
-OFF)</span> </div>
-<div class="strike_price">₹<s>200.00</s></div>
-</div>
-</div>
 </div><div class="col-lg-4 col-md-4 col-sm-6 mix pens return_gift_items kanjak_gifts stationery featured_product"
 data-price="180.00" data-cats="41,23,47,13"
 data-brands="0" data-quantity="4">
@@ -436,6 +413,30 @@ Fountain Pen Stationary Set</a>
 </div>
 <div class="card_price">
 ₹180.00(4)
+<span style="color:#ff7043 !important">&nbsp;(10%
+OFF)</span> </div>
+<div class="strike_price">₹<s>200.00</s></div>
+</div>
+</div>
+</div><div class="col-lg-4 col-md-4 col-sm-6 mix toys return_gift_items kanjak_gifts featured_product"
+data-price="180.00" data-cats="11,23,47"
+data-brands="0" data-quantity="8">
+<div class="featured__item">
+<div data-imageindex="0" class="featured__item__pic set-bg-new"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1954/" data-images="KCPR1954_17126610070.jpg,"
+onclick="return redirectToProduct('954', 'soft-toys-mix', 'KCPR1954');">
+<ul class="featured__item__pic__hover">
+<li><a href="#" class=" prod_like_icon_954"
+onclick="setLike(event, '954')"><i class="fa fa-heart"></i></a></li>
+</ul>
+</div>
+<div class="featured__item__text">
+<div class="strike_price">
+<a class="link_to_product" href="https://katyayani-creations.github.io/soft-toys-mix/kcpr1954?p=kcpr1954">
+Soft Toys Mix</a>
+</div>
+<div class="card_price">
+₹180.00(8)
 <span style="color:#ff7043 !important">&nbsp;(10%
 OFF)</span> </div>
 <div class="strike_price">₹<s>200.00</s></div>
@@ -467,7 +468,7 @@ OFF)</span> </div>
 </div>
 </div><div class="col-lg-4 col-md-4 col-sm-6 mix toys return_gift_items kanjak_gifts stationery featured_product"
 data-price="108.00" data-cats="11,23,47,13"
-data-brands="0" data-quantity="12">
+data-brands="0" data-quantity="9">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
 data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1886/" data-images="17052558920.jpg,"
@@ -483,7 +484,7 @@ onclick="setLike(event, '886')"><i class="fa fa-heart"></i></a></li>
 DIY Kit</a>
 </div>
 <div class="card_price">
-₹108.00(12)
+₹108.00(9)
 <span style="color:#ff7043 !important">&nbsp;(10%
 OFF)</span> </div>
 <div class="strike_price">₹<s>120.00</s></div>
@@ -513,30 +514,6 @@ OFF)</span> </div>
 <div class="strike_price">₹<s>125.00</s></div>
 </div>
 </div>
-</div><div class="col-lg-4 col-md-4 col-sm-6 mix doms_kit kanjak_gifts stationery featured_product"
-data-price="90.00" data-cats="25,47,13"
-data-brands="7" data-quantity="16">
-<div class="featured__item">
-<div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1083/" data-images="dck1.jpeg,"
-onclick="return redirectToProduct('83', 'multicolor-champions-kit', 'KCPR1083');">
-<ul class="featured__item__pic__hover">
-<li><a href="#" class=" prod_like_icon_83"
-onclick="setLike(event, '83')"><i class="fa fa-heart"></i></a></li>
-</ul>
-</div>
-<div class="featured__item__text">
-<div class="strike_price">
-<a class="link_to_product" href="https://katyayani-creations.github.io/multicolor-champions-kit/kcpr1083?p=kcpr1083">
-<span style="font-weight:bold;">Doms</span>&nbsp;Multicolor Champions Kit</a>
-</div>
-<div class="card_price">
-₹90.00(16)
-<span style="color:#ff7043 !important">&nbsp;(10%
-OFF)</span> </div>
-<div class="strike_price">₹<s>99.00</s></div>
-</div>
-</div>
 </div><div class="col-lg-4 col-md-4 col-sm-6 mix toys kanjak_gifts featured_product"
 data-price="90.00" data-cats="11,47"
 data-brands="0" data-quantity="17">
@@ -559,6 +536,30 @@ Pencil Stand</a>
 <span style="color:#ff7043 !important">&nbsp;(10%
 OFF)</span> </div>
 <div class="strike_price">₹<s>100.00</s></div>
+</div>
+</div>
+</div><div class="col-lg-4 col-md-4 col-sm-6 mix doms_kit kanjak_gifts stationery featured_product"
+data-price="90.00" data-cats="25,47,13"
+data-brands="7" data-quantity="16">
+<div class="featured__item">
+<div data-imageindex="0" class="featured__item__pic set-bg-new"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1083/" data-images="dck1.jpeg,"
+onclick="return redirectToProduct('83', 'multicolor-champions-kit', 'KCPR1083');">
+<ul class="featured__item__pic__hover">
+<li><a href="#" class=" prod_like_icon_83"
+onclick="setLike(event, '83')"><i class="fa fa-heart"></i></a></li>
+</ul>
+</div>
+<div class="featured__item__text">
+<div class="strike_price">
+<a class="link_to_product" href="https://katyayani-creations.github.io/multicolor-champions-kit/kcpr1083?p=kcpr1083">
+<span style="font-weight:bold;">Doms</span>&nbsp;Multicolor Champions Kit</a>
+</div>
+<div class="card_price">
+₹90.00(16)
+<span style="color:#ff7043 !important">&nbsp;(10%
+OFF)</span> </div>
+<div class="strike_price">₹<s>99.00</s></div>
 </div>
 </div>
 </div><div class="col-lg-4 col-md-4 col-sm-6 mix return_gift_items kanjak_gifts featured_product"
@@ -657,54 +658,6 @@ OFF)</span> </div>
 <div class="strike_price">₹<s>80.00</s></div>
 </div>
 </div>
-</div><div class="col-lg-4 col-md-4 col-sm-6 mix return_gift_items kanjak_gifts featured_product"
-data-price="60.00" data-cats="42,23,47"
-data-brands="0" data-quantity="23">
-<div class="featured__item">
-<div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1250/" data-images="1664045513.jpeg,1664045396.jpg,1664045537.jpg,1664045559.jpeg"
-onclick="return redirectToProduct('250', 'fancy-themed-erasers-for-kids', 'KCPR1250');">
-<ul class="featured__item__pic__hover">
-<li><a href="#" class=" prod_like_icon_250"
-onclick="setLike(event, '250')"><i class="fa fa-heart"></i></a></li>
-</ul>
-</div>
-<div class="featured__item__text">
-<div class="strike_price">
-<a class="link_to_product" href="https://katyayani-creations.github.io/fancy-themed-erasers-for-kids/kcpr1250?p=kcpr1250">
-Fancy Themed Erasers for Kids</a>
-</div>
-<div class="card_price">
-₹60.00(23)
-<span style="color:#ff7043 !important">&nbsp;(15%
-OFF)</span> </div>
-<div class="strike_price">₹<s>70.00</s></div>
-</div>
-</div>
-</div><div class="col-lg-4 col-md-4 col-sm-6 mix return_gift_items kanjak_gifts stationery featured_product"
-data-price="60.00" data-cats="42,23,47,13"
-data-brands="0" data-quantity="21">
-<div class="featured__item">
-<div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1546/" data-images="KCPR1546_17183016200.jpg,KCPR1546_17183016201.jpg,KCPR1546_17183016202.jpg,KCPR1546_17183016203.jpg"
-onclick="return redirectToProduct('546', 'bts-roller-stamp', 'KCPR1546');">
-<ul class="featured__item__pic__hover">
-<li><a href="#" class=" prod_like_icon_546"
-onclick="setLike(event, '546')"><i class="fa fa-heart"></i></a></li>
-</ul>
-</div>
-<div class="featured__item__text">
-<div class="strike_price">
-<a class="link_to_product" href="https://katyayani-creations.github.io/bts-roller-stamp/kcpr1546?p=kcpr1546">
-BTS Roller Stamp</a>
-</div>
-<div class="card_price">
-₹60.00(21)
-<span style="color:#ff7043 !important">&nbsp;(15%
-OFF)</span> </div>
-<div class="strike_price">₹<s>70.00</s></div>
-</div>
-</div>
 </div><div class="col-lg-4 col-md-4 col-sm-6 mix unicorn return_gift_items kanjak_gifts stationery featured_product"
 data-price="60.00" data-cats="42,50,23,47,13"
 data-brands="0" data-quantity="3">
@@ -748,6 +701,54 @@ Magic Water Coloring Books</a>
 </div>
 <div class="card_price">
 ₹60.00(13)
+<span style="color:#ff7043 !important">&nbsp;(15%
+OFF)</span> </div>
+<div class="strike_price">₹<s>70.00</s></div>
+</div>
+</div>
+</div><div class="col-lg-4 col-md-4 col-sm-6 mix return_gift_items kanjak_gifts stationery featured_product"
+data-price="60.00" data-cats="42,23,47,13"
+data-brands="0" data-quantity="21">
+<div class="featured__item">
+<div data-imageindex="0" class="featured__item__pic set-bg-new"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1546/" data-images="KCPR1546_17183016200.jpg,KCPR1546_17183016201.jpg,KCPR1546_17183016202.jpg,KCPR1546_17183016203.jpg"
+onclick="return redirectToProduct('546', 'bts-roller-stamp', 'KCPR1546');">
+<ul class="featured__item__pic__hover">
+<li><a href="#" class=" prod_like_icon_546"
+onclick="setLike(event, '546')"><i class="fa fa-heart"></i></a></li>
+</ul>
+</div>
+<div class="featured__item__text">
+<div class="strike_price">
+<a class="link_to_product" href="https://katyayani-creations.github.io/bts-roller-stamp/kcpr1546?p=kcpr1546">
+BTS Roller Stamp</a>
+</div>
+<div class="card_price">
+₹60.00(21)
+<span style="color:#ff7043 !important">&nbsp;(15%
+OFF)</span> </div>
+<div class="strike_price">₹<s>70.00</s></div>
+</div>
+</div>
+</div><div class="col-lg-4 col-md-4 col-sm-6 mix return_gift_items kanjak_gifts featured_product"
+data-price="60.00" data-cats="42,23,47"
+data-brands="0" data-quantity="23">
+<div class="featured__item">
+<div data-imageindex="0" class="featured__item__pic set-bg-new"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1250/" data-images="1664045513.jpeg,1664045396.jpg,1664045537.jpg,1664045559.jpeg"
+onclick="return redirectToProduct('250', 'fancy-themed-erasers-for-kids', 'KCPR1250');">
+<ul class="featured__item__pic__hover">
+<li><a href="#" class=" prod_like_icon_250"
+onclick="setLike(event, '250')"><i class="fa fa-heart"></i></a></li>
+</ul>
+</div>
+<div class="featured__item__text">
+<div class="strike_price">
+<a class="link_to_product" href="https://katyayani-creations.github.io/fancy-themed-erasers-for-kids/kcpr1250?p=kcpr1250">
+Fancy Themed Erasers for Kids</a>
+</div>
+<div class="card_price">
+₹60.00(23)
 <span style="color:#ff7043 !important">&nbsp;(15%
 OFF)</span> </div>
 <div class="strike_price">₹<s>70.00</s></div>
@@ -825,30 +826,6 @@ OFF)</span> </div>
 <div class="strike_price">₹<s>50.00</s></div>
 </div>
 </div>
-</div><div class="col-lg-4 col-md-4 col-sm-6 mix return_gift_items kanjak_gifts stationery featured_product"
-data-price="27.00" data-cats="23,47,13"
-data-brands="0" data-quantity="6">
-<div class="featured__item">
-<div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1882/" data-images="17041261050.jpg,"
-onclick="return redirectToProduct('882', 'everlasting-inkless-reusable-erasable-infinite-pencil', 'KCPR1882');">
-<ul class="featured__item__pic__hover">
-<li><a href="#" class=" prod_like_icon_882"
-onclick="setLike(event, '882')"><i class="fa fa-heart"></i></a></li>
-</ul>
-</div>
-<div class="featured__item__text">
-<div class="strike_price">
-<a class="link_to_product" href="https://katyayani-creations.github.io/everlasting-inkless-reusable-erasable-infinite-pencil/kcpr1882?p=kcpr1882">
-Everlasting Inkless Reusable Erasable Infinite Stone Pencil</a>
-</div>
-<div class="card_price">
-₹27.00(6)
-<span style="color:#ff7043 !important">&nbsp;(10%
-OFF)</span> </div>
-<div class="strike_price">₹<s>30.00</s></div>
-</div>
-</div>
 </div><div class="col-lg-4 col-md-4 col-sm-6 mix colors return_gift_items kanjak_gifts stationery featured_product"
 data-price="27.00" data-cats="24,23,47,13"
 data-brands="0" data-quantity="1">
@@ -868,6 +845,30 @@ Scratch book Rainbow Magic Sketch Pad</a>
 </div>
 <div class="card_price">
 ₹27.00(1)
+<span style="color:#ff7043 !important">&nbsp;(10%
+OFF)</span> </div>
+<div class="strike_price">₹<s>30.00</s></div>
+</div>
+</div>
+</div><div class="col-lg-4 col-md-4 col-sm-6 mix return_gift_items kanjak_gifts stationery featured_product"
+data-price="27.00" data-cats="23,47,13"
+data-brands="0" data-quantity="6">
+<div class="featured__item">
+<div data-imageindex="0" class="featured__item__pic set-bg-new"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1882/" data-images="17041261050.jpg,"
+onclick="return redirectToProduct('882', 'everlasting-inkless-reusable-erasable-infinite-pencil', 'KCPR1882');">
+<ul class="featured__item__pic__hover">
+<li><a href="#" class=" prod_like_icon_882"
+onclick="setLike(event, '882')"><i class="fa fa-heart"></i></a></li>
+</ul>
+</div>
+<div class="featured__item__text">
+<div class="strike_price">
+<a class="link_to_product" href="https://katyayani-creations.github.io/everlasting-inkless-reusable-erasable-infinite-pencil/kcpr1882?p=kcpr1882">
+Everlasting Inkless Reusable Erasable Infinite Stone Pencil</a>
+</div>
+<div class="card_price">
+₹27.00(6)
 <span style="color:#ff7043 !important">&nbsp;(10%
 OFF)</span> </div>
 <div class="strike_price">₹<s>30.00</s></div>
@@ -897,30 +898,6 @@ OFF)</span> </div>
 <div class="strike_price">₹<s>30.00</s></div>
 </div>
 </div>
-</div><div class="col-lg-4 col-md-4 col-sm-6 mix pens kanjak_gifts stationery featured_product"
-data-price="20.00" data-cats="41,47,13"
-data-brands="0" data-quantity="43">
-<div class="featured__item">
-<div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1220/" data-images="1663490548.jpeg,"
-onclick="return redirectToProduct('220', 'invisible-ink-magic-pen', 'KCPR1220');">
-<ul class="featured__item__pic__hover">
-<li><a href="#" class=" prod_like_icon_220"
-onclick="setLike(event, '220')"><i class="fa fa-heart"></i></a></li>
-</ul>
-</div>
-<div class="featured__item__text">
-<div class="strike_price">
-<a class="link_to_product" href="https://katyayani-creations.github.io/invisible-ink-magic-pen/kcpr1220?p=kcpr1220">
-Invisible Ink Magic Pen</a>
-</div>
-<div class="card_price">
-₹20.00(43)
-<span style="color:#ff7043 !important">&nbsp;(20%
-OFF)</span> </div>
-<div class="strike_price">₹<s>25.00</s></div>
-</div>
-</div>
 </div><div class="col-lg-4 col-md-4 col-sm-6 mix return_gift_items kanjak_gifts stationery featured_product"
 data-price="20.00" data-cats="42,23,47,13"
 data-brands="0" data-quantity="20">
@@ -943,6 +920,30 @@ My Jurrasic Park – Tiny Dino Erasers in Egg Shell</a>
 <span style="color:#ff7043 !important">&nbsp;(34%
 OFF)</span> </div>
 <div class="strike_price">₹<s>30.00</s></div>
+</div>
+</div>
+</div><div class="col-lg-4 col-md-4 col-sm-6 mix pens kanjak_gifts stationery featured_product"
+data-price="20.00" data-cats="41,47,13"
+data-brands="0" data-quantity="43">
+<div class="featured__item">
+<div data-imageindex="0" class="featured__item__pic set-bg-new"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1220/" data-images="1663490548.jpeg,"
+onclick="return redirectToProduct('220', 'invisible-ink-magic-pen', 'KCPR1220');">
+<ul class="featured__item__pic__hover">
+<li><a href="#" class=" prod_like_icon_220"
+onclick="setLike(event, '220')"><i class="fa fa-heart"></i></a></li>
+</ul>
+</div>
+<div class="featured__item__text">
+<div class="strike_price">
+<a class="link_to_product" href="https://katyayani-creations.github.io/invisible-ink-magic-pen/kcpr1220?p=kcpr1220">
+Invisible Ink Magic Pen</a>
+</div>
+<div class="card_price">
+₹20.00(43)
+<span style="color:#ff7043 !important">&nbsp;(20%
+OFF)</span> </div>
+<div class="strike_price">₹<s>25.00</s></div>
 </div>
 </div>
 </div><div class="col-lg-4 col-md-4 col-sm-6 mix unicorn return_gift_items kanjak_gifts stationery featured_product"
@@ -971,7 +972,7 @@ OFF)</span> </div>
 </div>
 </div><div class="col-lg-4 col-md-4 col-sm-6 mix return_gift_items kanjak_gifts stationery featured_product"
 data-price="12.00" data-cats="42,23,47,13"
-data-brands="0" data-quantity="32">
+data-brands="0" data-quantity="29">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
 data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1592/" data-images="1678031803.jpg,1678031815.jpg"
@@ -987,7 +988,7 @@ onclick="setLike(event, '592')"><i class="fa fa-heart"></i></a></li>
 Cartoon Lipstick Shaped Eraser</a>
 </div>
 <div class="card_price">
-₹12.00(32)
+₹12.00(29)
 <span style="color:#ff7043 !important">&nbsp;(20%
 OFF)</span> </div>
 <div class="strike_price">₹<s>15.00</s></div>

@@ -45,7 +45,7 @@
 <script src="https://d1s4zcjwkikclq.cloudfront.net/js/mixitup.min.js"></script>
 <script src="https://d1s4zcjwkikclq.cloudfront.net/js/owl.carousel.min.js"></script>
 <script src="https://katyayani-creations.github.io/js/main.js?ver=21"></script>
-<script src="https://katyayani-creations.github.io/productarray.js?ver=24-08-2024" type="text/javascript"></script>
+<script src="https://katyayani-creations.github.io/productarray.js?ver=25-08-2024" type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 <script>
@@ -55,7 +55,8 @@ gtag('js', new Date());
 gtag('config', 'G-TMFL4Z8DEZ');
 localStorage.setItem("kc-like", '[]');
 function redirectToProduct(id, name, sku, prod_url) {
-if (typeof id == "undefined") {window.location.href = "/products.html?term=" + $("#products").val();return;}
+if (typeof id == "undefined" && name == "") {window.location.href = "/products.html?term=" + $("#products").val();return;}
+if (typeof id == "undefined" && name != "") {window.location.href = "/products.html?type=hash&term=" + name.replace('#', '').replace("#",'');return;}
 sku = sku.toLowerCase();
 const host = 'katyayani-creations.github.io',url = 'https://katyayani-creations.github.io/';
 if (prod_url && prod_url.length > 0) {
@@ -489,30 +490,6 @@ OFF)</span> </div>
 <div class="strike_price">₹<s>1000.00</s></div>
 </div>
 </div>
-</div><div class="col-lg-4 col-md-4 col-sm-6 mix home_decor lamps valentine_day return_gift_items mothers_day_store featured_product"
-data-price="800.00" data-cats="14,29,46,23,53"
-data-brands="0" data-quantity="1">
-<div class="featured__item">
-<div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR11055/" data-images="KCPR11055_17141560670.webp,"
-onclick="return redirectToProduct('1055', 'table-lamp-', 'KCPR11055');">
-<ul class="featured__item__pic__hover">
-<li><a href="#" class=" prod_like_icon_1055"
-onclick="setLike(event, '1055')"><i class="fa fa-heart"></i></a></li>
-</ul>
-</div>
-<div class="featured__item__text">
-<div class="strike_price">
-<a class="link_to_product" href="https://katyayani-creations.github.io/table-lamp-/kcpr11055?p=kcpr11055">
-Table Lamp 54571</a>
-</div>
-<div class="card_price">
-₹800.00(1)
-<span style="color:#ff7043 !important">&nbsp;(20%
-OFF)</span> </div>
-<div class="strike_price">₹<s>999.00</s></div>
-</div>
-</div>
 </div><div class="col-lg-4 col-md-4 col-sm-6 mix home_decor lamps featured_product"
 data-price="800.00" data-cats="14,29"
 data-brands="0" data-quantity="1">
@@ -535,6 +512,30 @@ Rocket Shape Tornado</a>
 <span style="color:#ff7043 !important">&nbsp;(12%
 OFF)</span> </div>
 <div class="strike_price">₹<s>899.00</s></div>
+</div>
+</div>
+</div><div class="col-lg-4 col-md-4 col-sm-6 mix home_decor lamps valentine_day return_gift_items mothers_day_store featured_product"
+data-price="800.00" data-cats="14,29,46,23,53"
+data-brands="0" data-quantity="1">
+<div class="featured__item">
+<div data-imageindex="0" class="featured__item__pic set-bg-new"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR11055/" data-images="KCPR11055_17141560670.webp,"
+onclick="return redirectToProduct('1055', 'table-lamp-', 'KCPR11055');">
+<ul class="featured__item__pic__hover">
+<li><a href="#" class=" prod_like_icon_1055"
+onclick="setLike(event, '1055')"><i class="fa fa-heart"></i></a></li>
+</ul>
+</div>
+<div class="featured__item__text">
+<div class="strike_price">
+<a class="link_to_product" href="https://katyayani-creations.github.io/table-lamp-/kcpr11055?p=kcpr11055">
+Table Lamp 54571</a>
+</div>
+<div class="card_price">
+₹800.00(1)
+<span style="color:#ff7043 !important">&nbsp;(20%
+OFF)</span> </div>
+<div class="strike_price">₹<s>999.00</s></div>
 </div>
 </div>
 </div><div class="col-lg-4 col-md-4 col-sm-6 mix home_decor lamps diwali_decoration featured_product"
@@ -590,30 +591,6 @@ data-price="550.00" data-cats="14,29"
 data-brands="0" data-quantity="1">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1070/" data-images="1661496261.jpeg,1661496270.jpeg,1661496291.jpeg,1661496304.jpeg,1661496280.jpg"
-onclick="return redirectToProduct('70', 'table-lamp', 'KCPR1070');">
-<ul class="featured__item__pic__hover">
-<li><a href="#" class=" prod_like_icon_70"
-onclick="setLike(event, '70')"><i class="fa fa-heart"></i></a></li>
-</ul>
-</div>
-<div class="featured__item__text">
-<div class="strike_price">
-<a class="link_to_product" href="https://katyayani-creations.github.io/table-lamp/kcpr1070?p=kcpr1070">
-Table Lamp</a>
-</div>
-<div class="card_price">
-₹550.00(1)
-<span style="color:#ff7043 !important">&nbsp;(9%
-OFF)</span> </div>
-<div class="strike_price">₹<s>600.00</s></div>
-</div>
-</div>
-</div><div class="col-lg-4 col-md-4 col-sm-6 mix home_decor lamps featured_product"
-data-price="550.00" data-cats="14,29"
-data-brands="0" data-quantity="1">
-<div class="featured__item">
-<div data-imageindex="0" class="featured__item__pic set-bg-new"
 data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1043/" data-images="gimUMc8C.jpeg,"
 onclick="return redirectToProduct('43', 'glass-led-lamp-mataki-9inch', 'KCPR1043');">
 <ul class="featured__item__pic__hover">
@@ -631,6 +608,30 @@ Glass Led Lamp Mataki (9inch)</a>
 <span style="color:#ff7043 !important">&nbsp;(27%
 OFF)</span> </div>
 <div class="strike_price">₹<s>750.00</s></div>
+</div>
+</div>
+</div><div class="col-lg-4 col-md-4 col-sm-6 mix home_decor lamps featured_product"
+data-price="550.00" data-cats="14,29"
+data-brands="0" data-quantity="1">
+<div class="featured__item">
+<div data-imageindex="0" class="featured__item__pic set-bg-new"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1070/" data-images="1661496261.jpeg,1661496270.jpeg,1661496291.jpeg,1661496304.jpeg,1661496280.jpg"
+onclick="return redirectToProduct('70', 'table-lamp', 'KCPR1070');">
+<ul class="featured__item__pic__hover">
+<li><a href="#" class=" prod_like_icon_70"
+onclick="setLike(event, '70')"><i class="fa fa-heart"></i></a></li>
+</ul>
+</div>
+<div class="featured__item__text">
+<div class="strike_price">
+<a class="link_to_product" href="https://katyayani-creations.github.io/table-lamp/kcpr1070?p=kcpr1070">
+Table Lamp</a>
+</div>
+<div class="card_price">
+₹550.00(1)
+<span style="color:#ff7043 !important">&nbsp;(9%
+OFF)</span> </div>
+<div class="strike_price">₹<s>600.00</s></div>
 </div>
 </div>
 </div><div class="col-lg-4 col-md-4 col-sm-6 mix lamps toys return_gift_items featured_product"

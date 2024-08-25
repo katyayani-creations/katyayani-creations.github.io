@@ -43,7 +43,7 @@
 <script src="https://d1s4zcjwkikclq.cloudfront.net/js/mixitup.min.js"></script>
 <script src="https://d1s4zcjwkikclq.cloudfront.net/js/owl.carousel.min.js"></script>
 <script src="https://katyayani-creations.github.io/js/main.js?ver=21"></script>
-<script src="https://katyayani-creations.github.io/productarray.js?ver=24-08-2024" type="text/javascript"></script>
+<script src="https://katyayani-creations.github.io/productarray.js?ver=25-08-2024" type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 <script>
@@ -53,7 +53,8 @@ gtag('js', new Date());
 gtag('config', 'G-TMFL4Z8DEZ');
 localStorage.setItem("kc-like", '[]');
 function redirectToProduct(id, name, sku, prod_url) {
-if (typeof id == "undefined") {window.location.href = "/products.html?term=" + $("#products").val();return;}
+if (typeof id == "undefined" && name == "") {window.location.href = "/products.html?term=" + $("#products").val();return;}
+if (typeof id == "undefined" && name != "") {window.location.href = "/products.html?type=hash&term=" + name.replace('#', '').replace("#",'');return;}
 sku = sku.toLowerCase();
 const host = 'katyayani-creations.github.io',url = 'https://katyayani-creations.github.io/';
 if (prod_url && prod_url.length > 0) {
@@ -523,6 +524,30 @@ OFF)</span> </div>
 </div>
 </div><div class="col-lg-4 col-md-4 col-sm-6 mix stationery stationery:__craft_items featured_product"
 data-price="27.00" data-cats="13,52"
+data-brands="0" data-quantity="9">
+<div class="featured__item">
+<div data-imageindex="0" class="featured__item__pic set-bg-new"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1895/" data-images="17076649690.jpg,"
+onclick="return redirectToProduct('895', 'correction-tape', 'KCPR1895');">
+<ul class="featured__item__pic__hover">
+<li><a href="#" class=" prod_like_icon_895"
+onclick="setLike(event, '895')"><i class="fa fa-heart"></i></a></li>
+</ul>
+</div>
+<div class="featured__item__text">
+<div class="strike_price">
+<a class="link_to_product" href="https://katyayani-creations.github.io/correction-tape/kcpr1895?p=kcpr1895">
+Correction Tape</a>
+</div>
+<div class="card_price">
+₹27.00(9)
+<span style="color:#ff7043 !important">&nbsp;(10%
+OFF)</span> </div>
+<div class="strike_price">₹<s>30.00</s></div>
+</div>
+</div>
+</div><div class="col-lg-4 col-md-4 col-sm-6 mix stationery stationery:__craft_items featured_product"
+data-price="27.00" data-cats="13,52"
 data-brands="0" data-quantity="37">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
@@ -570,30 +595,6 @@ OFF)</span> </div>
 </div>
 </div>
 </div><div class="col-lg-4 col-md-4 col-sm-6 mix stationery stationery:__craft_items featured_product"
-data-price="27.00" data-cats="13,52"
-data-brands="0" data-quantity="9">
-<div class="featured__item">
-<div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1895/" data-images="17076649690.jpg,"
-onclick="return redirectToProduct('895', 'correction-tape', 'KCPR1895');">
-<ul class="featured__item__pic__hover">
-<li><a href="#" class=" prod_like_icon_895"
-onclick="setLike(event, '895')"><i class="fa fa-heart"></i></a></li>
-</ul>
-</div>
-<div class="featured__item__text">
-<div class="strike_price">
-<a class="link_to_product" href="https://katyayani-creations.github.io/correction-tape/kcpr1895?p=kcpr1895">
-Correction Tape</a>
-</div>
-<div class="card_price">
-₹27.00(9)
-<span style="color:#ff7043 !important">&nbsp;(10%
-OFF)</span> </div>
-<div class="strike_price">₹<s>30.00</s></div>
-</div>
-</div>
-</div><div class="col-lg-4 col-md-4 col-sm-6 mix stationery stationery:__craft_items featured_product"
 data-price="25.00" data-cats="13,52"
 data-brands="0" data-quantity="7">
 <div class="featured__item">
@@ -619,30 +620,6 @@ OFF)</span> </div>
 </div>
 </div><div class="col-lg-4 col-md-4 col-sm-6 mix glues stationery stationery:__craft_items featured_product"
 data-price="23.00" data-cats="28,13,52"
-data-brands="16" data-quantity="18">
-<div class="featured__item">
-<div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1149/" data-images="1662958103.jpg,"
-onclick="return redirectToProduct('149', 'fevicol-mr-squeeze-bottle-grams-pack', 'KCPR1149');">
-<ul class="featured__item__pic__hover">
-<li><a href="#" class=" prod_like_icon_149"
-onclick="setLike(event, '149')"><i class="fa fa-heart"></i></a></li>
-</ul>
-</div>
-<div class="featured__item__text">
-<div class="strike_price">
-<a class="link_to_product" href="https://katyayani-creations.github.io/fevicol-mr-squeeze-bottle-grams-pack/kcpr1149?p=kcpr1149">
-<span style="font-weight:bold;">Pidilite</span>&nbsp;Fevicol MR Squeeze Bottle, 45 Grams Pack</a>
-</div>
-<div class="card_price">
-₹23.00(18)
-<span style="color:#ff7043 !important">&nbsp;(8%
-OFF)</span> </div>
-<div class="strike_price">₹<s>25.00</s></div>
-</div>
-</div>
-</div><div class="col-lg-4 col-md-4 col-sm-6 mix glues stationery stationery:__craft_items featured_product"
-data-price="23.00" data-cats="28,13,52"
 data-brands="16" data-quantity="47">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
@@ -661,6 +638,54 @@ onclick="setLike(event, '150')"><i class="fa fa-heart"></i></a></li>
 <div class="card_price">
 ₹23.00(47)
 <span style="color:#ff7043 !important">&nbsp;(8%
+OFF)</span> </div>
+<div class="strike_price">₹<s>25.00</s></div>
+</div>
+</div>
+</div><div class="col-lg-4 col-md-4 col-sm-6 mix glues stationery stationery:__craft_items featured_product"
+data-price="23.00" data-cats="28,13,52"
+data-brands="16" data-quantity="17">
+<div class="featured__item">
+<div data-imageindex="0" class="featured__item__pic set-bg-new"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1149/" data-images="1662958103.jpg,"
+onclick="return redirectToProduct('149', 'fevicol-mr-squeeze-bottle-grams-pack', 'KCPR1149');">
+<ul class="featured__item__pic__hover">
+<li><a href="#" class=" prod_like_icon_149"
+onclick="setLike(event, '149')"><i class="fa fa-heart"></i></a></li>
+</ul>
+</div>
+<div class="featured__item__text">
+<div class="strike_price">
+<a class="link_to_product" href="https://katyayani-creations.github.io/fevicol-mr-squeeze-bottle-grams-pack/kcpr1149?p=kcpr1149">
+<span style="font-weight:bold;">Pidilite</span>&nbsp;Fevicol MR Squeeze Bottle, 45 Grams Pack</a>
+</div>
+<div class="card_price">
+₹23.00(17)
+<span style="color:#ff7043 !important">&nbsp;(8%
+OFF)</span> </div>
+<div class="strike_price">₹<s>25.00</s></div>
+</div>
+</div>
+</div><div class="col-lg-4 col-md-4 col-sm-6 mix stationery stationery:__craft_items featured_product"
+data-price="20.00" data-cats="13,52"
+data-brands="0" data-quantity="25">
+<div class="featured__item">
+<div data-imageindex="0" class="featured__item__pic set-bg-new"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1553/" data-images="1675072423.jpg,1675072435.jpg,1675072445.jpg,1675072459.jpg"
+onclick="return redirectToProduct('553', 'multicolored-sparkle-glitter-powder', 'KCPR1553');">
+<ul class="featured__item__pic__hover">
+<li><a href="#" class=" prod_like_icon_553"
+onclick="setLike(event, '553')"><i class="fa fa-heart"></i></a></li>
+</ul>
+</div>
+<div class="featured__item__text">
+<div class="strike_price">
+<a class="link_to_product" href="https://katyayani-creations.github.io/multicolored-sparkle-glitter-powder/kcpr1553?p=kcpr1553">
+Multi-Colored Sparkle Glitter Powder</a>
+</div>
+<div class="card_price">
+₹20.00(25)
+<span style="color:#ff7043 !important">&nbsp;(20%
 OFF)</span> </div>
 <div class="strike_price">₹<s>25.00</s></div>
 </div>
@@ -712,27 +737,27 @@ Stones & Stickers</a>
 </div>
 </div>
 </div><div class="col-lg-4 col-md-4 col-sm-6 mix stationery stationery:__craft_items featured_product"
-data-price="20.00" data-cats="13,52"
-data-brands="0" data-quantity="25">
+data-price="15.00" data-cats="13,52"
+data-brands="0" data-quantity="119">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1553/" data-images="1675072423.jpg,1675072435.jpg,1675072445.jpg,1675072459.jpg"
-onclick="return redirectToProduct('553', 'multicolored-sparkle-glitter-powder', 'KCPR1553');">
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1713/" data-images="1693844288.jpg,"
+onclick="return redirectToProduct('713', 'color-straw', 'KCPR1713');">
 <ul class="featured__item__pic__hover">
-<li><a href="#" class=" prod_like_icon_553"
-onclick="setLike(event, '553')"><i class="fa fa-heart"></i></a></li>
+<li><a href="#" class=" prod_like_icon_713"
+onclick="setLike(event, '713')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
-<a class="link_to_product" href="https://katyayani-creations.github.io/multicolored-sparkle-glitter-powder/kcpr1553?p=kcpr1553">
-Multi-Colored Sparkle Glitter Powder</a>
+<a class="link_to_product" href="https://katyayani-creations.github.io/color-straw/kcpr1713?p=kcpr1713">
+Color Straw</a>
 </div>
 <div class="card_price">
-₹20.00(25)
-<span style="color:#ff7043 !important">&nbsp;(20%
+₹15.00(119)
+<span style="color:#ff7043 !important">&nbsp;(25%
 OFF)</span> </div>
-<div class="strike_price">₹<s>25.00</s></div>
+<div class="strike_price">₹<s>20.00</s></div>
 </div>
 </div>
 </div><div class="col-lg-4 col-md-4 col-sm-6 mix stationery stationery:__craft_items featured_product"
@@ -754,30 +779,6 @@ Color Tape</a>
 </div>
 <div class="card_price">
 ₹15.00(22)
-<span style="color:#ff7043 !important">&nbsp;(25%
-OFF)</span> </div>
-<div class="strike_price">₹<s>20.00</s></div>
-</div>
-</div>
-</div><div class="col-lg-4 col-md-4 col-sm-6 mix stationery stationery:__craft_items featured_product"
-data-price="15.00" data-cats="13,52"
-data-brands="0" data-quantity="119">
-<div class="featured__item">
-<div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1713/" data-images="1693844288.jpg,"
-onclick="return redirectToProduct('713', 'color-straw', 'KCPR1713');">
-<ul class="featured__item__pic__hover">
-<li><a href="#" class=" prod_like_icon_713"
-onclick="setLike(event, '713')"><i class="fa fa-heart"></i></a></li>
-</ul>
-</div>
-<div class="featured__item__text">
-<div class="strike_price">
-<a class="link_to_product" href="https://katyayani-creations.github.io/color-straw/kcpr1713?p=kcpr1713">
-Color Straw</a>
-</div>
-<div class="card_price">
-₹15.00(119)
 <span style="color:#ff7043 !important">&nbsp;(25%
 OFF)</span> </div>
 <div class="strike_price">₹<s>20.00</s></div>
@@ -857,6 +858,52 @@ OFF)</span> </div>
 </div>
 </div><div class="col-lg-4 col-md-4 col-sm-6 mix stationery stationery:__craft_items featured_product"
 data-price="10.00" data-cats="13,52"
+data-brands="0" data-quantity="58">
+<div class="featured__item">
+<div data-imageindex="0" class="featured__item__pic set-bg-new"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1555/" data-images="1675511961.jpg,"
+onclick="return redirectToProduct('555', 'smiley-foam-sticker', 'KCPR1555');">
+<ul class="featured__item__pic__hover">
+<li><a href="#" class=" prod_like_icon_555"
+onclick="setLike(event, '555')"><i class="fa fa-heart"></i></a></li>
+</ul>
+</div>
+<div class="featured__item__text">
+<div class="strike_price">
+<a class="link_to_product" href="https://katyayani-creations.github.io/smiley-foam-sticker/kcpr1555?p=kcpr1555">
+Smiley Foam Sticker</a>
+</div>
+<div class="card_price">
+₹10.00(58)
+</div>
+</div>
+</div>
+</div><div class="col-lg-4 col-md-4 col-sm-6 mix stationery stationery:__craft_items featured_product"
+data-price="10.00" data-cats="13,52"
+data-brands="0" data-quantity="364">
+<div class="featured__item">
+<div data-imageindex="0" class="featured__item__pic set-bg-new"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR11087/" data-images="KCPR11087_17180096210.jpg,KCPR11087_17180108210.jpg,KCPR11087_17180109620.jpeg,KCPR11087_17180110070.jpeg,KCPR11087_17180110480.jpeg,KCPR11087_17180131040.jpeg,KCPR11087_17180132420.webp,KCPR11087_17199892880.webp"
+onclick="return redirectToProduct('1087', 'mix-craft-items', 'KCPR11087');">
+<ul class="featured__item__pic__hover">
+<li><a href="#" class=" prod_like_icon_1087"
+onclick="setLike(event, '1087')"><i class="fa fa-heart"></i></a></li>
+</ul>
+</div>
+<div class="featured__item__text">
+<div class="strike_price">
+<a class="link_to_product" href="https://katyayani-creations.github.io/mix-craft-items/kcpr11087?p=kcpr11087">
+Mix Craft Items</a>
+</div>
+<div class="card_price">
+₹10.00(364)
+<span style="color:#ff7043 !important">&nbsp;(17%
+OFF)</span> </div>
+<div class="strike_price">₹<s>12.00</s></div>
+</div>
+</div>
+</div><div class="col-lg-4 col-md-4 col-sm-6 mix stationery stationery:__craft_items featured_product"
+data-price="10.00" data-cats="13,52"
 data-brands="0" data-quantity="47">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
@@ -874,6 +921,76 @@ Glitter Sheet</a>
 </div>
 <div class="card_price">
 ₹10.00(47)
+<span style="color:#ff7043 !important">&nbsp;(17%
+OFF)</span> </div>
+<div class="strike_price">₹<s>12.00</s></div>
+</div>
+</div>
+</div><div class="col-lg-4 col-md-4 col-sm-6 mix stationery stationery:__craft_items featured_product"
+data-price="10.00" data-cats="13,52"
+data-brands="0" data-quantity="91">
+<div class="featured__item">
+<div data-imageindex="0" class="featured__item__pic set-bg-new"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1567/" data-images="1677646891.png,"
+onclick="return redirectToProduct('567', 'chart-paper', 'KCPR1567');">
+<ul class="featured__item__pic__hover">
+<li><a href="#" class=" prod_like_icon_567"
+onclick="setLike(event, '567')"><i class="fa fa-heart"></i></a></li>
+</ul>
+</div>
+<div class="featured__item__text">
+<div class="strike_price">
+<a class="link_to_product" href="https://katyayani-creations.github.io/chart-paper/kcpr1567?p=kcpr1567">
+Chart Paper</a>
+</div>
+<div class="card_price">
+₹10.00(91)
+</div>
+</div>
+</div>
+</div><div class="col-lg-4 col-md-4 col-sm-6 mix stationery stationery:__craft_items featured_product"
+data-price="10.00" data-cats="13,52"
+data-brands="0" data-quantity="22">
+<div class="featured__item">
+<div data-imageindex="0" class="featured__item__pic set-bg-new"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1715/" data-images="1692120853.jpg,"
+onclick="return redirectToProduct('715', 'pom-pom', 'KCPR1715');">
+<ul class="featured__item__pic__hover">
+<li><a href="#" class=" prod_like_icon_715"
+onclick="setLike(event, '715')"><i class="fa fa-heart"></i></a></li>
+</ul>
+</div>
+<div class="featured__item__text">
+<div class="strike_price">
+<a class="link_to_product" href="https://katyayani-creations.github.io/pom-pom/kcpr1715?p=kcpr1715">
+Pom Pom</a>
+</div>
+<div class="card_price">
+₹10.00(22)
+<span style="color:#ff7043 !important">&nbsp;(17%
+OFF)</span> </div>
+<div class="strike_price">₹<s>12.00</s></div>
+</div>
+</div>
+</div><div class="col-lg-4 col-md-4 col-sm-6 mix stationery stationery:__craft_items featured_product"
+data-price="10.00" data-cats="13,52"
+data-brands="0" data-quantity="22">
+<div class="featured__item">
+<div data-imageindex="0" class="featured__item__pic set-bg-new"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1853/" data-images="16999517670.webp,"
+onclick="return redirectToProduct('853', 'craft-mirror', 'KCPR1853');">
+<ul class="featured__item__pic__hover">
+<li><a href="#" class=" prod_like_icon_853"
+onclick="setLike(event, '853')"><i class="fa fa-heart"></i></a></li>
+</ul>
+</div>
+<div class="featured__item__text">
+<div class="strike_price">
+<a class="link_to_product" href="https://katyayani-creations.github.io/craft-mirror/kcpr1853?p=kcpr1853">
+Craft Mirror</a>
+</div>
+<div class="card_price">
+₹10.00(22)
 <span style="color:#ff7043 !important">&nbsp;(17%
 OFF)</span> </div>
 <div class="strike_price">₹<s>12.00</s></div>
@@ -905,98 +1022,6 @@ OFF)</span> </div>
 </div>
 </div><div class="col-lg-4 col-md-4 col-sm-6 mix stationery stationery:__craft_items featured_product"
 data-price="10.00" data-cats="13,52"
-data-brands="0" data-quantity="364">
-<div class="featured__item">
-<div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR11087/" data-images="KCPR11087_17180096210.jpg,KCPR11087_17180108210.jpg,KCPR11087_17180109620.jpeg,KCPR11087_17180110070.jpeg,KCPR11087_17180110480.jpeg,KCPR11087_17180131040.jpeg,KCPR11087_17180132420.webp,KCPR11087_17199892880.webp"
-onclick="return redirectToProduct('1087', 'mix-craft-items', 'KCPR11087');">
-<ul class="featured__item__pic__hover">
-<li><a href="#" class=" prod_like_icon_1087"
-onclick="setLike(event, '1087')"><i class="fa fa-heart"></i></a></li>
-</ul>
-</div>
-<div class="featured__item__text">
-<div class="strike_price">
-<a class="link_to_product" href="https://katyayani-creations.github.io/mix-craft-items/kcpr11087?p=kcpr11087">
-Mix Craft Items</a>
-</div>
-<div class="card_price">
-₹10.00(364)
-<span style="color:#ff7043 !important">&nbsp;(17%
-OFF)</span> </div>
-<div class="strike_price">₹<s>12.00</s></div>
-</div>
-</div>
-</div><div class="col-lg-4 col-md-4 col-sm-6 mix stationery stationery:__craft_items featured_product"
-data-price="10.00" data-cats="13,52"
-data-brands="0" data-quantity="91">
-<div class="featured__item">
-<div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1567/" data-images="1677646891.png,"
-onclick="return redirectToProduct('567', 'chart-paper', 'KCPR1567');">
-<ul class="featured__item__pic__hover">
-<li><a href="#" class=" prod_like_icon_567"
-onclick="setLike(event, '567')"><i class="fa fa-heart"></i></a></li>
-</ul>
-</div>
-<div class="featured__item__text">
-<div class="strike_price">
-<a class="link_to_product" href="https://katyayani-creations.github.io/chart-paper/kcpr1567?p=kcpr1567">
-Chart Paper</a>
-</div>
-<div class="card_price">
-₹10.00(91)
-</div>
-</div>
-</div>
-</div><div class="col-lg-4 col-md-4 col-sm-6 mix stationery stationery:__craft_items featured_product"
-data-price="10.00" data-cats="13,52"
-data-brands="0" data-quantity="58">
-<div class="featured__item">
-<div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1555/" data-images="1675511961.jpg,"
-onclick="return redirectToProduct('555', 'smiley-foam-sticker', 'KCPR1555');">
-<ul class="featured__item__pic__hover">
-<li><a href="#" class=" prod_like_icon_555"
-onclick="setLike(event, '555')"><i class="fa fa-heart"></i></a></li>
-</ul>
-</div>
-<div class="featured__item__text">
-<div class="strike_price">
-<a class="link_to_product" href="https://katyayani-creations.github.io/smiley-foam-sticker/kcpr1555?p=kcpr1555">
-Smiley Foam Sticker</a>
-</div>
-<div class="card_price">
-₹10.00(58)
-</div>
-</div>
-</div>
-</div><div class="col-lg-4 col-md-4 col-sm-6 mix stationery stationery:__craft_items featured_product"
-data-price="10.00" data-cats="13,52"
-data-brands="0" data-quantity="28">
-<div class="featured__item">
-<div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1853/" data-images="16999517670.webp,"
-onclick="return redirectToProduct('853', 'craft-mirror', 'KCPR1853');">
-<ul class="featured__item__pic__hover">
-<li><a href="#" class=" prod_like_icon_853"
-onclick="setLike(event, '853')"><i class="fa fa-heart"></i></a></li>
-</ul>
-</div>
-<div class="featured__item__text">
-<div class="strike_price">
-<a class="link_to_product" href="https://katyayani-creations.github.io/craft-mirror/kcpr1853?p=kcpr1853">
-Craft Mirror</a>
-</div>
-<div class="card_price">
-₹10.00(28)
-<span style="color:#ff7043 !important">&nbsp;(17%
-OFF)</span> </div>
-<div class="strike_price">₹<s>12.00</s></div>
-</div>
-</div>
-</div><div class="col-lg-4 col-md-4 col-sm-6 mix stationery stationery:__craft_items featured_product"
-data-price="10.00" data-cats="13,52"
 data-brands="36" data-quantity="32">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
@@ -1014,30 +1039,6 @@ onclick="setLike(event, '897')"><i class="fa fa-heart"></i></a></li>
 </div>
 <div class="card_price">
 ₹10.00(32)
-<span style="color:#ff7043 !important">&nbsp;(17%
-OFF)</span> </div>
-<div class="strike_price">₹<s>12.00</s></div>
-</div>
-</div>
-</div><div class="col-lg-4 col-md-4 col-sm-6 mix stationery stationery:__craft_items featured_product"
-data-price="10.00" data-cats="13,52"
-data-brands="0" data-quantity="22">
-<div class="featured__item">
-<div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1715/" data-images="1692120853.jpg,"
-onclick="return redirectToProduct('715', 'pom-pom', 'KCPR1715');">
-<ul class="featured__item__pic__hover">
-<li><a href="#" class=" prod_like_icon_715"
-onclick="setLike(event, '715')"><i class="fa fa-heart"></i></a></li>
-</ul>
-</div>
-<div class="featured__item__text">
-<div class="strike_price">
-<a class="link_to_product" href="https://katyayani-creations.github.io/pom-pom/kcpr1715?p=kcpr1715">
-Pom Pom</a>
-</div>
-<div class="card_price">
-₹10.00(22)
 <span style="color:#ff7043 !important">&nbsp;(17%
 OFF)</span> </div>
 <div class="strike_price">₹<s>12.00</s></div>
@@ -1091,28 +1092,6 @@ Craft Tree</a>
 </div>
 </div><div class="col-lg-4 col-md-4 col-sm-6 mix stationery stationery:__craft_items featured_product"
 data-price="8.00" data-cats="13,52"
-data-brands="0" data-quantity="36">
-<div class="featured__item">
-<div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1129/" data-images="1662570195.jpg,"
-onclick="return redirectToProduct('129', 'cello-tape-small', 'KCPR1129');">
-<ul class="featured__item__pic__hover">
-<li><a href="#" class=" prod_like_icon_129"
-onclick="setLike(event, '129')"><i class="fa fa-heart"></i></a></li>
-</ul>
-</div>
-<div class="featured__item__text">
-<div class="strike_price">
-<a class="link_to_product" href="https://katyayani-creations.github.io/cello-tape-small/kcpr1129?p=kcpr1129">
-Cello Tape Small</a>
-</div>
-<div class="card_price">
-₹8.00(36)
-</div>
-</div>
-</div>
-</div><div class="col-lg-4 col-md-4 col-sm-6 mix stationery stationery:__craft_items featured_product"
-data-price="8.00" data-cats="13,52"
 data-brands="0" data-quantity="120">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
@@ -1133,6 +1112,28 @@ A3 Colors Sheets</a>
 <span style="color:#ff7043 !important">&nbsp;(20%
 OFF)</span> </div>
 <div class="strike_price">₹<s>10.00</s></div>
+</div>
+</div>
+</div><div class="col-lg-4 col-md-4 col-sm-6 mix stationery stationery:__craft_items featured_product"
+data-price="8.00" data-cats="13,52"
+data-brands="0" data-quantity="36">
+<div class="featured__item">
+<div data-imageindex="0" class="featured__item__pic set-bg-new"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1129/" data-images="1662570195.jpg,"
+onclick="return redirectToProduct('129', 'cello-tape-small', 'KCPR1129');">
+<ul class="featured__item__pic__hover">
+<li><a href="#" class=" prod_like_icon_129"
+onclick="setLike(event, '129')"><i class="fa fa-heart"></i></a></li>
+</ul>
+</div>
+<div class="featured__item__text">
+<div class="strike_price">
+<a class="link_to_product" href="https://katyayani-creations.github.io/cello-tape-small/kcpr1129?p=kcpr1129">
+Cello Tape Small</a>
+</div>
+<div class="card_price">
+₹8.00(36)
+</div>
 </div>
 </div>
 </div><div class="col-lg-4 col-md-4 col-sm-6 mix glues stationery stationery:__craft_items featured_product"

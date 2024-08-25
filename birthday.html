@@ -45,7 +45,7 @@
 <script src="https://d1s4zcjwkikclq.cloudfront.net/js/mixitup.min.js"></script>
 <script src="https://d1s4zcjwkikclq.cloudfront.net/js/owl.carousel.min.js"></script>
 <script src="https://katyayani-creations.github.io/js/main.js?ver=21"></script>
-<script src="https://katyayani-creations.github.io/productarray.js?ver=24-08-2024" type="text/javascript"></script>
+<script src="https://katyayani-creations.github.io/productarray.js?ver=25-08-2024" type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 <script>
@@ -55,7 +55,8 @@ gtag('js', new Date());
 gtag('config', 'G-TMFL4Z8DEZ');
 localStorage.setItem("kc-like", '[]');
 function redirectToProduct(id, name, sku, prod_url) {
-if (typeof id == "undefined") {window.location.href = "/products.html?term=" + $("#products").val();return;}
+if (typeof id == "undefined" && name == "") {window.location.href = "/products.html?term=" + $("#products").val();return;}
+if (typeof id == "undefined" && name != "") {window.location.href = "/products.html?type=hash&term=" + name.replace('#', '').replace("#",'');return;}
 sku = sku.toLowerCase();
 const host = 'katyayani-creations.github.io',url = 'https://katyayani-creations.github.io/';
 if (prod_url && prod_url.length > 0) {
@@ -444,6 +445,54 @@ data-price="180.00" data-cats="12"
 data-brands="0" data-quantity="1">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1394/" data-images="1669734341.jpeg,"
+onclick="return redirectToProduct('394', 'minnie-mouse-balloon-set', 'KCPR1394');">
+<ul class="featured__item__pic__hover">
+<li><a href="#" class=" prod_like_icon_394"
+onclick="setLike(event, '394')"><i class="fa fa-heart"></i></a></li>
+</ul>
+</div>
+<div class="featured__item__text">
+<div class="strike_price">
+<a class="link_to_product" href="https://katyayani-creations.github.io/minnie-mouse-balloon-set/kcpr1394?p=kcpr1394">
+Minnie Mouse Balloon Set</a>
+</div>
+<div class="card_price">
+₹180.00(1)
+<span style="color:#ff7043 !important">&nbsp;(10%
+OFF)</span> </div>
+<div class="strike_price">₹<s>200.00</s></div>
+</div>
+</div>
+</div><div class="col-lg-4 col-md-4 col-sm-6 mix birthday_accessories featured_product"
+data-price="180.00" data-cats="12"
+data-brands="0" data-quantity="3">
+<div class="featured__item">
+<div data-imageindex="0" class="featured__item__pic set-bg-new"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1041/" data-images="GB5trgFo.jpeg,"
+onclick="return redirectToProduct('41', 'anniversary-balloon', 'KCPR1041');">
+<ul class="featured__item__pic__hover">
+<li><a href="#" class=" prod_like_icon_41"
+onclick="setLike(event, '41')"><i class="fa fa-heart"></i></a></li>
+</ul>
+</div>
+<div class="featured__item__text">
+<div class="strike_price">
+<a class="link_to_product" href="https://katyayani-creations.github.io/anniversary-balloon/kcpr1041?p=kcpr1041">
+Anniversary Balloon</a>
+</div>
+<div class="card_price">
+₹180.00(3)
+<span style="color:#ff7043 !important">&nbsp;(10%
+OFF)</span> </div>
+<div class="strike_price">₹<s>200.00</s></div>
+</div>
+</div>
+</div><div class="col-lg-4 col-md-4 col-sm-6 mix birthday_accessories featured_product"
+data-price="180.00" data-cats="12"
+data-brands="0" data-quantity="1">
+<div class="featured__item">
+<div data-imageindex="0" class="featured__item__pic set-bg-new"
 data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1001/" data-images="P7mn7UkZ.jpeg,n4Hsat7e.jpeg"
 onclick="return redirectToProduct('1', 'blue-and-white-air-foil-balloons', 'KCPR1001');">
 <ul class="featured__item__pic__hover">
@@ -488,51 +537,27 @@ OFF)</span> </div>
 </div>
 </div>
 </div><div class="col-lg-4 col-md-4 col-sm-6 mix birthday_accessories featured_product"
-data-price="180.00" data-cats="12"
+data-price="120.00" data-cats="12"
 data-brands="0" data-quantity="3">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1041/" data-images="GB5trgFo.jpeg,"
-onclick="return redirectToProduct('41', 'anniversary-balloon', 'KCPR1041');">
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1108/" data-images="balloon.jpeg,"
+onclick="return redirectToProduct('108', 'its-a-girl-balloon', 'KCPR1108');">
 <ul class="featured__item__pic__hover">
-<li><a href="#" class=" prod_like_icon_41"
-onclick="setLike(event, '41')"><i class="fa fa-heart"></i></a></li>
+<li><a href="#" class=" prod_like_icon_108"
+onclick="setLike(event, '108')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
-<a class="link_to_product" href="https://katyayani-creations.github.io/anniversary-balloon/kcpr1041?p=kcpr1041">
-Anniversary Balloon</a>
+<a class="link_to_product" href="https://katyayani-creations.github.io/its-a-girl-balloon/kcpr1108?p=kcpr1108">
+Its a Girl Balloon</a>
 </div>
 <div class="card_price">
-₹180.00(3)
-<span style="color:#ff7043 !important">&nbsp;(10%
+₹120.00(3)
+<span style="color:#ff7043 !important">&nbsp;(20%
 OFF)</span> </div>
-<div class="strike_price">₹<s>200.00</s></div>
-</div>
-</div>
-</div><div class="col-lg-4 col-md-4 col-sm-6 mix birthday_accessories featured_product"
-data-price="180.00" data-cats="12"
-data-brands="0" data-quantity="1">
-<div class="featured__item">
-<div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1394/" data-images="1669734341.jpeg,"
-onclick="return redirectToProduct('394', 'minnie-mouse-balloon-set', 'KCPR1394');">
-<ul class="featured__item__pic__hover">
-<li><a href="#" class=" prod_like_icon_394"
-onclick="setLike(event, '394')"><i class="fa fa-heart"></i></a></li>
-</ul>
-</div>
-<div class="featured__item__text">
-<div class="strike_price">
-<a class="link_to_product" href="https://katyayani-creations.github.io/minnie-mouse-balloon-set/kcpr1394?p=kcpr1394">
-Minnie Mouse Balloon Set</a>
-</div>
-<div class="card_price">
-₹180.00(1)
-<span style="color:#ff7043 !important">&nbsp;(10%
-OFF)</span> </div>
-<div class="strike_price">₹<s>200.00</s></div>
+<div class="strike_price">₹<s>150.00</s></div>
 </div>
 </div>
 </div><div class="col-lg-4 col-md-4 col-sm-6 mix birthday_accessories featured_product"
@@ -584,27 +609,27 @@ OFF)</span> </div>
 </div>
 </div>
 </div><div class="col-lg-4 col-md-4 col-sm-6 mix birthday_accessories featured_product"
-data-price="120.00" data-cats="12"
-data-brands="0" data-quantity="3">
+data-price="90.00" data-cats="12"
+data-brands="0" data-quantity="1">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1108/" data-images="balloon.jpeg,"
-onclick="return redirectToProduct('108', 'its-a-girl-balloon', 'KCPR1108');">
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1004/" data-images="aKQrOTFn.jpeg,cBmBmQF8.jpeg"
+onclick="return redirectToProduct('4', 'party-popper-15-inch', 'KCPR1004');">
 <ul class="featured__item__pic__hover">
-<li><a href="#" class=" prod_like_icon_108"
-onclick="setLike(event, '108')"><i class="fa fa-heart"></i></a></li>
+<li><a href="#" class=" prod_like_icon_4"
+onclick="setLike(event, '4')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
-<a class="link_to_product" href="https://katyayani-creations.github.io/its-a-girl-balloon/kcpr1108?p=kcpr1108">
-Its a Girl Balloon</a>
+<a class="link_to_product" href="https://katyayani-creations.github.io/party-popper-15-inch/kcpr1004?p=kcpr1004">
+Party Popper (15 Inch)</a>
 </div>
 <div class="card_price">
-₹120.00(3)
-<span style="color:#ff7043 !important">&nbsp;(20%
+₹90.00(1)
+<span style="color:#ff7043 !important">&nbsp;(10%
 OFF)</span> </div>
-<div class="strike_price">₹<s>150.00</s></div>
+<div class="strike_price">₹<s>100.00</s></div>
 </div>
 </div>
 </div><div class="col-lg-4 col-md-4 col-sm-6 mix birthday_accessories featured_product"
@@ -626,30 +651,6 @@ Balloons</a>
 </div>
 <div class="card_price">
 ₹90.00(40)
-<span style="color:#ff7043 !important">&nbsp;(10%
-OFF)</span> </div>
-<div class="strike_price">₹<s>100.00</s></div>
-</div>
-</div>
-</div><div class="col-lg-4 col-md-4 col-sm-6 mix birthday_accessories featured_product"
-data-price="90.00" data-cats="12"
-data-brands="0" data-quantity="1">
-<div class="featured__item">
-<div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1004/" data-images="aKQrOTFn.jpeg,cBmBmQF8.jpeg"
-onclick="return redirectToProduct('4', 'party-popper-15-inch', 'KCPR1004');">
-<ul class="featured__item__pic__hover">
-<li><a href="#" class=" prod_like_icon_4"
-onclick="setLike(event, '4')"><i class="fa fa-heart"></i></a></li>
-</ul>
-</div>
-<div class="featured__item__text">
-<div class="strike_price">
-<a class="link_to_product" href="https://katyayani-creations.github.io/party-popper-15-inch/kcpr1004?p=kcpr1004">
-Party Popper (15 Inch)</a>
-</div>
-<div class="card_price">
-₹90.00(1)
 <span style="color:#ff7043 !important">&nbsp;(10%
 OFF)</span> </div>
 <div class="strike_price">₹<s>100.00</s></div>
@@ -849,7 +850,7 @@ OFF)</span> </div>
 </div>
 </div><div class="col-lg-4 col-md-4 col-sm-6 mix birthday_accessories stationery featured_product"
 data-price="5.00" data-cats="12,13"
-data-brands="0" data-quantity="320">
+data-brands="0" data-quantity="316">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
 data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1033/" data-images="d2pjNaXQ.jpeg,"
@@ -865,7 +866,7 @@ onclick="setLike(event, '33')"><i class="fa fa-heart"></i></a></li>
 Gift Wrapping Holographic Metallic Sheets</a>
 </div>
 <div class="card_price">
-₹5.00(320)
+₹5.00(316)
 <span style="color:#ff7043 !important">&nbsp;(38%
 OFF)</span> </div>
 <div class="strike_price">₹<s>8.00</s></div>

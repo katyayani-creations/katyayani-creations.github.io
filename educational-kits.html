@@ -45,7 +45,7 @@
 <script src="https://d1s4zcjwkikclq.cloudfront.net/js/mixitup.min.js"></script>
 <script src="https://d1s4zcjwkikclq.cloudfront.net/js/owl.carousel.min.js"></script>
 <script src="https://katyayani-creations.github.io/js/main.js?ver=21"></script>
-<script src="https://katyayani-creations.github.io/productarray.js?ver=24-08-2024" type="text/javascript"></script>
+<script src="https://katyayani-creations.github.io/productarray.js?ver=25-08-2024" type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 <script>
@@ -55,7 +55,8 @@ gtag('js', new Date());
 gtag('config', 'G-TMFL4Z8DEZ');
 localStorage.setItem("kc-like", '[]');
 function redirectToProduct(id, name, sku, prod_url) {
-if (typeof id == "undefined") {window.location.href = "/products.html?term=" + $("#products").val();return;}
+if (typeof id == "undefined" && name == "") {window.location.href = "/products.html?term=" + $("#products").val();return;}
+if (typeof id == "undefined" && name != "") {window.location.href = "/products.html?type=hash&term=" + name.replace('#', '').replace("#",'');return;}
 sku = sku.toLowerCase();
 const host = 'katyayani-creations.github.io',url = 'https://katyayani-creations.github.io/';
 if (prod_url && prod_url.length > 0) {
@@ -539,30 +540,6 @@ OFF)</span> </div>
 </div>
 </div><div class="col-lg-4 col-md-4 col-sm-6 mix toys educational_kits board_games featured_product"
 data-price="319.00" data-cats="11,36,20"
-data-brands="1" data-quantity="1">
-<div class="featured__item">
-<div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1134/" data-images="1681590803.jpg,1681590814.jpg,1681590823.jpg,1681590833.jpg,1681590849.jpg"
-onclick="return redirectToProduct('134', 'nature-science', 'KCPR1134');">
-<ul class="featured__item__pic__hover">
-<li><a href="#" class=" prod_like_icon_134"
-onclick="setLike(event, '134')"><i class="fa fa-heart"></i></a></li>
-</ul>
-</div>
-<div class="featured__item__text">
-<div class="strike_price">
-<a class="link_to_product" href="https://katyayani-creations.github.io/nature-science/kcpr1134?p=kcpr1134">
-<span style="font-weight:bold;">Ekta</span>&nbsp;Nature Science</a>
-</div>
-<div class="card_price">
-₹319.00(1)
-<span style="color:#ff7043 !important">&nbsp;(21%
-OFF)</span> </div>
-<div class="strike_price">₹<s>399.00</s></div>
-</div>
-</div>
-</div><div class="col-lg-4 col-md-4 col-sm-6 mix toys educational_kits board_games featured_product"
-data-price="319.00" data-cats="11,36,20"
 data-brands="0" data-quantity="1">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
@@ -577,6 +554,30 @@ onclick="setLike(event, '462')"><i class="fa fa-heart"></i></a></li>
 <div class="strike_price">
 <a class="link_to_product" href="https://katyayani-creations.github.io/4in1-world-tour/kcpr1462?p=kcpr1462">
 4in1 World Tour</a>
+</div>
+<div class="card_price">
+₹319.00(1)
+<span style="color:#ff7043 !important">&nbsp;(21%
+OFF)</span> </div>
+<div class="strike_price">₹<s>399.00</s></div>
+</div>
+</div>
+</div><div class="col-lg-4 col-md-4 col-sm-6 mix toys educational_kits board_games featured_product"
+data-price="319.00" data-cats="11,36,20"
+data-brands="1" data-quantity="1">
+<div class="featured__item">
+<div data-imageindex="0" class="featured__item__pic set-bg-new"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1134/" data-images="1681590803.jpg,1681590814.jpg,1681590823.jpg,1681590833.jpg,1681590849.jpg"
+onclick="return redirectToProduct('134', 'nature-science', 'KCPR1134');">
+<ul class="featured__item__pic__hover">
+<li><a href="#" class=" prod_like_icon_134"
+onclick="setLike(event, '134')"><i class="fa fa-heart"></i></a></li>
+</ul>
+</div>
+<div class="featured__item__text">
+<div class="strike_price">
+<a class="link_to_product" href="https://katyayani-creations.github.io/nature-science/kcpr1134?p=kcpr1134">
+<span style="font-weight:bold;">Ekta</span>&nbsp;Nature Science</a>
 </div>
 <div class="card_price">
 ₹319.00(1)

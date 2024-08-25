@@ -45,7 +45,7 @@
 <script src="https://d1s4zcjwkikclq.cloudfront.net/js/mixitup.min.js"></script>
 <script src="https://d1s4zcjwkikclq.cloudfront.net/js/owl.carousel.min.js"></script>
 <script src="https://katyayani-creations.github.io/js/main.js?ver=21"></script>
-<script src="https://katyayani-creations.github.io/productarray.js?ver=24-08-2024" type="text/javascript"></script>
+<script src="https://katyayani-creations.github.io/productarray.js?ver=25-08-2024" type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 <script>
@@ -55,7 +55,8 @@ gtag('js', new Date());
 gtag('config', 'G-TMFL4Z8DEZ');
 localStorage.setItem("kc-like", '[]');
 function redirectToProduct(id, name, sku, prod_url) {
-if (typeof id == "undefined") {window.location.href = "/products.html?term=" + $("#products").val();return;}
+if (typeof id == "undefined" && name == "") {window.location.href = "/products.html?term=" + $("#products").val();return;}
+if (typeof id == "undefined" && name != "") {window.location.href = "/products.html?type=hash&term=" + name.replace('#', '').replace("#",'');return;}
 sku = sku.toLowerCase();
 const host = 'katyayani-creations.github.io',url = 'https://katyayani-creations.github.io/';
 if (prod_url && prod_url.length > 0) {
@@ -395,7 +396,7 @@ OFF)</span> </div>
 </div>
 </div><div class="col-lg-4 col-md-4 col-sm-6 mix colors stationery featured_product"
 data-price="202.50" data-cats="24,13"
-data-brands="25" data-quantity="5">
+data-brands="25" data-quantity="4">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
 data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1889/" data-images="17052159220.jpg,17052159221.jpg,17052159222.jpg,17052159223.jpg"
@@ -411,7 +412,7 @@ onclick="setLike(event, '889')"><i class="fa fa-heart"></i></a></li>
 <span style="font-weight:bold;">Fevicryl</span>&nbsp;Fevicryl Acrylic Colours Sunflower Kit-Pack of 10</a>
 </div>
 <div class="card_price">
-₹202.50(5)
+₹202.50(4)
 <span style="color:#ff7043 !important">&nbsp;(10%
 OFF)</span> </div>
 <div class="strike_price">₹<s>225.00</s></div>
@@ -561,25 +562,25 @@ OFF)</span> </div>
 <div class="strike_price">₹<s>120.00</s></div>
 </div>
 </div>
-</div><div class="col-lg-4 col-md-4 col-sm-6 mix colors stationery featured_product"
-data-price="90.00" data-cats="24,13"
-data-brands="25" data-quantity="2">
+</div><div class="col-lg-4 col-md-4 col-sm-6 mix colors doms_kit stationery featured_product"
+data-price="90.00" data-cats="24,25,13"
+data-brands="7" data-quantity="3">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1732/" data-images="1693136905.png,1693136915.jpeg"
-onclick="return redirectToProduct('732', 'acrylic-color-paints', 'KCPR1732');">
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1593/" data-images="1678031992.png,"
+onclick="return redirectToProduct('593', 'poster-color-6-shades', 'KCPR1593');">
 <ul class="featured__item__pic__hover">
-<li><a href="#" class=" prod_like_icon_732"
-onclick="setLike(event, '732')"><i class="fa fa-heart"></i></a></li>
+<li><a href="#" class=" prod_like_icon_593"
+onclick="setLike(event, '593')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
-<a class="link_to_product" href="https://katyayani-creations.github.io/acrylic-color-paints/kcpr1732?p=kcpr1732">
-<span style="font-weight:bold;">Fevicryl</span>&nbsp;Acrylic Color Paints(10ML Each Color, Pack of 6 Colors)</a>
+<a class="link_to_product" href="https://katyayani-creations.github.io/poster-color-6-shades/kcpr1593?p=kcpr1593">
+<span style="font-weight:bold;">Doms</span>&nbsp;Poster Color 6 Shades</a>
 </div>
 <div class="card_price">
-₹90.00(2)
+₹90.00(3)
 <span style="color:#ff7043 !important">&nbsp;(10%
 OFF)</span> </div>
 <div class="strike_price">₹<s>100.00</s></div>
@@ -609,25 +610,25 @@ OFF)</span> </div>
 <div class="strike_price">₹<s>100.00</s></div>
 </div>
 </div>
-</div><div class="col-lg-4 col-md-4 col-sm-6 mix colors doms_kit stationery featured_product"
-data-price="90.00" data-cats="24,25,13"
-data-brands="7" data-quantity="3">
+</div><div class="col-lg-4 col-md-4 col-sm-6 mix colors stationery featured_product"
+data-price="90.00" data-cats="24,13"
+data-brands="25" data-quantity="2">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1593/" data-images="1678031992.png,"
-onclick="return redirectToProduct('593', 'poster-color-6-shades', 'KCPR1593');">
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1732/" data-images="1693136905.png,1693136915.jpeg"
+onclick="return redirectToProduct('732', 'acrylic-color-paints', 'KCPR1732');">
 <ul class="featured__item__pic__hover">
-<li><a href="#" class=" prod_like_icon_593"
-onclick="setLike(event, '593')"><i class="fa fa-heart"></i></a></li>
+<li><a href="#" class=" prod_like_icon_732"
+onclick="setLike(event, '732')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
-<a class="link_to_product" href="https://katyayani-creations.github.io/poster-color-6-shades/kcpr1593?p=kcpr1593">
-<span style="font-weight:bold;">Doms</span>&nbsp;Poster Color 6 Shades</a>
+<a class="link_to_product" href="https://katyayani-creations.github.io/acrylic-color-paints/kcpr1732?p=kcpr1732">
+<span style="font-weight:bold;">Fevicryl</span>&nbsp;Acrylic Color Paints(10ML Each Color, Pack of 6 Colors)</a>
 </div>
 <div class="card_price">
-₹90.00(3)
+₹90.00(2)
 <span style="color:#ff7043 !important">&nbsp;(10%
 OFF)</span> </div>
 <div class="strike_price">₹<s>100.00</s></div>
@@ -705,30 +706,6 @@ OFF)</span> </div>
 <div class="strike_price">₹<s>75.00</s></div>
 </div>
 </div>
-</div><div class="col-lg-4 col-md-4 col-sm-6 mix colors doms_kit stationery featured_product"
-data-price="36.00" data-cats="24,25,13"
-data-brands="7" data-quantity="7">
-<div class="featured__item">
-<div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1596/" data-images="1678033595.jpeg,1678033705.jpg,1678033725.jpg,1678033736.jpg"
-onclick="return redirectToProduct('596', 'oil-pastel-shades-crayons', 'KCPR1596');">
-<ul class="featured__item__pic__hover">
-<li><a href="#" class=" prod_like_icon_596"
-onclick="setLike(event, '596')"><i class="fa fa-heart"></i></a></li>
-</ul>
-</div>
-<div class="featured__item__text">
-<div class="strike_price">
-<a class="link_to_product" href="https://katyayani-creations.github.io/oil-pastel-shades-crayons/kcpr1596?p=kcpr1596">
-<span style="font-weight:bold;">Doms</span>&nbsp;Oil Pastel 12 Shades Crayons</a>
-</div>
-<div class="card_price">
-₹36.00(7)
-<span style="color:#ff7043 !important">&nbsp;(10%
-OFF)</span> </div>
-<div class="strike_price">₹<s>40.00</s></div>
-</div>
-</div>
 </div><div class="col-lg-4 col-md-4 col-sm-6 mix colors stationery featured_product"
 data-price="36.00" data-cats="24,13"
 data-brands="7" data-quantity="6">
@@ -748,6 +725,30 @@ onclick="setLike(event, '910')"><i class="fa fa-heart"></i></a></li>
 </div>
 <div class="card_price">
 ₹36.00(6)
+<span style="color:#ff7043 !important">&nbsp;(10%
+OFF)</span> </div>
+<div class="strike_price">₹<s>40.00</s></div>
+</div>
+</div>
+</div><div class="col-lg-4 col-md-4 col-sm-6 mix colors doms_kit stationery featured_product"
+data-price="36.00" data-cats="24,25,13"
+data-brands="7" data-quantity="7">
+<div class="featured__item">
+<div data-imageindex="0" class="featured__item__pic set-bg-new"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1596/" data-images="1678033595.jpeg,1678033705.jpg,1678033725.jpg,1678033736.jpg"
+onclick="return redirectToProduct('596', 'oil-pastel-shades-crayons', 'KCPR1596');">
+<ul class="featured__item__pic__hover">
+<li><a href="#" class=" prod_like_icon_596"
+onclick="setLike(event, '596')"><i class="fa fa-heart"></i></a></li>
+</ul>
+</div>
+<div class="featured__item__text">
+<div class="strike_price">
+<a class="link_to_product" href="https://katyayani-creations.github.io/oil-pastel-shades-crayons/kcpr1596?p=kcpr1596">
+<span style="font-weight:bold;">Doms</span>&nbsp;Oil Pastel 12 Shades Crayons</a>
+</div>
+<div class="card_price">
+₹36.00(7)
 <span style="color:#ff7043 !important">&nbsp;(10%
 OFF)</span> </div>
 <div class="strike_price">₹<s>40.00</s></div>

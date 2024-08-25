@@ -45,7 +45,7 @@
 <script src="https://d1s4zcjwkikclq.cloudfront.net/js/mixitup.min.js"></script>
 <script src="https://d1s4zcjwkikclq.cloudfront.net/js/owl.carousel.min.js"></script>
 <script src="https://katyayani-creations.github.io/js/main.js?ver=21"></script>
-<script src="https://katyayani-creations.github.io/productarray.js?ver=24-08-2024" type="text/javascript"></script>
+<script src="https://katyayani-creations.github.io/productarray.js?ver=25-08-2024" type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 <script>
@@ -55,7 +55,8 @@ gtag('js', new Date());
 gtag('config', 'G-TMFL4Z8DEZ');
 localStorage.setItem("kc-like", '[]');
 function redirectToProduct(id, name, sku, prod_url) {
-if (typeof id == "undefined") {window.location.href = "/products.html?term=" + $("#products").val();return;}
+if (typeof id == "undefined" && name == "") {window.location.href = "/products.html?term=" + $("#products").val();return;}
+if (typeof id == "undefined" && name != "") {window.location.href = "/products.html?type=hash&term=" + name.replace('#', '').replace("#",'');return;}
 sku = sku.toLowerCase();
 const host = 'katyayani-creations.github.io',url = 'https://katyayani-creations.github.io/';
 if (prod_url && prod_url.length > 0) {
@@ -489,30 +490,6 @@ OFF)</span> </div>
 <div class="strike_price">₹<s>120.00</s></div>
 </div>
 </div>
-</div><div class="col-lg-4 col-md-4 col-sm-6 mix doms_kit kanjak_gifts stationery featured_product"
-data-price="90.00" data-cats="25,47,13"
-data-brands="7" data-quantity="16">
-<div class="featured__item">
-<div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1083/" data-images="dck1.jpeg,"
-onclick="return redirectToProduct('83', 'multicolor-champions-kit', 'KCPR1083');">
-<ul class="featured__item__pic__hover">
-<li><a href="#" class=" prod_like_icon_83"
-onclick="setLike(event, '83')"><i class="fa fa-heart"></i></a></li>
-</ul>
-</div>
-<div class="featured__item__text">
-<div class="strike_price">
-<a class="link_to_product" href="https://katyayani-creations.github.io/multicolor-champions-kit/kcpr1083?p=kcpr1083">
-<span style="font-weight:bold;">Doms</span>&nbsp;Multicolor Champions Kit</a>
-</div>
-<div class="card_price">
-₹90.00(16)
-<span style="color:#ff7043 !important">&nbsp;(10%
-OFF)</span> </div>
-<div class="strike_price">₹<s>99.00</s></div>
-</div>
-</div>
 </div><div class="col-lg-4 col-md-4 col-sm-6 mix colors doms_kit stationery featured_product"
 data-price="90.00" data-cats="24,25,13"
 data-brands="7" data-quantity="3">
@@ -535,6 +512,30 @@ onclick="setLike(event, '593')"><i class="fa fa-heart"></i></a></li>
 <span style="color:#ff7043 !important">&nbsp;(10%
 OFF)</span> </div>
 <div class="strike_price">₹<s>100.00</s></div>
+</div>
+</div>
+</div><div class="col-lg-4 col-md-4 col-sm-6 mix doms_kit kanjak_gifts stationery featured_product"
+data-price="90.00" data-cats="25,47,13"
+data-brands="7" data-quantity="16">
+<div class="featured__item">
+<div data-imageindex="0" class="featured__item__pic set-bg-new"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1083/" data-images="dck1.jpeg,"
+onclick="return redirectToProduct('83', 'multicolor-champions-kit', 'KCPR1083');">
+<ul class="featured__item__pic__hover">
+<li><a href="#" class=" prod_like_icon_83"
+onclick="setLike(event, '83')"><i class="fa fa-heart"></i></a></li>
+</ul>
+</div>
+<div class="featured__item__text">
+<div class="strike_price">
+<a class="link_to_product" href="https://katyayani-creations.github.io/multicolor-champions-kit/kcpr1083?p=kcpr1083">
+<span style="font-weight:bold;">Doms</span>&nbsp;Multicolor Champions Kit</a>
+</div>
+<div class="card_price">
+₹90.00(16)
+<span style="color:#ff7043 !important">&nbsp;(10%
+OFF)</span> </div>
+<div class="strike_price">₹<s>99.00</s></div>
 </div>
 </div>
 </div><div class="col-lg-4 col-md-4 col-sm-6 mix doms_kit stationery featured_product"
@@ -587,7 +588,7 @@ OFF)</span> </div>
 </div>
 </div><div class="col-lg-4 col-md-4 col-sm-6 mix doms_kit stationery featured_product"
 data-price="45.00" data-cats="25,13"
-data-brands="7" data-quantity="11">
+data-brands="7" data-quantity="10">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
 data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1618/" data-images="1680453492.jpg,1680453502.jpg,1680453511.jpg"
@@ -603,7 +604,7 @@ onclick="setLike(event, '618')"><i class="fa fa-heart"></i></a></li>
 <span style="font-weight:bold;">Doms</span>&nbsp;Colormate Round Synthetic Hair Brush (Pack of 5)</a>
 </div>
 <div class="card_price">
-₹45.00(11)
+₹45.00(10)
 <span style="color:#ff7043 !important">&nbsp;(10%
 OFF)</span> </div>
 <div class="strike_price">₹<s>50.00</s></div>
@@ -657,6 +658,30 @@ OFF)</span> </div>
 <div class="strike_price">₹<s>40.00</s></div>
 </div>
 </div>
+</div><div class="col-lg-4 col-md-4 col-sm-6 mix doms_kit stationery featured_product"
+data-price="27.00" data-cats="25,42,13"
+data-brands="7" data-quantity="12">
+<div class="featured__item">
+<div data-imageindex="0" class="featured__item__pic set-bg-new"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1610/" data-images="1680371772.jpg,"
+onclick="return redirectToProduct('610', '3hx-pencil-sharpener', 'KCPR1610');">
+<ul class="featured__item__pic__hover">
+<li><a href="#" class=" prod_like_icon_610"
+onclick="setLike(event, '610')"><i class="fa fa-heart"></i></a></li>
+</ul>
+</div>
+<div class="featured__item__text">
+<div class="strike_price">
+<a class="link_to_product" href="https://katyayani-creations.github.io/3hx-pencil-sharpener/kcpr1610?p=kcpr1610">
+<span style="font-weight:bold;">Doms</span>&nbsp;3HX Pencil Sharpener</a>
+</div>
+<div class="card_price">
+₹27.00(12)
+<span style="color:#ff7043 !important">&nbsp;(10%
+OFF)</span> </div>
+<div class="strike_price">₹<s>30.00</s></div>
+</div>
+</div>
 </div><div class="col-lg-4 col-md-4 col-sm-6 mix colors doms_kit stationery featured_product"
 data-price="27.00" data-cats="24,25,13"
 data-brands="7" data-quantity="2">
@@ -681,28 +706,28 @@ OFF)</span> </div>
 <div class="strike_price">₹<s>30.00</s></div>
 </div>
 </div>
-</div><div class="col-lg-4 col-md-4 col-sm-6 mix doms_kit stationery featured_product"
-data-price="27.00" data-cats="25,42,13"
-data-brands="7" data-quantity="12">
+</div><div class="col-lg-4 col-md-4 col-sm-6 mix doms_kit pens stationery featured_product"
+data-price="23.00" data-cats="25,41,13"
+data-brands="7" data-quantity="8">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1610/" data-images="1680371772.jpg,"
-onclick="return redirectToProduct('610', '3hx-pencil-sharpener', 'KCPR1610');">
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1626/" data-images="1681496414.jpg,1681496469.jpg,1681496489.jpg"
+onclick="return redirectToProduct('626', 'white-board-marker-blue', 'KCPR1626');">
 <ul class="featured__item__pic__hover">
-<li><a href="#" class=" prod_like_icon_610"
-onclick="setLike(event, '610')"><i class="fa fa-heart"></i></a></li>
+<li><a href="#" class=" prod_like_icon_626"
+onclick="setLike(event, '626')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
-<a class="link_to_product" href="https://katyayani-creations.github.io/3hx-pencil-sharpener/kcpr1610?p=kcpr1610">
-<span style="font-weight:bold;">Doms</span>&nbsp;3HX Pencil Sharpener</a>
+<a class="link_to_product" href="https://katyayani-creations.github.io/white-board-marker-blue/kcpr1626?p=kcpr1626">
+<span style="font-weight:bold;">Doms</span>&nbsp;White Board Marker Blue</a>
 </div>
 <div class="card_price">
-₹27.00(12)
-<span style="color:#ff7043 !important">&nbsp;(10%
+₹23.00(8)
+<span style="color:#ff7043 !important">&nbsp;(8%
 OFF)</span> </div>
-<div class="strike_price">₹<s>30.00</s></div>
+<div class="strike_price">₹<s>25.00</s></div>
 </div>
 </div>
 </div><div class="col-lg-4 col-md-4 col-sm-6 mix doms_kit stationery featured_product"
@@ -731,23 +756,23 @@ OFF)</span> </div>
 </div>
 </div><div class="col-lg-4 col-md-4 col-sm-6 mix doms_kit pens stationery featured_product"
 data-price="23.00" data-cats="25,41,13"
-data-brands="7" data-quantity="8">
+data-brands="7" data-quantity="9">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1626/" data-images="1681496414.jpg,1681496469.jpg,1681496489.jpg"
-onclick="return redirectToProduct('626', 'white-board-marker-blue', 'KCPR1626');">
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1627/" data-images="1681496691.jpg,1681496713.jpg"
+onclick="return redirectToProduct('627', 'white-board-marker-green', 'KCPR1627');">
 <ul class="featured__item__pic__hover">
-<li><a href="#" class=" prod_like_icon_626"
-onclick="setLike(event, '626')"><i class="fa fa-heart"></i></a></li>
+<li><a href="#" class=" prod_like_icon_627"
+onclick="setLike(event, '627')"><i class="fa fa-heart"></i></a></li>
 </ul>
 </div>
 <div class="featured__item__text">
 <div class="strike_price">
-<a class="link_to_product" href="https://katyayani-creations.github.io/white-board-marker-blue/kcpr1626?p=kcpr1626">
-<span style="font-weight:bold;">Doms</span>&nbsp;White Board Marker Blue</a>
+<a class="link_to_product" href="https://katyayani-creations.github.io/white-board-marker-green/kcpr1627?p=kcpr1627">
+<span style="font-weight:bold;">Doms</span>&nbsp;White Board Marker Green</a>
 </div>
 <div class="card_price">
-₹23.00(8)
+₹23.00(9)
 <span style="color:#ff7043 !important">&nbsp;(8%
 OFF)</span> </div>
 <div class="strike_price">₹<s>25.00</s></div>
@@ -772,30 +797,6 @@ onclick="setLike(event, '628')"><i class="fa fa-heart"></i></a></li>
 </div>
 <div class="card_price">
 ₹23.00(7)
-<span style="color:#ff7043 !important">&nbsp;(8%
-OFF)</span> </div>
-<div class="strike_price">₹<s>25.00</s></div>
-</div>
-</div>
-</div><div class="col-lg-4 col-md-4 col-sm-6 mix doms_kit pens stationery featured_product"
-data-price="23.00" data-cats="25,41,13"
-data-brands="7" data-quantity="9">
-<div class="featured__item">
-<div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1627/" data-images="1681496691.jpg,1681496713.jpg"
-onclick="return redirectToProduct('627', 'white-board-marker-green', 'KCPR1627');">
-<ul class="featured__item__pic__hover">
-<li><a href="#" class=" prod_like_icon_627"
-onclick="setLike(event, '627')"><i class="fa fa-heart"></i></a></li>
-</ul>
-</div>
-<div class="featured__item__text">
-<div class="strike_price">
-<a class="link_to_product" href="https://katyayani-creations.github.io/white-board-marker-green/kcpr1627?p=kcpr1627">
-<span style="font-weight:bold;">Doms</span>&nbsp;White Board Marker Green</a>
-</div>
-<div class="card_price">
-₹23.00(9)
 <span style="color:#ff7043 !important">&nbsp;(8%
 OFF)</span> </div>
 <div class="strike_price">₹<s>25.00</s></div>
@@ -827,30 +828,6 @@ OFF)</span> </div>
 </div>
 </div><div class="col-lg-4 col-md-4 col-sm-6 mix doms_kit stationery featured_product"
 data-price="18.00" data-cats="25,13"
-data-brands="7" data-quantity="7">
-<div class="featured__item">
-<div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1612/" data-images="1680372865.jpg,"
-onclick="return redirectToProduct('612', 'refilo-permanent-marker-pen-black', 'KCPR1612');">
-<ul class="featured__item__pic__hover">
-<li><a href="#" class=" prod_like_icon_612"
-onclick="setLike(event, '612')"><i class="fa fa-heart"></i></a></li>
-</ul>
-</div>
-<div class="featured__item__text">
-<div class="strike_price">
-<a class="link_to_product" href="https://katyayani-creations.github.io/refilo-permanent-marker-pen-black/kcpr1612?p=kcpr1612">
-<span style="font-weight:bold;">Doms</span>&nbsp;Refilo Permanent Marker Pen Black</a>
-</div>
-<div class="card_price">
-₹18.00(7)
-<span style="color:#ff7043 !important">&nbsp;(10%
-OFF)</span> </div>
-<div class="strike_price">₹<s>20.00</s></div>
-</div>
-</div>
-</div><div class="col-lg-4 col-md-4 col-sm-6 mix doms_kit stationery featured_product"
-data-price="18.00" data-cats="25,13"
 data-brands="7" data-quantity="10">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
@@ -868,6 +845,30 @@ onclick="setLike(event, '613')"><i class="fa fa-heart"></i></a></li>
 </div>
 <div class="card_price">
 ₹18.00(10)
+<span style="color:#ff7043 !important">&nbsp;(10%
+OFF)</span> </div>
+<div class="strike_price">₹<s>20.00</s></div>
+</div>
+</div>
+</div><div class="col-lg-4 col-md-4 col-sm-6 mix doms_kit stationery featured_product"
+data-price="18.00" data-cats="25,13"
+data-brands="7" data-quantity="7">
+<div class="featured__item">
+<div data-imageindex="0" class="featured__item__pic set-bg-new"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1612/" data-images="1680372865.jpg,"
+onclick="return redirectToProduct('612', 'refilo-permanent-marker-pen-black', 'KCPR1612');">
+<ul class="featured__item__pic__hover">
+<li><a href="#" class=" prod_like_icon_612"
+onclick="setLike(event, '612')"><i class="fa fa-heart"></i></a></li>
+</ul>
+</div>
+<div class="featured__item__text">
+<div class="strike_price">
+<a class="link_to_product" href="https://katyayani-creations.github.io/refilo-permanent-marker-pen-black/kcpr1612?p=kcpr1612">
+<span style="font-weight:bold;">Doms</span>&nbsp;Refilo Permanent Marker Pen Black</a>
+</div>
+<div class="card_price">
+₹18.00(7)
 <span style="color:#ff7043 !important">&nbsp;(10%
 OFF)</span> </div>
 <div class="strike_price">₹<s>20.00</s></div>
@@ -969,30 +970,6 @@ OFF)</span> </div>
 </div>
 </div><div class="col-lg-4 col-md-4 col-sm-6 mix doms_kit stationery featured_product"
 data-price="9.00" data-cats="25,42,13"
-data-brands="7" data-quantity="17">
-<div class="featured__item">
-<div data-imageindex="0" class="featured__item__pic set-bg-new"
-data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1428/" data-images="1671376193.jpg,1671376280.jpeg"
-onclick="return redirectToProduct('428', 'erasersharpener', 'KCPR1428');">
-<ul class="featured__item__pic__hover">
-<li><a href="#" class=" prod_like_icon_428"
-onclick="setLike(event, '428')"><i class="fa fa-heart"></i></a></li>
-</ul>
-</div>
-<div class="featured__item__text">
-<div class="strike_price">
-<a class="link_to_product" href="https://katyayani-creations.github.io/erasersharpener/kcpr1428?p=kcpr1428">
-<span style="font-weight:bold;">Doms</span>&nbsp;Eraser-Sharpener</a>
-</div>
-<div class="card_price">
-₹9.00(17)
-<span style="color:#ff7043 !important">&nbsp;(10%
-OFF)</span> </div>
-<div class="strike_price">₹<s>10.00</s></div>
-</div>
-</div>
-</div><div class="col-lg-4 col-md-4 col-sm-6 mix doms_kit stationery featured_product"
-data-price="9.00" data-cats="25,42,13"
 data-brands="7" data-quantity="3">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
@@ -1010,6 +987,30 @@ onclick="setLike(event, '386')"><i class="fa fa-heart"></i></a></li>
 </div>
 <div class="card_price">
 ₹9.00(3)
+<span style="color:#ff7043 !important">&nbsp;(10%
+OFF)</span> </div>
+<div class="strike_price">₹<s>10.00</s></div>
+</div>
+</div>
+</div><div class="col-lg-4 col-md-4 col-sm-6 mix doms_kit stationery featured_product"
+data-price="9.00" data-cats="25,42,13"
+data-brands="7" data-quantity="17">
+<div class="featured__item">
+<div data-imageindex="0" class="featured__item__pic set-bg-new"
+data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1428/" data-images="1671376193.jpg,1671376280.jpeg"
+onclick="return redirectToProduct('428', 'erasersharpener', 'KCPR1428');">
+<ul class="featured__item__pic__hover">
+<li><a href="#" class=" prod_like_icon_428"
+onclick="setLike(event, '428')"><i class="fa fa-heart"></i></a></li>
+</ul>
+</div>
+<div class="featured__item__text">
+<div class="strike_price">
+<a class="link_to_product" href="https://katyayani-creations.github.io/erasersharpener/kcpr1428?p=kcpr1428">
+<span style="font-weight:bold;">Doms</span>&nbsp;Eraser-Sharpener</a>
+</div>
+<div class="card_price">
+₹9.00(17)
 <span style="color:#ff7043 !important">&nbsp;(10%
 OFF)</span> </div>
 <div class="strike_price">₹<s>10.00</s></div>
@@ -1133,7 +1134,7 @@ OFF)</span> </div>
 </div>
 </div><div class="col-lg-4 col-md-4 col-sm-6 mix doms_kit pens stationery featured_product"
 data-price="4.00" data-cats="25,41,13"
-data-brands="7" data-quantity="28">
+data-brands="7" data-quantity="23">
 <div class="featured__item">
 <div data-imageindex="0" class="featured__item__pic set-bg-new"
 data-domain="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1114/" data-images="1664288009.jpg,"
@@ -1149,7 +1150,7 @@ onclick="setLike(event, '114')"><i class="fa fa-heart"></i></a></li>
 <span style="font-weight:bold;">Doms</span>&nbsp;Everyday Pens</a>
 </div>
 <div class="card_price">
-₹4.00(28)
+₹4.00(23)
 </div>
 </div>
 </div>
