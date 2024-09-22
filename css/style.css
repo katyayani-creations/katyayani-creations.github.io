@@ -143,6 +143,13 @@ ol {
 	position: relative;
 }
 
+.section-title h1 {
+	color: #1c1c1c;
+	font-weight: 700;
+	position: relative;
+	font-size: 30px;
+}
+
 .section-title h2:after {
 	position: absolute;
 	left: 0;
@@ -3533,72 +3540,81 @@ font-size: 16px;
 }
 
 .red {
-            color: #f00 !important;
-        }
-        .blink {
-            animation: blinker 5s linear infinite;
-            color: blue;
-            font-family: sans-serif;
-            text-align: center;
-        }
+	color: #f00 !important;
+}
+.blink {
+		animation: blinker 5s linear infinite;
+		color: blue;
+		font-family: sans-serif;
+		text-align: center;
+}
 
-        @keyframes blinker {
-            50% {
-                opacity: 0;
-            }
-        }
+@keyframes blinker {
+		50% {
+				opacity: 0;
+		}
+}
 
-        a:hover {
-            color: #f00;
-        }
+a:hover {
+		color: #f00;
+}
 
-        :hover {
-            animation: none;
-        }
+:hover {
+		animation: none;
+}
 
-        .login_form h3 {
-            margin: 0;
-            padding: 10px;
-            color: #fff;
-            font-size: 14px;
-            background: -moz-linear-gradient(top, #2e5764, #1e3d47);
-            background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #1e3d47), color-stop(1, #2e5764));
-        }
+.login_form h3 {
+		margin: 0;
+		padding: 10px;
+		color: #fff;
+		font-size: 14px;
+		background: -moz-linear-gradient(top, #2e5764, #1e3d47);
+		background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #1e3d47), color-stop(1, #2e5764));
+}
 
-        .login_form.modal p {
-            padding: 20px 30px;
-            border-bottom: 1px solid #ddd;
-            margin: 0;
-            background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #eee), color-stop(1, #fff));
-            overflow: hidden;
-        }
+.login_form.modal p {
+		padding: 20px 30px;
+		border-bottom: 1px solid #ddd;
+		margin: 0;
+		background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #eee), color-stop(1, #fff));
+		overflow: hidden;
+}
 
-        .login_form.modal p label {
-            float: left;
-            font-weight: bold;
-            color: #333;
-            font-size: 13px;
-            width: 110px;
-            line-height: 22px;
-        }
+.login_form.modal p label {
+		float: left;
+		font-weight: bold;
+		color: #333;
+		font-size: 13px;
+		width: 110px;
+		line-height: 22px;
+}
 
-        .login_form.modal p input[type="text"],
-        .login_form.modal p input[type="password"] {
-            font: normal 12px/18px "Lucida Grande", Verdana;
-            padding: 3px;
-            border: 1px solid #ddd;
-            width: 200px;
-        }
+.login_form.modal p input[type="text"],
+.login_form.modal p input[type="password"] {
+		font: normal 12px/18px "Lucida Grande", Verdana;
+		padding: 3px;
+		border: 1px solid #ddd;
+		width: 200px;
+}
 
-        .login_form.modal a {
-            float: right;
-            color: #fa0065;
-            font-weight: 700;
-            transition-duration: .2s;
-            text-decoration: none;
-            border-bottom: 2px solid transparent;
-        }
+.login_form.modal a {
+		float: right;
+		color: #fa0065;
+		font-weight: 700;
+		transition-duration: .2s;
+		text-decoration: none;
+		border-bottom: 2px solid transparent;
+}
 
-        .error {
-            border: solid 1px #f00 !important;
-        }
+.error {
+		border: solid 1px #f00 !important;
+}
+
+.social_icon_link {color:blue;}
+.blink_text{color:#ff77b7 !important;}
+.menu-custom li{margin-right: 15px !important;}
+.menu-custom li:active{text-decoration:underline;}
+.side_menu li a.active{font-weight:bold;}
+ul.side_sub_menu li {margin-left:20px;}
+.blink{display:none;}
+#products{width:100% !important;}
