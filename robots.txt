@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+
+# Allow all crawlers to access the main content
+Allow: /products.php
+Allow: /product.php
+Allow: /aboutus.php
+Allow: /contactus.php
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+# Disallow access to sensitive directories
+Disallow: /inc/
+Disallow: /api/
+Disallow: /logs/
+Disallow: /.htaccess
+Disallow: /config.php
+Disallow: /conn.php
+
+# Crawl delay (optional)
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: http://localhost/KC-New-Website/sitemap.xml
