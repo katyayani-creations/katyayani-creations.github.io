@@ -65,9 +65,13 @@
 <!-- DNS Prefetch for Additional Performance -->
 <link rel="dns-prefetch" href="https://fonts.googleapis.com">
 <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+<link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
 <!-- Preload Inter Font -->
 <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"></noscript>
+<!-- Font Awesome Icons -->
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></noscript>
 <!-- Preload Critical Resources -->
 <link rel="preload" as="style" href="css/critical.css" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="css/critical.css"></noscript>
@@ -79,7 +83,7 @@
 <!-- Preload LCP Images for Performance -->
 <link rel="preload" as="image" href="images/dooj1.avif" type="image/avif" fetchpriority="high">
 <link rel="preload" as="image" href="images/dooj1.webp" type="image/webp" fetchpriority="high">
-<link rel="preload" as="image" href="https://d1s4zcjwkikclq.cloudfront.net/images/dooj1.jpeg" fetchpriority="high">
+<link rel="preload" as="image" href="https://d1s4zcjwkikclq.cloudfront.net/https://d1s4zcjwkikclq.cloudfront.net/images/dooj1.jpeg" fetchpriority="high">
 <!-- Language and Geographic Tags -->
 <meta name="language" content="en">
 <link rel="alternate" hreflang="en" href="index.html">
@@ -154,6 +158,7 @@
 }
 </script>
 <link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/products.css">
 </head>
 <body>
 <!-- Loading Screen -->
@@ -173,16 +178,6 @@ decoding="async"
 >
 <span class="logo-text">Katyayani Creations</span>
 </a>
-<!-- Global Search Bar -->
-<div class="search-container">
-<div class="search-box">
-<input type="text" id="global-search" placeholder="Search products, pages..." autocomplete="off">
-<button type="button" class="search-btn">
-<span class="search-icon">🔍</span>
-</button>
-</div>
-<div id="search-suggestions" class="search-suggestions hidden"></div>
-</div>
 <!-- Mobile Menu Toggle -->
 <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
 <span class="hamburger-line"></span>
@@ -210,7 +205,7 @@ decoding="async"
 </nav>
 </header>    <!-- Hero Section with Dynamic Background -->
 <section id="home" class="hero" data-dynamic-bg="true"
-data-banners='[{&quot;id&quot;:2,&quot;image_url&quot;:&quot;https:\/\/d1s4zcjwkikclq.cloudfront.net\/images\/dooj1.jpeg&quot;,&quot;title&quot;:&quot;&quot;,&quot;subtitle&quot;:&quot;&quot;,&quot;background_color&quot;:&quot;#667eea&quot;},{&quot;id&quot;:4,&quot;image_url&quot;:&quot;https:\/\/d1s4zcjwkikclq.cloudfront.net\/images\/new.jpeg&quot;,&quot;title&quot;:&quot;&quot;,&quot;subtitle&quot;:&quot;&quot;,&quot;background_color&quot;:&quot;#667eea&quot;},{&quot;id&quot;:5,&quot;image_url&quot;:&quot;https:\/\/d1s4zcjwkikclq.cloudfront.net\/images\/17002986510.jpeg&quot;,&quot;title&quot;:&quot;&quot;,&quot;subtitle&quot;:&quot;&quot;,&quot;background_color&quot;:&quot;#667eea&quot;},{&quot;id&quot;:7,&quot;image_url&quot;:&quot;https:\/\/d1s4zcjwkikclq.cloudfront.net\/images\/17006610490.jpeg&quot;,&quot;title&quot;:&quot;&quot;,&quot;subtitle&quot;:&quot;&quot;,&quot;background_color&quot;:&quot;#667eea&quot;},{&quot;id&quot;:13,&quot;image_url&quot;:&quot;https:\/\/d1s4zcjwkikclq.cloudfront.net\/images\/17094699200.jpeg&quot;,&quot;title&quot;:&quot;&quot;,&quot;subtitle&quot;:&quot;&quot;,&quot;background_color&quot;:&quot;#667eea&quot;}]'>
+data-banners='[{&quot;id&quot;:2,&quot;image_url&quot;:&quot;https:\/\/d1s4zcjwkikclq.cloudfront.net\/images\/dooj1.jpeg&quot;,&quot;title&quot;:&quot;Toys Collection&quot;,&quot;subtitle&quot;:&quot;&quot;,&quot;background_color&quot;:&quot;#667eea&quot;},{&quot;id&quot;:7,&quot;image_url&quot;:&quot;https:\/\/d1s4zcjwkikclq.cloudfront.net\/images\/17006610490.jpeg&quot;,&quot;title&quot;:&quot;Toys Collection&quot;,&quot;subtitle&quot;:&quot;&quot;,&quot;background_color&quot;:&quot;#667eea&quot;},{&quot;id&quot;:15,&quot;image_url&quot;:&quot;https:\/\/d1s4zcjwkikclq.cloudfront.net\/images\/17141370810.jpeg&quot;,&quot;title&quot;:&quot;Special Offer&quot;,&quot;subtitle&quot;:&quot;&quot;,&quot;background_color&quot;:&quot;#667eea&quot;},{&quot;id&quot;:21,&quot;image_url&quot;:&quot;https:\/\/d1s4zcjwkikclq.cloudfront.net\/images\/17432405310.jpeg&quot;,&quot;title&quot;:&quot;Special Offer&quot;,&quot;subtitle&quot;:&quot;&quot;,&quot;background_color&quot;:&quot;#667eea&quot;},{&quot;id&quot;:22,&quot;image_url&quot;:&quot;https:\/\/d1s4zcjwkikclq.cloudfront.net\/images\/17432405311.jpeg&quot;,&quot;title&quot;:&quot;Special Offer&quot;,&quot;subtitle&quot;:&quot;&quot;,&quot;background_color&quot;:&quot;#667eea&quot;}]'>
 <!-- Dynamic background layers for smooth transitions -->
 <div class="hero-bg-layer hero-bg-1 active"
 style="background: linear-gradient(135deg, #667eeaCC 0%, #667eea99 100%), url('https://d1s4zcjwkikclq.cloudfront.net/images/dooj1.jpeg') center/cover no-repeat;">
@@ -225,7 +220,7 @@ aria-hidden="true">
 <div class="hero-bg-layer hero-bg-2"></div>
 <div class="container">
 <div class="hero-content">
-<h1 id="hero-title">Magical Handcrafted Creations ✨</h1>
+<h1 id="hero-title">Toys Collection</h1>
 <p id="hero-subtitle">Discover enchanting, unique products crafted with unicorn magic and sparkling creativity</p>
 <a href="#products" class="cta-button">Explore Our Collection</a>
 </div>
@@ -238,9 +233,9 @@ aria-hidden="true">
 <button class="scroll-button left" data-direction="left">‹</button>
 <button class="scroll-button right" data-direction="right">›</button>
 <div class="products-grid" data-auto-scroll="true">
-<a class="product-card category-card" data-category-id="36" href="Educational-Kits.html">
+<a class="product-card category-card" data-category-id="36" href="educational-kits.html">
 <div class="product-image category-image">
-<img src="./featured_prod_images/cat_edu_kit.jpeg" 
+<img src="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/cat_edu_kit.jpeg" 
 alt="Educational Kits"
 loading="eager">
 </div>
@@ -252,9 +247,9 @@ loading="eager">
 </div>
 </div>
 </a>
-<a class="product-card category-card" data-category-id="37" href="Creativity-Kits.html">
+<a class="product-card category-card" data-category-id="37" href="creativity-kits.html">
 <div class="product-image category-image">
-<img src="./featured_prod_images/cat_creativity.jpeg" 
+<img src="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/cat_creativity.jpeg" 
 alt="Creativity Kits"
 loading="eager">
 </div>
@@ -266,9 +261,9 @@ loading="eager">
 </div>
 </div>
 </a>
-<a class="product-card category-card" data-category-id="22" href="Avengers.html">
+<a class="product-card category-card" data-category-id="22" href="avengers.html">
 <div class="product-image category-image">
-<img src="./featured_prod_images/cat_avengers.jpeg" 
+<img src="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/cat_avengers.jpeg" 
 alt="Avengers"
 loading="eager">
 </div>
@@ -280,9 +275,9 @@ loading="eager">
 </div>
 </div>
 </a>
-<a class="product-card category-card" data-category-id="11" href="Toys.html">
+<a class="product-card category-card" data-category-id="11" href="toys.html">
 <div class="product-image category-image">
-<img src="./featured_prod_images/cat_toys.jpg" 
+<img src="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/cat_toys.jpg" 
 alt="Toys"
 loading="eager">
 </div>
@@ -294,9 +289,9 @@ loading="eager">
 </div>
 </div>
 </a>
-<a class="product-card category-card" data-category-id="41" href="Pens.html">
+<a class="product-card category-card" data-category-id="41" href="pens.html">
 <div class="product-image category-image">
-<img src="./featured_prod_images/1680957111.jpeg" 
+<img src="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/1680957111.jpeg" 
 alt="Pens"
 loading="lazy">
 </div>
@@ -308,9 +303,9 @@ loading="lazy">
 </div>
 </div>
 </a>
-<a class="product-card category-card" data-category-id="25" href="Doms-Kits.html">
+<a class="product-card category-card" data-category-id="25" href="doms-kits.html">
 <div class="product-image category-image">
-<img src="./featured_prod_images/cat_doms_kit.jpeg" 
+<img src="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/cat_doms_kit.jpeg" 
 alt="Doms Kits"
 loading="lazy">
 </div>
@@ -322,9 +317,9 @@ loading="lazy">
 </div>
 </div>
 </a>
-<a class="product-card category-card" data-category-id="24" href="Colors.html">
+<a class="product-card category-card" data-category-id="24" href="colors.html">
 <div class="product-image category-image">
-<img src="./featured_prod_images/cat_colors.jpeg" 
+<img src="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/cat_colors.jpeg" 
 alt="Colors"
 loading="lazy">
 </div>
@@ -336,9 +331,9 @@ loading="lazy">
 </div>
 </div>
 </a>
-<a class="product-card category-card" data-category-id="13" href="Stationery.html">
+<a class="product-card category-card" data-category-id="13" href="stationery.html">
 <div class="product-image category-image">
-<img src="./featured_prod_images/1675856290.png" 
+<img src="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/1675856290.png" 
 alt="Stationery"
 loading="lazy">
 </div>
@@ -350,9 +345,9 @@ loading="lazy">
 </div>
 </div>
 </a>
-<a class="product-card category-card" data-category-id="23" href="Return-Gift-Items.html">
+<a class="product-card category-card" data-category-id="23" href="return-gift-items.html">
 <div class="product-image category-image">
-<img src="./featured_prod_images/1675854993.jpeg" 
+<img src="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/1675854993.jpeg" 
 alt="Return Gift Items"
 loading="lazy">
 </div>
@@ -364,9 +359,9 @@ loading="lazy">
 </div>
 </div>
 </a>
-<a class="product-card category-card" data-category-id="53" href="Mothers-Day-Store.html">
+<a class="product-card category-card" data-category-id="53" href="mothers-day-store.html">
 <div class="product-image category-image">
-<img src="./featured_prod_images/1714138373.jpeg" 
+<img src="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/1714138373.jpeg" 
 alt="Mothers Day Store"
 loading="lazy">
 </div>
@@ -378,9 +373,9 @@ loading="lazy">
 </div>
 </div>
 </a>
-<a class="product-card category-card" data-category-id="47" href="Kanjak-Gifts.html">
+<a class="product-card category-card" data-category-id="47" href="kanjak-gifts.html">
 <div class="product-image category-image">
-<img src="./featured_prod_images/1680021759.jpeg" 
+<img src="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/1680021759.jpeg" 
 alt="Kanjak Gifts"
 loading="lazy">
 </div>
@@ -392,9 +387,9 @@ loading="lazy">
 </div>
 </div>
 </a>
-<a class="product-card category-card" data-category-id="46" href="Valentine-Day-Special.html">
+<a class="product-card category-card" data-category-id="46" href="valentine-day-special.html">
 <div class="product-image category-image">
-<img src="./featured_prod_images/banner.jpeg" 
+<img src="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/banner.jpeg" 
 alt="Valentine Day Special"
 loading="lazy">
 </div>
@@ -406,9 +401,9 @@ loading="lazy">
 </div>
 </div>
 </a>
-<a class="product-card category-card" data-category-id="31" href="Wind-Chimes.html">
+<a class="product-card category-card" data-category-id="31" href="wind-chimes.html">
 <div class="product-image category-image">
-<img src="./featured_prod_images/wc.jpeg" 
+<img src="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/wc.jpeg" 
 alt="Wind Chimes"
 loading="lazy">
 </div>
@@ -420,9 +415,9 @@ loading="lazy">
 </div>
 </div>
 </a>
-<a class="product-card category-card" data-category-id="18" href="Vases.html">
+<a class="product-card category-card" data-category-id="18" href="vases.html">
 <div class="product-image category-image">
-<img src="./featured_prod_images/cat_lamps.jpeg" 
+<img src="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/cat_lamps.jpeg" 
 alt="Vases"
 loading="lazy">
 </div>
@@ -434,9 +429,9 @@ loading="lazy">
 </div>
 </div>
 </a>
-<a class="product-card category-card" data-category-id="29" href="Lamps.html">
+<a class="product-card category-card" data-category-id="29" href="lamps.html">
 <div class="product-image category-image">
-<img src="./featured_prod_images/Diwali_images.jpeg" 
+<img src="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/Diwali_images.jpeg" 
 alt="Lamps"
 loading="lazy">
 </div>
@@ -448,9 +443,9 @@ loading="lazy">
 </div>
 </div>
 </a>
-<a class="product-card category-card" data-category-id="40" href="Clocks.html">
+<a class="product-card category-card" data-category-id="40" href="clocks.html">
 <div class="product-image category-image">
-<img src="./featured_prod_images/1676564069.png" 
+<img src="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/1676564069.png" 
 alt="Clocks"
 loading="lazy">
 </div>
@@ -462,9 +457,9 @@ loading="lazy">
 </div>
 </div>
 </a>
-<a class="product-card category-card" data-category-id="14" href="Home-&-Decor.html">
+<a class="product-card category-card" data-category-id="14" href="home-and-decor.html">
 <div class="product-image category-image">
-<img src="./featured_prod_images/cat_premium.png" 
+<img src="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/cat_premium.png" 
 alt="Home &amp; Decor"
 loading="lazy">
 </div>
@@ -476,9 +471,9 @@ loading="lazy">
 </div>
 </div>
 </a>
-<a class="product-card category-card" data-category-id="51" href="Gift-Packs.html">
+<a class="product-card category-card" data-category-id="51" href="gift-packs.html">
 <div class="product-image category-image">
-<img src="./featured_prod_images/cat_diwali_1.jpeg" 
+<img src="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/cat_diwali_1.jpeg" 
 alt="Gift Packs"
 loading="lazy">
 </div>
@@ -490,9 +485,9 @@ loading="lazy">
 </div>
 </div>
 </a>
-<a class="product-card category-card" data-category-id="21" href="Diwali-Items.html">
+<a class="product-card category-card" data-category-id="21" href="diwali-items.html">
 <div class="product-image category-image">
-<img src="./featured_prod_images/cat_diwali_1.jpeg" 
+<img src="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/cat_diwali_1.jpeg" 
 alt="Diwali Items"
 loading="lazy">
 </div>
@@ -504,9 +499,9 @@ loading="lazy">
 </div>
 </div>
 </a>
-<a class="product-card category-card" data-category-id="12" href="Birthday-Accessories.html">
+<a class="product-card category-card" data-category-id="12" href="birthday-accessories.html">
 <div class="product-image category-image">
-<img src="./featured_prod_images/1675865305.jpeg" 
+<img src="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/1675865305.jpeg" 
 alt="Birthday Accessories"
 loading="lazy">
 </div>
@@ -518,366 +513,6 @@ loading="lazy">
 </div>
 </div>
 </a>
-<div class="product-card category-card" data-category-id="36" data-category-url="products.html?catId=36">
-<div class="product-image category-image">
-<picture>
-<source type="image/avif" srcset="images/./featured_prod_images/cat_edu_kit.avif">
-<source type="image/webp" srcset="images/./featured_prod_images/cat_edu_kit.webp">
-<img src="images/./featured_prod_images/cat_edu_kit.jpeg" 
-alt="Educational Kits"
-loading="lazy">
-</picture>
-</div>
-<div class="product-info category-info">
-<h3>Educational Kits</h3>
-<p></p>
-<div class="category-action">
-<span class="explore-btn">Explore Category →</span>
-</div>
-</div>
-</div>
-<div class="product-card category-card" data-category-id="37" data-category-url="products.html?catId=37">
-<div class="product-image category-image">
-<picture>
-<source type="image/avif" srcset="images/./featured_prod_images/cat_creativity.avif">
-<source type="image/webp" srcset="images/./featured_prod_images/cat_creativity.webp">
-<img src="images/./featured_prod_images/cat_creativity.jpeg" 
-alt="Creativity Kits"
-loading="lazy">
-</picture>
-</div>
-<div class="product-info category-info">
-<h3>Creativity Kits</h3>
-<p></p>
-<div class="category-action">
-<span class="explore-btn">Explore Category →</span>
-</div>
-</div>
-</div>
-<div class="product-card category-card" data-category-id="22" data-category-url="products.html?catId=22">
-<div class="product-image category-image">
-<picture>
-<source type="image/avif" srcset="images/./featured_prod_images/cat_avengers.avif">
-<source type="image/webp" srcset="images/./featured_prod_images/cat_avengers.webp">
-<img src="images/./featured_prod_images/cat_avengers.jpeg" 
-alt="Avengers"
-loading="lazy">
-</picture>
-</div>
-<div class="product-info category-info">
-<h3>Avengers</h3>
-<p></p>
-<div class="category-action">
-<span class="explore-btn">Explore Category →</span>
-</div>
-</div>
-</div>
-<div class="product-card category-card" data-category-id="11" data-category-url="products.html?catId=11">
-<div class="product-image category-image">
-<picture>
-<source type="image/avif" srcset="images/./featured_prod_images/cat_toys.avif">
-<source type="image/webp" srcset="images/./featured_prod_images/cat_toys.webp">
-<img src="images/./featured_prod_images/cat_toys.jpg" 
-alt="Toys"
-loading="lazy">
-</picture>
-</div>
-<div class="product-info category-info">
-<h3>Toys</h3>
-<p></p>
-<div class="category-action">
-<span class="explore-btn">Explore Category →</span>
-</div>
-</div>
-</div>
-<div class="product-card category-card" data-category-id="41" data-category-url="products.html?catId=41">
-<div class="product-image category-image">
-<picture>
-<source type="image/avif" srcset="images/./featured_prod_images/1680957111.avif">
-<source type="image/webp" srcset="images/./featured_prod_images/1680957111.webp">
-<img src="images/./featured_prod_images/1680957111.jpeg" 
-alt="Pens"
-loading="lazy">
-</picture>
-</div>
-<div class="product-info category-info">
-<h3>Pens</h3>
-<p></p>
-<div class="category-action">
-<span class="explore-btn">Explore Category →</span>
-</div>
-</div>
-</div>
-<div class="product-card category-card" data-category-id="25" data-category-url="products.html?catId=25">
-<div class="product-image category-image">
-<picture>
-<source type="image/avif" srcset="images/./featured_prod_images/cat_doms_kit.avif">
-<source type="image/webp" srcset="images/./featured_prod_images/cat_doms_kit.webp">
-<img src="images/./featured_prod_images/cat_doms_kit.jpeg" 
-alt="Doms Kits"
-loading="lazy">
-</picture>
-</div>
-<div class="product-info category-info">
-<h3>Doms Kits</h3>
-<p></p>
-<div class="category-action">
-<span class="explore-btn">Explore Category →</span>
-</div>
-</div>
-</div>
-<div class="product-card category-card" data-category-id="24" data-category-url="products.html?catId=24">
-<div class="product-image category-image">
-<picture>
-<source type="image/avif" srcset="images/./featured_prod_images/cat_colors.avif">
-<source type="image/webp" srcset="images/./featured_prod_images/cat_colors.webp">
-<img src="images/./featured_prod_images/cat_colors.jpeg" 
-alt="Colors"
-loading="lazy">
-</picture>
-</div>
-<div class="product-info category-info">
-<h3>Colors</h3>
-<p></p>
-<div class="category-action">
-<span class="explore-btn">Explore Category →</span>
-</div>
-</div>
-</div>
-<div class="product-card category-card" data-category-id="13" data-category-url="products.html?catId=13">
-<div class="product-image category-image">
-<picture>
-<source type="image/avif" srcset="images/./featured_prod_images/1675856290.avif">
-<source type="image/webp" srcset="images/./featured_prod_images/1675856290.webp">
-<img src="images/./featured_prod_images/1675856290.png" 
-alt="Stationery"
-loading="lazy">
-</picture>
-</div>
-<div class="product-info category-info">
-<h3>Stationery</h3>
-<p></p>
-<div class="category-action">
-<span class="explore-btn">Explore Category →</span>
-</div>
-</div>
-</div>
-<div class="product-card category-card" data-category-id="23" data-category-url="products.html?catId=23">
-<div class="product-image category-image">
-<picture>
-<source type="image/avif" srcset="images/./featured_prod_images/1675854993.avif">
-<source type="image/webp" srcset="images/./featured_prod_images/1675854993.webp">
-<img src="images/./featured_prod_images/1675854993.jpeg" 
-alt="Return Gift Items"
-loading="lazy">
-</picture>
-</div>
-<div class="product-info category-info">
-<h3>Return Gift Items</h3>
-<p></p>
-<div class="category-action">
-<span class="explore-btn">Explore Category →</span>
-</div>
-</div>
-</div>
-<div class="product-card category-card" data-category-id="53" data-category-url="products.html?catId=53">
-<div class="product-image category-image">
-<picture>
-<source type="image/avif" srcset="images/./featured_prod_images/1714138373.avif">
-<source type="image/webp" srcset="images/./featured_prod_images/1714138373.webp">
-<img src="images/./featured_prod_images/1714138373.jpeg" 
-alt="Mothers Day Store"
-loading="lazy">
-</picture>
-</div>
-<div class="product-info category-info">
-<h3>Mothers Day Store</h3>
-<p></p>
-<div class="category-action">
-<span class="explore-btn">Explore Category →</span>
-</div>
-</div>
-</div>
-<div class="product-card category-card" data-category-id="47" data-category-url="products.html?catId=47">
-<div class="product-image category-image">
-<picture>
-<source type="image/avif" srcset="images/./featured_prod_images/1680021759.avif">
-<source type="image/webp" srcset="images/./featured_prod_images/1680021759.webp">
-<img src="images/./featured_prod_images/1680021759.jpeg" 
-alt="Kanjak Gifts"
-loading="lazy">
-</picture>
-</div>
-<div class="product-info category-info">
-<h3>Kanjak Gifts</h3>
-<p></p>
-<div class="category-action">
-<span class="explore-btn">Explore Category →</span>
-</div>
-</div>
-</div>
-<div class="product-card category-card" data-category-id="46" data-category-url="products.html?catId=46">
-<div class="product-image category-image">
-<picture>
-<source type="image/avif" srcset="images/./featured_prod_images/banner.avif">
-<source type="image/webp" srcset="images/./featured_prod_images/banner.webp">
-<img src="images/./featured_prod_images/banner.jpeg" 
-alt="Valentine Day Special"
-loading="lazy">
-</picture>
-</div>
-<div class="product-info category-info">
-<h3>Valentine Day Special</h3>
-<p></p>
-<div class="category-action">
-<span class="explore-btn">Explore Category →</span>
-</div>
-</div>
-</div>
-<div class="product-card category-card" data-category-id="31" data-category-url="products.html?catId=31">
-<div class="product-image category-image">
-<picture>
-<source type="image/avif" srcset="images/./featured_prod_images/wc.avif">
-<source type="image/webp" srcset="images/./featured_prod_images/wc.webp">
-<img src="images/./featured_prod_images/wc.jpeg" 
-alt="Wind Chimes"
-loading="lazy">
-</picture>
-</div>
-<div class="product-info category-info">
-<h3>Wind Chimes</h3>
-<p></p>
-<div class="category-action">
-<span class="explore-btn">Explore Category →</span>
-</div>
-</div>
-</div>
-<div class="product-card category-card" data-category-id="18" data-category-url="products.html?catId=18">
-<div class="product-image category-image">
-<picture>
-<source type="image/avif" srcset="images/./featured_prod_images/cat_lamps.avif">
-<source type="image/webp" srcset="images/./featured_prod_images/cat_lamps.webp">
-<img src="images/./featured_prod_images/cat_lamps.jpeg" 
-alt="Vases"
-loading="lazy">
-</picture>
-</div>
-<div class="product-info category-info">
-<h3>Vases</h3>
-<p></p>
-<div class="category-action">
-<span class="explore-btn">Explore Category →</span>
-</div>
-</div>
-</div>
-<div class="product-card category-card" data-category-id="29" data-category-url="products.html?catId=29">
-<div class="product-image category-image">
-<picture>
-<source type="image/avif" srcset="images/./featured_prod_images/Diwali_images.avif">
-<source type="image/webp" srcset="images/./featured_prod_images/Diwali_images.webp">
-<img src="images/./featured_prod_images/Diwali_images.jpeg" 
-alt="Lamps"
-loading="lazy">
-</picture>
-</div>
-<div class="product-info category-info">
-<h3>Lamps</h3>
-<p></p>
-<div class="category-action">
-<span class="explore-btn">Explore Category →</span>
-</div>
-</div>
-</div>
-<div class="product-card category-card" data-category-id="40" data-category-url="products.html?catId=40">
-<div class="product-image category-image">
-<picture>
-<source type="image/avif" srcset="images/./featured_prod_images/1676564069.avif">
-<source type="image/webp" srcset="images/./featured_prod_images/1676564069.webp">
-<img src="images/./featured_prod_images/1676564069.png" 
-alt="Clocks"
-loading="lazy">
-</picture>
-</div>
-<div class="product-info category-info">
-<h3>Clocks</h3>
-<p></p>
-<div class="category-action">
-<span class="explore-btn">Explore Category →</span>
-</div>
-</div>
-</div>
-<div class="product-card category-card" data-category-id="14" data-category-url="products.html?catId=14">
-<div class="product-image category-image">
-<picture>
-<source type="image/avif" srcset="images/./featured_prod_images/cat_premium.avif">
-<source type="image/webp" srcset="images/./featured_prod_images/cat_premium.webp">
-<img src="images/./featured_prod_images/cat_premium.png" 
-alt="Home &amp; Decor"
-loading="lazy">
-</picture>
-</div>
-<div class="product-info category-info">
-<h3>Home &amp; Decor</h3>
-<p></p>
-<div class="category-action">
-<span class="explore-btn">Explore Category →</span>
-</div>
-</div>
-</div>
-<div class="product-card category-card" data-category-id="51" data-category-url="products.html?catId=51">
-<div class="product-image category-image">
-<picture>
-<source type="image/avif" srcset="images/./featured_prod_images/cat_diwali_1.avif">
-<source type="image/webp" srcset="images/./featured_prod_images/cat_diwali_1.webp">
-<img src="images/./featured_prod_images/cat_diwali_1.jpeg" 
-alt="Gift Packs"
-loading="lazy">
-</picture>
-</div>
-<div class="product-info category-info">
-<h3>Gift Packs</h3>
-<p></p>
-<div class="category-action">
-<span class="explore-btn">Explore Category →</span>
-</div>
-</div>
-</div>
-<div class="product-card category-card" data-category-id="21" data-category-url="products.html?catId=21">
-<div class="product-image category-image">
-<picture>
-<source type="image/avif" srcset="images/./featured_prod_images/cat_diwali_1.avif">
-<source type="image/webp" srcset="images/./featured_prod_images/cat_diwali_1.webp">
-<img src="images/./featured_prod_images/cat_diwali_1.jpeg" 
-alt="Diwali Items"
-loading="lazy">
-</picture>
-</div>
-<div class="product-info category-info">
-<h3>Diwali Items</h3>
-<p></p>
-<div class="category-action">
-<span class="explore-btn">Explore Category →</span>
-</div>
-</div>
-</div>
-<div class="product-card category-card" data-category-id="12" data-category-url="products.html?catId=12">
-<div class="product-image category-image">
-<picture>
-<source type="image/avif" srcset="images/./featured_prod_images/1675865305.avif">
-<source type="image/webp" srcset="images/./featured_prod_images/1675865305.webp">
-<img src="images/./featured_prod_images/1675865305.jpeg" 
-alt="Birthday Accessories"
-loading="lazy">
-</picture>
-</div>
-<div class="product-info category-info">
-<h3>Birthday Accessories</h3>
-<p></p>
-<div class="category-action">
-<span class="explore-btn">Explore Category →</span>
-</div>
-</div>
-</div>
 </div>
 </div>
 </div>
@@ -892,7 +527,7 @@ loading="lazy">
 <a class="product-card featured-product" data-product-id="1105" href="floral-printed-ceramic-kettle-with-stainless-steel-infuser.html" style="cursor: pointer;">
 <div class="featured-badge">⭐ Featured</div>
 <div class="product-image">
-<img src="https://www.katyayani-creations.com/featured_prod_images/KCPR11105/KCPR11105_17235409132.jpg" 
+<img src="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR11105/KCPR11105_17235409132.jpg" 
 alt="Floral Printed Ceramic Kettle with Stainless Steel Infuser – Elegant and Functional Tea Kettle | Katyayani Creations"
 loading="eager" fetchpriority="high">
 </div>
@@ -909,7 +544,7 @@ loading="eager" fetchpriority="high">
 <a class="product-card featured-product" data-product-id="822" href="Ganesh-Ji-Water-Fountain.html" style="cursor: pointer;">
 <div class="featured-badge">⭐ Featured</div>
 <div class="product-image">
-<img src="https://www.katyayani-creations.com/featured_prod_images/KCPR1822/16971159620.jpeg" 
+<img src="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1822/16971159620.jpeg" 
 alt="Ganesh Ji Water Fountain – Elegant and Serene Water Feature for Your Home | Katyayani Creations"
 loading="eager" fetchpriority="high">
 </div>
@@ -926,7 +561,7 @@ loading="eager" fetchpriority="high">
 <a class="product-card featured-product" data-product-id="89" href="rocket-shape-tornado.html" style="cursor: pointer;">
 <div class="featured-badge">⭐ Featured</div>
 <div class="product-image">
-<img src="https://www.katyayani-creations.com/featured_prod_images/KCPR1089/1661361635.jpeg" 
+<img src="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1089/1661361635.jpeg" 
 alt="Rocket Shape Tornado – Exciting Tornado Science Experiment Kit | Katyayani Creations"
 loading="eager" fetchpriority="high">
 </div>
@@ -943,7 +578,7 @@ loading="eager" fetchpriority="high">
 <a class="product-card featured-product" data-product-id="1337" href="customized-name-slip.html" style="cursor: pointer;">
 <div class="featured-badge">⭐ Featured</div>
 <div class="product-image">
-<img src="https://www.katyayani-creations.com/featured_prod_images/KCPR11337/KCPR11337_17451442005.jpg" 
+<img src="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR11337/KCPR11337_17451442005.jpg" 
 alt="Personalized Name Slips (Pack of 12)– Custom Name Tags for Stationery &amp; Gifts "
 loading="eager" fetchpriority="high">
 </div>
@@ -958,7 +593,7 @@ loading="eager" fetchpriority="high">
 <a class="product-card featured-product" data-product-id="1409" href="multi-prints-umbrella-with-wissel-for-kids.html" style="cursor: pointer;">
 <div class="featured-badge">⭐ Featured</div>
 <div class="product-image">
-<img src="https://www.katyayani-creations.com/featured_prod_images/KCPR11409/KCPR11409_17458316340.webp" 
+<img src="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR11409/KCPR11409_17458316340.webp" 
 alt="Multi Prints Umbrella with Whistle for Kids – Colorful &amp; Safe Rain Gear (KCPR11409)"
 loading="lazy">
 </div>
@@ -975,7 +610,7 @@ loading="lazy">
 <a class="product-card featured-product" data-product-id="450" href="scooter-for-kids.html" style="cursor: pointer;">
 <div class="featured-badge">⭐ Featured</div>
 <div class="product-image">
-<img src="https://www.katyayani-creations.com/featured_prod_images/KCPR1450/KCPR1450_17435203840.jpeg" 
+<img src="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1450/KCPR1450_17435203840.jpeg" 
 alt="Premium Scooter for Kids | Adjustable Height &amp; LED Wheels"
 loading="lazy">
 </div>
@@ -992,7 +627,7 @@ loading="lazy">
 <a class="product-card featured-product" data-product-id="1158" href="space-theme-color-box-with-multiple-coloring-kit.html" style="cursor: pointer;">
 <div class="featured-badge">⭐ Featured</div>
 <div class="product-image">
-<img src="https://www.katyayani-creations.com/featured_prod_images/KCPR11158/KCPR11158_17238141334.jpg" 
+<img src="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR11158/KCPR11158_17238141334.jpg" 
 alt="Space Theme Color Box with Multiple Coloring Kit – Creative and Fun Coloring Set for Kids | Katyayani Creations"
 loading="lazy">
 </div>
@@ -1009,7 +644,7 @@ loading="lazy">
 <a class="product-card featured-product" data-product-id="1307" href="superheroes-frozen-unicorn-school-bags-16-inch.html" style="cursor: pointer;">
 <div class="featured-badge">⭐ Featured</div>
 <div class="product-image">
-<img src="https://www.katyayani-creations.com/featured_prod_images/KCPR11307/KCPR11307_17405911360.webp" 
+<img src="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR11307/KCPR11307_17405911360.webp" 
 alt="Frozen Unicorn School Bags | 16-inch Superhero Backpacks for Kids"
 loading="lazy">
 </div>
@@ -1026,7 +661,7 @@ loading="lazy">
 <a class="product-card featured-product" data-product-id="1309" href="unicorn-battery-operated-pencil-sharpenerelectric-eraservacuum-cleaner-stationery-set-with-10-eraser.html" style="cursor: pointer;">
 <div class="featured-badge">⭐ Featured</div>
 <div class="product-image">
-<img src="https://www.katyayani-creations.com/featured_prod_images/KCPR11309/KCPR11309_17407530774.webp" 
+<img src="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR11309/KCPR11309_17407530774.webp" 
 alt="Unicorn Battery Operated Pencil Sharpener, Electric Eraser, Vacuum Cleaner Stationery Set with 10 Erasers - Perfect for Kids &amp; School Use"
 loading="lazy">
 </div>
@@ -1043,7 +678,7 @@ loading="lazy">
 <a class="product-card featured-product" data-product-id="1154" href="doll-welcome-to-my-house.html" style="cursor: pointer;">
 <div class="featured-badge">⭐ Featured</div>
 <div class="product-image">
-<img src="https://www.katyayani-creations.com/featured_prod_images/KCPR11154/KCPR11154_17238129460.jpeg" 
+<img src="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR11154/KCPR11154_17238129460.jpeg" 
 alt="Doll Welcome to My House – Charming and Interactive Doll for Kids | Katyayani Creations"
 loading="lazy">
 </div>
@@ -1060,7 +695,7 @@ loading="lazy">
 <a class="product-card featured-product" data-product-id="1396" href="e88-pro-rc-drone.html" style="cursor: pointer;">
 <div class="featured-badge">⭐ Featured</div>
 <div class="product-image">
-<img src="https://www.katyayani-creations.com/featured_prod_images/KCPR11396/KCPR11396_17445701800.jpg" 
+<img src="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR11396/KCPR11396_17445701800.jpg" 
 alt="E88 Pro RC Drone with 4K Dual HD Camera – Foldable WiFi FPV Quadcopter with Altitude Hold &amp; Headless Mode"
 loading="lazy">
 </div>
@@ -1077,7 +712,7 @@ loading="lazy">
 <a class="product-card featured-product" data-product-id="1222" href="lcd-writing-pencil-case-writing-tablet-pencil-box.html" style="cursor: pointer;">
 <div class="featured-badge">⭐ Featured</div>
 <div class="product-image">
-<img src="https://www.katyayani-creations.com/featured_prod_images/KCPR11222/KCPR11222_17342904275.webp" 
+<img src="https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR11222/KCPR11222_17342904275.webp" 
 alt="LCD Writing Pencil Case Writing Tablet Pencil Box"
 loading="lazy">
 </div>
@@ -1135,13 +770,82 @@ loading="lazy">
 </section>        <!-- Footer -->
 <footer>
 <div class="container">
-<div class="footer-content">
-<p>&copy; 2025 Katyayani Creations. All rights reserved.</p>
-<div class="social-links">
-<a href="https://www.facebook.com/people/Katyayani-Creations/61553261334215/">📘</a>
-<a href="https://www.instagram.com/katyayani_creations/">📷</a>
-<a href="https://twitter.com/katyayani2022">🐦</a>
+<div class="footer-main">
+<!-- Company Logo and Info -->
+<div class="footer-section company-info">
+<div class="footer-logo">
+<img src="images/images/logo.jpeg" alt="Katyayani Creations" class="footer-logo-img">
 </div>
+<div class="company-details">
+<address class="footer-address">
+6/134, Palm Olympia, GH-02, 2013009                        </address>
+<div class="contact-info">
+<p>Phone: <a href="tel:+919044160393">+919044160393</a></p>
+<p>Email: <a href="mailto:katyayani.creations.2022@gmail.com">katyayani.creations.2022@gmail.com</a></p>
+</div>
+</div>
+</div>
+<!-- Useful Links -->
+<div class="footer-section">
+<h3 class="footer-title">Useful Links</h3>
+<ul class="footer-links">
+<li><a href="aboutus.html">About Us</a></li>
+<li><a href="aboutus.php#our-shop">About Our Shop</a></li>
+<li><a href="secure-shopping.html">Secure Shopping</a></li>
+<li><a href="terms.html">Terms and Conditions</a></li>
+<li><a href="privacy.html">Privacy Policy</a></li>
+<li><a href="sitemap.html">Our Sitemap</a></li>
+<li><a href="#">Main Website Link</a></li>
+<li><a href="#">Github Link</a></li>
+</ul>
+</div>
+<!-- More Links -->
+<div class="footer-section">
+<h3 class="footer-title">Explore</h3>
+<ul class="footer-links">
+<li><a href="aboutus.php#who-we-are">Who We Are</a></li>
+<li><a href="services.html">Our Services</a></li>
+<li><a href="products.html">Products</a></li>
+<li><a href="contactus.html">Contact</a></li>
+<li><a href="innovation.html">Innovation</a></li>
+<li><a href="testimonials.html">Testimonials</a></li>
+<li><a href="blogs.html">Blogs</a></li>
+</ul>
+</div>
+<!-- Newsletter -->
+<div class="footer-section newsletter-section">
+<h3 class="footer-title">Join Our Newsletter Now</h3>
+<p class="newsletter-desc">Get Whatsup updates about our latest shop and special offers.</p>
+<form class="newsletter-form" action="subscribe.html" method="POST">
+<input type="email" name="email" placeholder="Enter your email" required class="newsletter-input">
+<button type="submit" class="newsletter-btn">SUBSCRIBE</button>
+</form>
+<!-- Social Links -->
+<div class="social-links">
+<a href="https://www.facebook.com/people/Katyayani-Creations/61553261334215/" title="Facebook" class="social-link facebook">
+<i class="fab fa-facebook-f"></i>
+</a>
+<a href="https://twitter.com/katyayani2022" title="Twitter" class="social-link twitter">
+<i class="fab fa-twitter"></i>
+</a>
+<a href="https://chat.whatsapp.com/DTZWmSOvDCIEwmowAZbxhX" title="WhatsApp" class="social-link whatsapp">
+<i class="fab fa-whatsapp"></i>
+</a>
+<a href="https://www.instagram.com/katyayani_creations/" title="Instagram" class="social-link instagram">
+<i class="fab fa-instagram"></i>
+</a>
+<a href="#" title="Google" class="social-link google">
+<i class="fab fa-google"></i>
+</a>
+<a href="https://t.me/katyayani_creations" title="Telegram" class="social-link telegram">
+<i class="fab fa-telegram-plane"></i>
+</a>
+</div>
+</div>
+</div>
+<!-- Footer Bottom -->
+<div class="footer-bottom">
+<p>&copy; 2025 All rights reserved</p>
 </div>
 </div>
 </footer>
@@ -1183,6 +887,6 @@ loading="lazy">
 <script src="js/search.js"></script>
 <script src="js/common.js"></script>
 <script src="js/hero-background.js"></script>
-<script src="api/productarray.js" type="text/javascript"></script>
+<script src="js/productarray.js" type="text/javascript"></script>
 </body>
 </html>

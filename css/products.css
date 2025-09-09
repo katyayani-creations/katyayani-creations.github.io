@@ -79,7 +79,7 @@
     color: #2c3e50;
 }
 
-.filter-select {
+.filter-select, .filter-input {
     padding: 10px 15px;
     border: 2px solid rgba(244, 143, 177, 0.3);
     border-radius: 25px;
@@ -91,10 +91,92 @@
     min-width: 150px;
 }
 
-.filter-select:focus {
+.filter-select {
+    cursor: pointer;
+}
+
+.filter-input {
+    cursor: text;
+}
+
+.filter-input::placeholder {
+    color: #999;
+    opacity: 0.8;
+    font-style: italic;
+}
+
+.filter-select:focus, .filter-input:focus {
     border-color: #e91e63;
     box-shadow: 0 4px 15px rgba(233, 30, 99, 0.2);
 }
+
+.filter-input:hover {
+    border-color: rgba(244, 143, 177, 0.5);
+}
+
+/* Hidden product cards */
+.product-card.hidden-search {
+    display: none !important;
+}
+
+/* Smooth transitions for product visibility */
+.product-card {
+    transition: opacity 0.3s ease;
+}
+
+.product-card img {
+    transition: opacity 0.2s ease;
+}
+
+/* Stock information display */
+.stock-info {
+    margin: 8px 0 12px 0;
+}
+
+.stock-count {
+    display: inline-block;
+    background: linear-gradient(135deg, #e8f5e8 0%, #d4edda 100%);
+    color: #155724;
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 4px 8px;
+    border-radius: 12px;
+    border: 1px solid rgba(40, 167, 69, 0.2);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Low stock styling */
+.stock-count.low-stock {
+    background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%);
+    color: #856404;
+    border-color: rgba(255, 193, 7, 0.3);
+}
+
+/* Out of stock styling */
+.stock-count.out-of-stock {
+    background: linear-gradient(135deg, #f8d7da 0%, #f5c6cb 100%);
+    color: #721c24;
+    border-color: rgba(220, 53, 69, 0.3);
+}
+
+/* Mobile responsive stock display */
+@media (max-width: 576px) {
+    .stock-info {
+        margin: 6px 0 10px 0;
+    }
+    
+    .stock-count {
+        font-size: 0.7rem;
+        padding: 3px 6px;
+    }
+}
+
+/* No products section - initially hidden */
+#no-products {
+    display: none;
+}
+
 
 .clear-filters-btn {
     padding: 10px 20px;
@@ -635,7 +717,7 @@
         justify-content: space-between;
     }
     
-    .filter-select {
+    .filter-select, .filter-input {
         min-width: 200px;
     }
     
@@ -723,7 +805,7 @@
         padding: 0 20px;
     }
     
-    .filter-select {
+    .filter-select, .filter-input {
         min-width: 150px;
     }
 }

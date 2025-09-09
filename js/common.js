@@ -12,6 +12,62 @@ function scrollProducts(button, direction) {
     }
 }
 
+// Mobile menu functionality
+function initMobileMenu() {
+    const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+    const mobileNav = document.querySelector('.mobile-nav');
+    
+    if (mobileMenuToggle && mobileNav) {
+        mobileMenuToggle.addEventListener('click', function() {
+            const isActive = this.classList.contains('active');
+            
+            if (isActive) {
+                // Close menu
+                this.classList.remove('active');
+                mobileNav.classList.remove('active');
+                this.setAttribute('aria-expanded', 'false');
+                document.body.style.overflow = '';
+            } else {
+                // Open menu
+                this.classList.add('active');
+                mobileNav.classList.add('active');
+                this.setAttribute('aria-expanded', 'true');
+                document.body.style.overflow = 'hidden';
+            }
+        });
+        
+        // Close mobile menu when clicking on a link
+        mobileNav.addEventListener('click', function(e) {
+            if (e.target.tagName === 'A') {
+                mobileMenuToggle.classList.remove('active');
+                mobileNav.classList.remove('active');
+                mobileMenuToggle.setAttribute('aria-expanded', 'false');
+                document.body.style.overflow = '';
+            }
+        });
+        
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', function(e) {
+            if (!mobileMenuToggle.contains(e.target) && !mobileNav.contains(e.target)) {
+                mobileMenuToggle.classList.remove('active');
+                mobileNav.classList.remove('active');
+                mobileMenuToggle.setAttribute('aria-expanded', 'false');
+                document.body.style.overflow = '';
+            }
+        });
+        
+        // Close menu on window resize if it's open
+        window.addEventListener('resize', function() {
+            if (window.innerWidth > 768) {
+                mobileMenuToggle.classList.remove('active');
+                mobileNav.classList.remove('active');
+                mobileMenuToggle.setAttribute('aria-expanded', 'false');
+                document.body.style.overflow = '';
+            }
+        });
+    }
+}
+
 // Page loading animation (used by all pages)
 window.addEventListener('load', function() {
     const loading = document.querySelector('.loading');
@@ -62,6 +118,7 @@ function initCardClicks() {
 
 // Initialize common functionality when DOM is loaded
 document.addEventListener('DOMContentLoaded', function() {
+    initMobileMenu();
     initSmoothScrolling();
     initScrollButtons();
     initCardClicks();

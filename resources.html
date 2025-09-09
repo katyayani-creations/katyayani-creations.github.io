@@ -65,9 +65,13 @@
 <!-- DNS Prefetch for Additional Performance -->
 <link rel="dns-prefetch" href="https://fonts.googleapis.com">
 <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+<link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
 <!-- Preload Inter Font -->
 <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"></noscript>
+<!-- Font Awesome Icons -->
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></noscript>
 <!-- Preload Critical Resources -->
 <link rel="preload" as="style" href="css/critical.css" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="css/critical.css"></noscript>
@@ -228,16 +232,6 @@ decoding="async"
 >
 <span class="logo-text">Katyayani Creations</span>
 </a>
-<!-- Global Search Bar -->
-<div class="search-container">
-<div class="search-box">
-<input type="text" id="global-search" placeholder="Search products, pages..." autocomplete="off">
-<button type="button" class="search-btn">
-<span class="search-icon">🔍</span>
-</button>
-</div>
-<div id="search-suggestions" class="search-suggestions hidden"></div>
-</div>
 <!-- Mobile Menu Toggle -->
 <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
 <span class="hamburger-line"></span>
@@ -474,7 +468,7 @@ width="200"&gt;
 <p class="share-prompt">Share this page:</p>
 <div class="social-share-buttons">
 <!-- Facebook Share -->
-<a href="https://www.facebook.com/sharer/sharer.html?u=http%3A%2F%2Fwww.katyayani-creations.com%2F.html" 
+<a href="https://www.facebook.com/sharer/sharer.html?u=http%3A%2F%2Fkatyayani-creations.github.io%2F.html" 
 arget="_blank" 
 rel="noopener noreferrer"
 class="share-button facebook"
@@ -483,7 +477,7 @@ itle="Share on Facebook">
 <span class="share-text">Facebook</span>
 </a>
 <!-- Twitter Share -->
-<a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.katyayani-creations.com%2F.html&text=Handcraft+Resources+%26+Guides+%7C+Katyayani+Creations" 
+<a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fkatyayani-creations.github.io%2F.html&text=Handcraft+Resources+%26+Guides+%7C+Katyayani+Creations" 
 arget="_blank" 
 rel="noopener noreferrer"
 class="share-button twitter"
@@ -492,7 +486,7 @@ itle="Share on Twitter">
 <span class="share-text">Twitter</span>
 </a>
 <!-- LinkedIn Share -->
-<a href="https://www.linkedin.com/sharing/share-offsite/?url=http%3A%2F%2Fwww.katyayani-creations.com%2F.html" 
+<a href="https://www.linkedin.com/sharing/share-offsite/?url=http%3A%2F%2Fkatyayani-creations.github.io%2F.html" 
 arget="_blank" 
 rel="noopener noreferrer"
 class="share-button linkedin"
@@ -501,7 +495,7 @@ itle="Share on LinkedIn">
 <span class="share-text">LinkedIn</span>
 </a>
 <!-- WhatsApp Share -->
-<a href="https://api.whatsapp.com/send?text=Handcraft+Resources+%26+Guides+%7C+Katyayani+Creations%20http%3A%2F%2Fwww.katyayani-creations.com%2F.html" 
+<a href="https://api.whatsapp.com/send?text=Handcraft+Resources+%26+Guides+%7C+Katyayani+Creations%20http%3A%2F%2Fkatyayani-creations.github.io%2F.html" 
 arget="_blank" 
 rel="noopener noreferrer"
 class="share-button whatsapp"
@@ -511,14 +505,14 @@ itle="Share on WhatsApp">
 </a>
 <!-- Pinterest Share (great for product pages) -->
 <!-- Email Share -->
-<a href="mailto:?subject=Handcraft+Resources+%26+Guides+%7C+Katyayani+Creations&body=Check%20out%20this%20amazing%20product:%20http%3A%2F%2Fwww.katyayani-creations.com%2F.html" 
+<a href="mailto:?subject=Handcraft+Resources+%26+Guides+%7C+Katyayani+Creations&body=Check%20out%20this%20amazing%20product:%20http%3A%2F%2Fkatyayani-creations.github.io%2F.html" 
 class="share-button email"
 itle="Share via Email">
 <span class="share-icon">📧</span>
 <span class="share-text">Email</span>
 </a>
 <!-- Copy Link -->
-<button onclick="copyToClipboard('https://www.katyayani-creations.com/KC-New-Website/resources.html')" 
+<button onclick="copyToClipboard('https://katyayani-creations.github.io/KC-New-Website/resources.html')" 
 class="share-button copy-link"
 itle="Copy link">
 <span class="share-icon">🔗</span>
@@ -621,13 +615,82 @@ justify-content: center;
 <!-- Footer -->
 <footer>
 <div class="container">
-<div class="footer-content">
-<p>&copy; 2025 Katyayani Creations. All rights reserved.</p>
-<div class="social-links">
-<a href="https://www.facebook.com/people/Katyayani-Creations/61553261334215/">📘</a>
-<a href="https://www.instagram.com/katyayani_creations/">📷</a>
-<a href="https://twitter.com/katyayani2022">🐦</a>
+<div class="footer-main">
+<!-- Company Logo and Info -->
+<div class="footer-section company-info">
+<div class="footer-logo">
+<img src="images/images/logo.jpeg" alt="Katyayani Creations" class="footer-logo-img">
 </div>
+<div class="company-details">
+<address class="footer-address">
+6/134, Palm Olympia, GH-02, 2013009                        </address>
+<div class="contact-info">
+<p>Phone: <a href="tel:+919044160393">+919044160393</a></p>
+<p>Email: <a href="mailto:katyayani.creations.2022@gmail.com">katyayani.creations.2022@gmail.com</a></p>
+</div>
+</div>
+</div>
+<!-- Useful Links -->
+<div class="footer-section">
+<h3 class="footer-title">Useful Links</h3>
+<ul class="footer-links">
+<li><a href="aboutus.html">About Us</a></li>
+<li><a href="aboutus.php#our-shop">About Our Shop</a></li>
+<li><a href="secure-shopping.html">Secure Shopping</a></li>
+<li><a href="terms.html">Terms and Conditions</a></li>
+<li><a href="privacy.html">Privacy Policy</a></li>
+<li><a href="sitemap.html">Our Sitemap</a></li>
+<li><a href="#">Main Website Link</a></li>
+<li><a href="#">Github Link</a></li>
+</ul>
+</div>
+<!-- More Links -->
+<div class="footer-section">
+<h3 class="footer-title">Explore</h3>
+<ul class="footer-links">
+<li><a href="aboutus.php#who-we-are">Who We Are</a></li>
+<li><a href="services.html">Our Services</a></li>
+<li><a href="products.html">Products</a></li>
+<li><a href="contactus.html">Contact</a></li>
+<li><a href="innovation.html">Innovation</a></li>
+<li><a href="testimonials.html">Testimonials</a></li>
+<li><a href="blogs.html">Blogs</a></li>
+</ul>
+</div>
+<!-- Newsletter -->
+<div class="footer-section newsletter-section">
+<h3 class="footer-title">Join Our Newsletter Now</h3>
+<p class="newsletter-desc">Get Whatsup updates about our latest shop and special offers.</p>
+<form class="newsletter-form" action="subscribe.html" method="POST">
+<input type="email" name="email" placeholder="Enter your email" required class="newsletter-input">
+<button type="submit" class="newsletter-btn">SUBSCRIBE</button>
+</form>
+<!-- Social Links -->
+<div class="social-links">
+<a href="https://www.facebook.com/people/Katyayani-Creations/61553261334215/" title="Facebook" class="social-link facebook">
+<i class="fab fa-facebook-f"></i>
+</a>
+<a href="https://twitter.com/katyayani2022" title="Twitter" class="social-link twitter">
+<i class="fab fa-twitter"></i>
+</a>
+<a href="https://chat.whatsapp.com/DTZWmSOvDCIEwmowAZbxhX" title="WhatsApp" class="social-link whatsapp">
+<i class="fab fa-whatsapp"></i>
+</a>
+<a href="https://www.instagram.com/katyayani_creations/" title="Instagram" class="social-link instagram">
+<i class="fab fa-instagram"></i>
+</a>
+<a href="#" title="Google" class="social-link google">
+<i class="fab fa-google"></i>
+</a>
+<a href="https://t.me/katyayani_creations" title="Telegram" class="social-link telegram">
+<i class="fab fa-telegram-plane"></i>
+</a>
+</div>
+</div>
+</div>
+<!-- Footer Bottom -->
+<div class="footer-bottom">
+<p>&copy; 2025 All rights reserved</p>
 </div>
 </div>
 </footer>
