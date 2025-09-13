@@ -3,18 +3,18 @@
     "count": 1,
     "data": [
         {
-            "id": 1550,
-            "name": "Mini Trolley Bag | Cute Mini Bag",
-            "url": "mini-trolley-bag-cute-mini-bag",
+            "id": 1545,
+            "name": "Mini Coin Purse Zipper Bag Small Key Pouch Bag",
+            "url": "mini-coin-purse-zipper-bag-small-key-pouch-bag",
             "brand_id": "0",
-            "sku": "KCPR11550",
-            "price": 333,
-            "mrp": 370,
-            "pprice": 185,
-            "category": "Home & Decor",
-            "stock": 3,
+            "sku": "KCPR11545",
+            "price": 135,
+            "mrp": 150,
+            "pprice": 75,
+            "category": "Return Gift Items",
+            "stock": 12,
             "in_stock": true,
-            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/main_prod_images\/KCPR11550\/KCPR11550_17577617090.jpg",
+            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/main_prod_images\/KCPR11545\/KCPR11545_17577656587.jpg",
             "emoji": "\u2728",
             "discount_percentage": 10
         }
