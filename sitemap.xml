@@ -2168,23 +2168,23 @@
                     </image:image>
                                     </url>
                                 <url>
-                    <loc>hanging-clock-photoframe.html</loc>
-                    <lastmod>2025-09-13</lastmod>
-                    <changefreq>weekly</changefreq>
-                    <priority>0.7</priority>
-                                        <image:image>
-                        <image:loc>https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1966/KCPR1966_17124726930.jpeg</image:loc>
-                        <image:caption>Clock Photo Frame - Stylish Timepiece with Personalized Photo Display | Katyayani Creations</image:caption>
-                        <image:title>Clock Photo Frame - Stylish Timepiece with Personalized Photo Display | Katyayani Creations</image:title>
-                    </image:image>
-                                    </url>
-                                <url>
                     <loc>/clock-photo-frame.html</loc>
                     <lastmod>2025-09-13</lastmod>
                     <changefreq>weekly</changefreq>
                     <priority>0.7</priority>
                                         <image:image>
                         <image:loc>https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1024/DTr9KqgF.jpeg</image:loc>
+                        <image:caption>Clock Photo Frame - Stylish Timepiece with Personalized Photo Display | Katyayani Creations</image:caption>
+                        <image:title>Clock Photo Frame - Stylish Timepiece with Personalized Photo Display | Katyayani Creations</image:title>
+                    </image:image>
+                                    </url>
+                                <url>
+                    <loc>hanging-clock-photoframe.html</loc>
+                    <lastmod>2025-09-13</lastmod>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.7</priority>
+                                        <image:image>
+                        <image:loc>https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1966/KCPR1966_17124726930.jpeg</image:loc>
                         <image:caption>Clock Photo Frame - Stylish Timepiece with Personalized Photo Display | Katyayani Creations</image:caption>
                         <image:title>Clock Photo Frame - Stylish Timepiece with Personalized Photo Display | Katyayani Creations</image:title>
                     </image:image>
@@ -5358,6 +5358,17 @@
                     </image:image>
                                     </url>
                                 <url>
+                    <loc>kuromi-hard-shell-bag.html</loc>
+                    <lastmod>2025-09-13</lastmod>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.7</priority>
+                                        <image:image>
+                        <image:loc>https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR11543/KCPR11543_17577774920.jpg</image:loc>
+                        <image:caption>Kuromi Hard Shell Bag</image:caption>
+                        <image:title>Kuromi Hard Shell Bag</image:title>
+                    </image:image>
+                                    </url>
+                                <url>
                     <loc>l-folder.html</loc>
                     <lastmod>2025-09-13</lastmod>
                     <changefreq>weekly</changefreq>
@@ -5641,17 +5652,6 @@
                         <image:loc>https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1519/1673258654.jpeg</image:loc>
                         <image:caption>Lovely Angle Sweet Rattle Toy - Perfect Baby Gift | Katyayani Creations</image:caption>
                         <image:title>Lovely Angle Sweet Rattle Toy - Perfect Baby Gift | Katyayani Creations</image:title>
-                    </image:image>
-                                    </url>
-                                <url>
-                    <loc>ludo-snakes-ladder-chess.html</loc>
-                    <lastmod>2025-09-13</lastmod>
-                    <changefreq>weekly</changefreq>
-                    <priority>0.7</priority>
-                                        <image:image>
-                        <image:loc>https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1480/1672555980.jpg</image:loc>
-                        <image:caption>Ludo Snakes &amp; Ladder &amp; Chess</image:caption>
-                        <image:title>Ludo Snakes &amp; Ladder &amp; Chess</image:title>
                     </image:image>
                                     </url>
                 </urlset>
