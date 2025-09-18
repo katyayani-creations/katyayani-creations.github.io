@@ -3,20 +3,20 @@
     "count": 1,
     "data": [
         {
-            "id": 1495,
-            "name": "Abacus",
-            "url": "abacus",
-            "brand_id": "2",
-            "sku": "KCPR11495",
-            "price": 135,
-            "mrp": 150,
-            "pprice": 75,
+            "id": 1499,
+            "name": "Bottle Art",
+            "url": "bottle-art",
+            "brand_id": "30",
+            "sku": "KCPR11499",
+            "price": 548,
+            "mrp": 685,
+            "pprice": 230,
             "category": "Toys",
-            "stock": 2,
+            "stock": 1,
             "in_stock": true,
-            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/main_prod_images\/KCPR11495\/KCPR11495_17581644020.jpeg",
+            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/main_prod_images\/KCPR11499\/KCPR11499_17581669710.jpg",
             "emoji": "\u2728",
-            "discount_percentage": 10
+            "discount_percentage": 20
         }
     ]
 }
