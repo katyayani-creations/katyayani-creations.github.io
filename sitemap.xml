@@ -567,9 +567,9 @@
                     <changefreq>weekly</changefreq>
                     <priority>0.7</priority>
                                         <image:image>
-                        <image:loc>https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR11495/</image:loc>
-                        <image:caption>Abacus</image:caption>
-                        <image:title>Abacus</image:title>
+                        <image:loc>https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR11495/KCPR11495_17581644020.jpeg</image:loc>
+                        <image:caption>Ratna Abacus</image:caption>
+                        <image:title>Ratna Abacus</image:title>
                     </image:image>
                                     </url>
                                 <url>
@@ -2168,23 +2168,23 @@
                     </image:image>
                                     </url>
                                 <url>
-                    <loc>hanging-clock-photoframe.html</loc>
-                    <lastmod>2025-09-18</lastmod>
-                    <changefreq>weekly</changefreq>
-                    <priority>0.7</priority>
-                                        <image:image>
-                        <image:loc>https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1966/KCPR1966_17124726930.jpeg</image:loc>
-                        <image:caption>Clock Photo Frame - Stylish Timepiece with Personalized Photo Display | Katyayani Creations</image:caption>
-                        <image:title>Clock Photo Frame - Stylish Timepiece with Personalized Photo Display | Katyayani Creations</image:title>
-                    </image:image>
-                                    </url>
-                                <url>
                     <loc>/clock-photo-frame.html</loc>
                     <lastmod>2025-09-18</lastmod>
                     <changefreq>weekly</changefreq>
                     <priority>0.7</priority>
                                         <image:image>
                         <image:loc>https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1024/DTr9KqgF.jpeg</image:loc>
+                        <image:caption>Clock Photo Frame - Stylish Timepiece with Personalized Photo Display | Katyayani Creations</image:caption>
+                        <image:title>Clock Photo Frame - Stylish Timepiece with Personalized Photo Display | Katyayani Creations</image:title>
+                    </image:image>
+                                    </url>
+                                <url>
+                    <loc>hanging-clock-photoframe.html</loc>
+                    <lastmod>2025-09-18</lastmod>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.7</priority>
+                                        <image:image>
+                        <image:loc>https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1966/KCPR1966_17124726930.jpeg</image:loc>
                         <image:caption>Clock Photo Frame - Stylish Timepiece with Personalized Photo Display | Katyayani Creations</image:caption>
                         <image:title>Clock Photo Frame - Stylish Timepiece with Personalized Photo Display | Katyayani Creations</image:title>
                     </image:image>
@@ -2814,17 +2814,6 @@
                         <image:loc>https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1473/1672251223.jpg</image:loc>
                         <image:caption>Diamond Night Lamp Touch LED - Elegant &amp; Modern Lighting | Katyayani Creations</image:caption>
                         <image:title>Diamond Night Lamp Touch LED - Elegant &amp; Modern Lighting | Katyayani Creations</image:title>
-                    </image:image>
-                                    </url>
-                                <url>
-                    <loc>dimond-art.html</loc>
-                    <lastmod>2025-09-18</lastmod>
-                    <changefreq>weekly</changefreq>
-                    <priority>0.7</priority>
-                                        <image:image>
-                        <image:loc>https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR11494/</image:loc>
-                        <image:caption>Dimond Art</image:caption>
-                        <image:title>Dimond Art</image:title>
                     </image:image>
                                     </url>
                                 <url>
@@ -5429,7 +5418,7 @@
                     <changefreq>weekly</changefreq>
                     <priority>0.7</priority>
                                         <image:image>
-                        <image:loc>https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR11399/</image:loc>
+                        <image:loc>https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR11399/KCPR11399_17581642324.jpg</image:loc>
                         <image:caption>Laptop</image:caption>
                         <image:title>Laptop</image:title>
                     </image:image>
@@ -5652,6 +5641,17 @@
                         <image:loc>https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR11502/KCPR11502_17573644160.jpg</image:loc>
                         <image:caption>Ludo Yellow</image:caption>
                         <image:title>Ludo Yellow</image:title>
+                    </image:image>
+                                    </url>
+                                <url>
+                    <loc>luxor-ohp-marker.html</loc>
+                    <lastmod>2025-09-18</lastmod>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.7</priority>
+                                        <image:image>
+                        <image:loc>https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR11266/KCPR11266_17356429511.webp</image:loc>
+                        <image:caption>Luxor OHP Marker</image:caption>
+                        <image:title>Luxor OHP Marker</image:title>
                     </image:image>
                                     </url>
                 </urlset>
