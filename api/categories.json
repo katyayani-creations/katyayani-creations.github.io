@@ -1,0 +1,206 @@
+{
+    "status": "success",
+    "count": 20,
+    "data": [
+        {
+            "id": 36,
+            "name": "Educational Kits",
+            "description": "",
+            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/featured_prod_images\/cat_edu_kit.jpeg",
+            "url": "educational-kits",
+            "display_order": 0,
+            "emoji": "\u2728",
+            "badge": ""
+        },
+        {
+            "id": 37,
+            "name": "Creativity Kits",
+            "description": "",
+            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/featured_prod_images\/cat_creativity.jpeg",
+            "url": "creative-kits",
+            "display_order": 0,
+            "emoji": "\u2728",
+            "badge": ""
+        },
+        {
+            "id": 22,
+            "name": "Avengers",
+            "description": "",
+            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/featured_prod_images\/cat_avengers.jpeg",
+            "url": "avengers",
+            "display_order": 0,
+            "emoji": "\u2728",
+            "badge": ""
+        },
+        {
+            "id": 11,
+            "name": "Toys",
+            "description": "",
+            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/featured_prod_images\/cat_toys.jpg",
+            "url": "toys",
+            "display_order": 0,
+            "emoji": "\u2728",
+            "badge": ""
+        },
+        {
+            "id": 41,
+            "name": "Pens",
+            "description": "",
+            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/featured_prod_images\/1680957111.jpeg",
+            "url": "pens",
+            "display_order": 0,
+            "emoji": "\u2728",
+            "badge": ""
+        },
+        {
+            "id": 25,
+            "name": "Doms Kits",
+            "description": "",
+            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/featured_prod_images\/cat_doms_kit.jpeg",
+            "url": "doms-items",
+            "display_order": 0,
+            "emoji": "\u2728",
+            "badge": ""
+        },
+        {
+            "id": 24,
+            "name": "Colors",
+            "description": "",
+            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/featured_prod_images\/cat_colors.jpeg",
+            "url": "colors",
+            "display_order": 0,
+            "emoji": "\u2728",
+            "badge": ""
+        },
+        {
+            "id": 13,
+            "name": "Stationery",
+            "description": "",
+            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/featured_prod_images\/1675856290.png",
+            "url": "stationery",
+            "display_order": 0,
+            "emoji": "\u2728",
+            "badge": ""
+        },
+        {
+            "id": 23,
+            "name": "Return Gift Items",
+            "description": "",
+            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/featured_prod_images\/1675854993.jpeg",
+            "url": "\/return-gifts",
+            "display_order": 0,
+            "emoji": "\u2728",
+            "badge": ""
+        },
+        {
+            "id": 53,
+            "name": "Mothers Day Store",
+            "description": "",
+            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/featured_prod_images\/1714138373.jpeg",
+            "url": "\/mother-day-store",
+            "display_order": 0,
+            "emoji": "\u2728",
+            "badge": ""
+        },
+        {
+            "id": 47,
+            "name": "Kanjak Gifts",
+            "description": "",
+            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/featured_prod_images\/1680021759.jpeg",
+            "url": "\/terms\/allkanjak",
+            "display_order": 0,
+            "emoji": "\u2728",
+            "badge": ""
+        },
+        {
+            "id": 46,
+            "name": "Valentine Day Special",
+            "description": "",
+            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/featured_prod_images\/banner.jpeg",
+            "url": "valentine-day",
+            "display_order": 0,
+            "emoji": "\u2728",
+            "badge": ""
+        },
+        {
+            "id": 31,
+            "name": "Wind Chimes",
+            "description": "",
+            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/featured_prod_images\/wc.jpeg",
+            "url": "wind-chimes",
+            "display_order": 0,
+            "emoji": "\u2728",
+            "badge": ""
+        },
+        {
+            "id": 18,
+            "name": "Vases",
+            "description": "",
+            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/featured_prod_images\/cat_lamps.jpeg",
+            "url": "vases",
+            "display_order": 0,
+            "emoji": "\u2728",
+            "badge": ""
+        },
+        {
+            "id": 29,
+            "name": "Lamps",
+            "description": "",
+            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/featured_prod_images\/Diwali_images.jpeg",
+            "url": "lamps",
+            "display_order": 0,
+            "emoji": "\u2728",
+            "badge": ""
+        },
+        {
+            "id": 40,
+            "name": "Clocks",
+            "description": "",
+            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/featured_prod_images\/1676564069.png",
+            "url": "clocks",
+            "display_order": 0,
+            "emoji": "\u2728",
+            "badge": ""
+        },
+        {
+            "id": 14,
+            "name": "Home & Decor",
+            "description": "",
+            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/featured_prod_images\/cat_premium.png",
+            "url": "home-and-docor",
+            "display_order": 0,
+            "emoji": "\u2728",
+            "badge": ""
+        },
+        {
+            "id": 51,
+            "name": "Gift Packs",
+            "description": "",
+            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/featured_prod_images\/cat_diwali_1.jpeg",
+            "url": "gift-packs",
+            "display_order": 0,
+            "emoji": "\u2728",
+            "badge": ""
+        },
+        {
+            "id": 21,
+            "name": "Diwali Items",
+            "description": "",
+            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/featured_prod_images\/cat_diwali_1.jpeg",
+            "url": "diwali-items",
+            "display_order": 0,
+            "emoji": "\u2728",
+            "badge": ""
+        },
+        {
+            "id": 12,
+            "name": "Birthday Accessories",
+            "description": "",
+            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/featured_prod_images\/1675865305.jpeg",
+            "url": "birthday",
+            "display_order": 0,
+            "emoji": "\u2728",
+            "badge": ""
+        }
+    ]
+}
