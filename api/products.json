@@ -1,5 +1,22 @@
 {
     "status": "success",
-    "count": 0,
-    "data": []
+    "count": 1,
+    "data": [
+        {
+            "id": 63,
+            "name": "Smart Kit",
+            "url": "smart-kit",
+            "brand_id": "7",
+            "sku": "KCPR1063",
+            "price": 450,
+            "mrp": 500,
+            "pprice": 0,
+            "category": "Stationery: Doms Kits, Stationery",
+            "stock": 1,
+            "in_stock": true,
+            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/main_prod_images\/KCPR1063\/d6.jpg",
+            "emoji": "\u2728",
+            "discount_percentage": 10
+        }
+    ]
 }
