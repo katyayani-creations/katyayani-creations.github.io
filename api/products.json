@@ -3,20 +3,20 @@
     "count": 1,
     "data": [
         {
-            "id": 1511,
-            "name": "Music Icecream",
-            "url": "music-icecream",
+            "id": 1390,
+            "name": "Sharp Shooter Laser Gun Toy for Kids \u2013 Infrared Target Shooting Game with Lights & Music | Katyayani Creations",
+            "url": "sharp-shooter-laser-gun",
             "brand_id": "0",
-            "sku": "KCPR11511",
-            "price": 1044,
-            "mrp": 1160,
-            "pprice": 580,
-            "category": "Toys, Random Product",
+            "sku": "KCPR11390",
+            "price": 799,
+            "mrp": 899,
+            "pprice": 330,
+            "category": "Toys",
             "stock": 1,
             "in_stock": true,
-            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/main_prod_images\/KCPR11511\/KCPR11511_17574401831.jpg",
+            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/main_prod_images\/KCPR11390\/KCPR11390_17446352360.jpeg",
             "emoji": "\u2728",
-            "discount_percentage": 10
+            "discount_percentage": 11.12
         }
     ]
 }
