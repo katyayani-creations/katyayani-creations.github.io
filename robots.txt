@@ -22,4 +22,4 @@ Disallow: /conn.php
 Crawl-delay: 1
 
 # Sitemap location
-Sitemap: http://localhost/KC-New-Website/sitemap.xml
+Sitemap: https://katyayani-creations.in/sitemap.xml
