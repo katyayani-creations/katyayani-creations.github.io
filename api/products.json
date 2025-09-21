@@ -3,20 +3,20 @@
     "count": 1,
     "data": [
         {
-            "id": 1222,
-            "name": "LCD Writing Pencil Case Writing Tablet Pencil Box",
-            "url": "lcd-writing-pencil-case-writing-tablet-pencil-box",
+            "id": 443,
+            "name": "Flying Car with Rotation & Automatic Wing Opening",
+            "url": "flying-car-with-rotation-and-automatic-wing-opening",
             "brand_id": "0",
-            "sku": "KCPR11222",
-            "price": 300,
-            "mrp": 350,
-            "pprice": 135,
-            "category": "Stationery, Stationery: Boxes, Toys",
-            "stock": 4,
+            "sku": "KCPR1443",
+            "price": 750,
+            "mrp": 1099,
+            "pprice": 420,
+            "category": "Toys, Toys: Bikes & Cars",
+            "stock": 1,
             "in_stock": true,
-            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/main_prod_images\/KCPR11222\/KCPR11222_17342904275.webp",
+            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/main_prod_images\/KCPR1443\/1672213860.jpeg",
             "emoji": "\u2728",
-            "discount_percentage": 14.29
+            "discount_percentage": 31.76
         }
     ]
 }
