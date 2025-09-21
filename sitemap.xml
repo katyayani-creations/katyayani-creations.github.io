@@ -4973,17 +4973,6 @@
                     </image:image>
                                     </url>
                                 <url>
-                    <loc>space-bowling.html</loc>
-                    <lastmod>2025-09-21</lastmod>
-                    <changefreq>weekly</changefreq>
-                    <priority>0.7</priority>
-                                        <image:image>
-                        <image:loc>https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR11385/KCPR11385_17446586600.jpg</image:loc>
-                        <image:caption>Manku KC Space Bowling Toy for Kids – Fun Indoor Space-Themed Bowling Set</image:caption>
-                        <image:title>Manku KC Space Bowling Toy for Kids – Fun Indoor Space-Themed Bowling Set</image:title>
-                    </image:image>
-                                    </url>
-                                <url>
                     <loc>kuv.html</loc>
                     <lastmod>2025-09-21</lastmod>
                     <changefreq>weekly</changefreq>
@@ -5652,6 +5641,17 @@
                         <image:loc>https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1982/KCPR1982_17124725100.jpg</image:loc>
                         <image:caption>MUG 51364</image:caption>
                         <image:title>MUG 51364</image:title>
+                    </image:image>
+                                    </url>
+                                <url>
+                    <loc>mug-51372.html</loc>
+                    <lastmod>2025-09-21</lastmod>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.7</priority>
+                                        <image:image>
+                        <image:loc>https://d1s4zcjwkikclq.cloudfront.net/featured_prod_images/KCPR1963/</image:loc>
+                        <image:caption>MUG 51372</image:caption>
+                        <image:title>MUG 51372</image:title>
                     </image:image>
                                     </url>
                 </urlset>
