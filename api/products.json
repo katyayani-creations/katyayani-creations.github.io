@@ -1,54 +1,22 @@
 {
     "status": "success",
-    "count": 3,
+    "count": 1,
     "data": [
         {
-            "id": 1148,
-            "name": "Ambulance Bell Toy - Fun and Realistic Sound for Kids | Katyayani Creations",
-            "url": "ambulance-bell",
+            "id": 1353,
+            "name": "Domino Train Toy Set for Kids with Automatic Block Laying, Lights & Sounds \u2013 Fun Educational Gift",
+            "url": "domino-train",
             "brand_id": "0",
-            "sku": "KCPR11148",
-            "price": 450,
-            "mrp": 660,
-            "pprice": 250,
+            "sku": "KCPR11353",
+            "price": 1050,
+            "mrp": 1999,
+            "pprice": 290,
             "category": "Toys",
-            "stock": 1,
+            "stock": 2,
             "in_stock": true,
-            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/main_prod_images\/KCPR11148\/KCPR11148_17242363742.webp",
+            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/main_prod_images\/KCPR11353\/KCPR11353_17445698893.webp",
             "emoji": "\u2728",
-            "discount_percentage": 31.82
-        },
-        {
-            "id": 1358,
-            "name": "Engaging Educational Game for Preschoolers | Fun Learning Toy for Kids",
-            "url": "this-that",
-            "brand_id": "0",
-            "sku": "KCPR11358",
-            "price": 449,
-            "mrp": 499,
-            "pprice": 135,
-            "category": "Toys",
-            "stock": 1,
-            "in_stock": true,
-            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/main_prod_images\/KCPR11358\/KCPR11358_17446611223.jpg",
-            "emoji": "\u2728",
-            "discount_percentage": 10.02
-        },
-        {
-            "id": 1159,
-            "name": "Roll Ball Housie Game for Parties and Events",
-            "url": "roll-ball-housie",
-            "brand_id": "1",
-            "sku": "KCPR11159",
-            "price": 468,
-            "mrp": 660,
-            "pprice": 260,
-            "category": "Toys",
-            "stock": 1,
-            "in_stock": true,
-            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/main_prod_images\/KCPR11159\/KCPR11159_17238146611.jpg",
-            "emoji": "\u2728",
-            "discount_percentage": 29.09
+            "discount_percentage": 47.47
         }
     ]
 }
