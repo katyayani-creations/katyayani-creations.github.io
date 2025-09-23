@@ -140,17 +140,103 @@
     "slogan": "Premium Handcrafted Products"
   }
 }
-</script> <script src="js/image-loader.js"></script> <script src="js/index.js"></script> <script src="js/search.js"></script> <script src="js/products-page.js"></script> <style>
-        /* Sticky filter section */
+</script> <button id="scrollToTop" class="scroll-to-top" aria-label="Scroll to top"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 15l-6-6-6 6"/></svg></button> <style>
+        .scroll-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 48px;
+            height: 48px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 1000;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .scroll-to-top:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.5);
+        }
+
+        .scroll-to-top.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .scroll-to-top svg {
+            width: 24px;
+            height: 24px;
+        }
+
+        /* Mobile specific styling */
+        @media (max-width: 767px) {
+            .scroll-to-top {
+                bottom: 70px; /* Higher on mobile to avoid footer overlap */
+                right: 15px;
+                width: 44px;
+                height: 44px;
+            }
+            
+            .scroll-to-top svg {
+                width: 20px;
+                height: 20px;
+            }
+        }
+    </style> <script>
+        // Scroll to Top Button functionality
+        (function() {
+            const scrollToTopBtn = document.getElementById('scrollToTop');
+            
+            // Show button when scrolled down 200px
+            function toggleScrollButton() {
+                if (window.pageYOffset > 200) {
+                    scrollToTopBtn.classList.add('visible');
+                } else {
+                    scrollToTopBtn.classList.remove('visible');
+                }
+            }
+
+            // Scroll to top when button clicked
+            function scrollToTop() {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            }
+
+            // Event listeners
+            window.addEventListener('scroll', toggleScrollButton);
+            scrollToTopBtn.addEventListener('click', scrollToTop);
+            
+            // Initial check
+            toggleScrollButton();
+        })();
+    </script> <script src="js/image-loader.js"></script> <script src="js/index.js"></script> <script src="js/search.js"></script> <script src="js/products-page.js"></script> <style>
+        /* Sticky filter section - only on desktop */
         .products-filters {
-            position: sticky;
-            top: 80px;
-            z-index: 999;
             background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
             backdrop-filter: blur(10px);
             box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
             border-bottom: 1px solid rgba(0, 0, 0, 0.05);
             padding: 16px 0;
+        }
+        
+        /* Sticky positioning only for desktop (768px and above) */
+        @media (min-width: 768px) {
+            .products-filters {
+                position: sticky;
+                top: 80px;
+                z-index: 999;
+            }
         }
 
         .filter-container {
