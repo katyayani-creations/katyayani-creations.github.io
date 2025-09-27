@@ -3,18 +3,18 @@
     "count": 1,
     "data": [
         {
-            "id": 1531,
-            "name": "Toran NT800",
-            "url": "toran-nt800",
+            "id": 1538,
+            "name": "Box Side Latkan NT2700",
+            "url": "box-side-latkan-nt2700",
             "brand_id": "0",
-            "sku": "KCPR11531",
-            "price": 720,
-            "mrp": 800,
-            "pprice": 300,
+            "sku": "KCPR11538",
+            "price": 243,
+            "mrp": 270,
+            "pprice": 108,
             "category": "Home & Decor, Diwali Items",
-            "stock": 2,
+            "stock": 10,
             "in_stock": true,
-            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/main_prod_images\/KCPR11531\/KCPR11531_17589718080.jpg",
+            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/main_prod_images\/KCPR11538\/KCPR11538_17589727021.jpg",
             "emoji": "\u2728",
             "discount_percentage": 10
         }
