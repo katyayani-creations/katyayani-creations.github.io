@@ -3,18 +3,18 @@
     "count": 1,
     "data": [
         {
-            "id": 1470,
-            "name": "Floor Lamp 58031",
-            "url": "floor-lamp-58031",
+            "id": 1539,
+            "name": "Shubh Labh NT600",
+            "url": "shubh-labh-nt600",
             "brand_id": "0",
-            "sku": "KCPR11470",
-            "price": 1584,
-            "mrp": 1760,
-            "pprice": 880,
-            "category": "Home & Decor, Random Product",
-            "stock": 1,
+            "sku": "KCPR11539",
+            "price": 540,
+            "mrp": 600,
+            "pprice": 250,
+            "category": "Home & Decor, Diwali Items",
+            "stock": 2,
             "in_stock": true,
-            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/main_prod_images\/KCPR11470\/KCPR11470_17572739380.png",
+            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/main_prod_images\/KCPR11539\/KCPR11539_17589653400.jpg",
             "emoji": "\u2728",
             "discount_percentage": 10
         }
