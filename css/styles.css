@@ -795,6 +795,23 @@ mark {
     transform: scale(1.05);
 }
 
+/* Product detail page main image size */
+.product__details__pic__item--large {
+    width: 555px;
+    height: 555px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .product__details__pic__item--large {
+        width: 100%;
+        height: auto;
+        max-width: 400px;
+    }
+}
+
 .product-info {
     padding: 2rem;
 }
