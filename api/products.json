@@ -3,18 +3,18 @@
     "count": 1,
     "data": [
         {
-            "id": 1539,
-            "name": "Shubh Labh NT600",
-            "url": "shubh-labh-nt600",
+            "id": 1540,
+            "name": "Shubh Labh NT800",
+            "url": "shubh-labh-nt800",
             "brand_id": "0",
-            "sku": "KCPR11539",
-            "price": 540,
-            "mrp": 600,
-            "pprice": 250,
+            "sku": "KCPR11540",
+            "price": 720,
+            "mrp": 800,
+            "pprice": 300,
             "category": "Home & Decor, Diwali Items",
             "stock": 2,
             "in_stock": true,
-            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/main_prod_images\/KCPR11539\/KCPR11539_17589653400.jpg",
+            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/main_prod_images\/KCPR11540\/KCPR11540_17589657842.jpg",
             "emoji": "\u2728",
             "discount_percentage": 10
         }
