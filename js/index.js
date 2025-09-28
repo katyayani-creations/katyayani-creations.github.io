@@ -72,7 +72,7 @@ autoScrollIntervals.delete(grid);
 }
 }
 function autoScrollNext(grid) {
-const cardWidth = 320  32; // card width  gap
+const cardWidth = 352; // card width  gap
 const currentScroll = grid.scrollLeft;
 const maxScroll = grid.scrollWidth - grid.clientWidth;
 grid.classList.add('auto-scrolling');
