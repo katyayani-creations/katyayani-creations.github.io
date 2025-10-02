@@ -3,20 +3,20 @@
     "count": 1,
     "data": [
         {
-            "id": 1475,
-            "name": "Candle 57864",
-            "url": "candle-57864",
+            "id": 1464,
+            "name": "Windchime 56167",
+            "url": "windchime-56167",
             "brand_id": "0",
-            "sku": "KCPR11475",
-            "price": 88,
-            "mrp": 98,
-            "pprice": 49,
+            "sku": "KCPR11464",
+            "price": 194,
+            "mrp": 216,
+            "pprice": 108,
             "category": "Home & Decor",
-            "stock": 12,
+            "stock": 2,
             "in_stock": true,
-            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/main_prod_images\/KCPR11475\/KCPR11475_17594227810.jpg",
+            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/main_prod_images\/KCPR11464\/KCPR11464_17594233083.jpg",
             "emoji": "\u2728",
-            "discount_percentage": 10.2
+            "discount_percentage": 10.19
         }
     ]
 }
