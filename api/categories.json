@@ -1,6 +1,6 @@
 {
     "status": "success",
-    "count": 20,
+    "count": 21,
     "data": [
         {
             "id": 36,
@@ -88,6 +88,16 @@
             "description": "",
             "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/featured_prod_images\/1675854993.jpeg",
             "url": "\/return-gifts",
+            "display_order": 0,
+            "emoji": "\u2728",
+            "badge": ""
+        },
+        {
+            "id": 60,
+            "name": "Packings",
+            "description": "",
+            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/featured_prod_images\/1764604902.jpg",
+            "url": "\/saree-and-gift-packing",
             "display_order": 0,
             "emoji": "\u2728",
             "badge": ""
