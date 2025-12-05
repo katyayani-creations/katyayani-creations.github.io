@@ -2,21 +2,20 @@ User-agent: *
 Allow: /
 
 # Allow all crawlers to access the main content
-Allow: /products.php
-Allow: /product.php
-Allow: /aboutus.php
-Allow: /contactus.php
+Allow: /*.html
 Allow: /css/
 Allow: /js/
 Allow: /images/
 
-# Disallow access to sensitive directories
+# Disallow access to sensitive directories and development files
 Disallow: /inc/
 Disallow: /api/
 Disallow: /logs/
+Disallow: /scripts/
 Disallow: /.htaccess
 Disallow: /config.php
 Disallow: /conn.php
+Disallow: /*.php
 
 # Crawl delay (optional)
 Crawl-delay: 1
