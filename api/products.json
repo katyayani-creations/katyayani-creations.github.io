@@ -4,21 +4,21 @@
     "count": 1,
     "data": [
         {
-            "id": 1144,
-            "name": "Space Fan Gun Toy for Kids",
-            "url": "futuristic-space-fan-gun-toy-kids",
-            "brand_id": "4",
-            "sku": "KCPR11144",
+            "id": 1585,
+            "name": "3D Galaxy Planet Crystal Ball 11cm Night Light with Wooden Base",
+            "url": "3d-galaxy-planet-crystal-ball-11cm-night-light-with-wooden-base",
+            "brand_id": "0",
+            "sku": "KCPR11585",
             "active": true,
-            "price": 225,
-            "mrp": 499,
-            "pprice": 125,
-            "category": "Toys",
-            "stock": 1,
+            "price": 199,
+            "mrp": 220,
+            "pprice": 110,
+            "category": "Home & Decor",
+            "stock": 3,
             "in_stock": true,
-            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/main_prod_images\/KCPR11144\/KCPR11144_17242352074.jpg",
+            "image": "https:\/\/d1s4zcjwkikclq.cloudfront.net\/main_prod_images\/KCPR11585\/KCPR11585_17739971246420.webp",
             "emoji": "\u2728",
-            "discount_percentage": 54.91
+            "discount_percentage": 9.55
         }
     ]
 }
